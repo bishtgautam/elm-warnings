@@ -1,0 +1,1 @@
+[0048]    use clm_varctl, only : iulog  <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>

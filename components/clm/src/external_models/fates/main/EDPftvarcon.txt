@@ -1,0 +1,7 @@
+[0252]  subroutine EDpftconInit(this)                            <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0299]  subroutine Register_PFT(this, fates_params)              <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[1166]  subroutine Register_PFT_numrad(this, fates_params)       <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[1331]  subroutine Register_PFT_nvariants(this, fates_params)    <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[1385]  subroutine Register_PFT_prt_organs(this, fates_params)   <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[1490]  subroutine Register_PFT_hydr_organs(this, fates_params)  <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[1611]     integer :: npft,ipft                                  <Warning: Unused variable 'ipft' declared at (1) [-Wunused-variable]>

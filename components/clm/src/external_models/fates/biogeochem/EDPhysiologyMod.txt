@@ -1,0 +1,27 @@
+[0223]    real(r8) :: fnrt_c           ! fineroot carbon [kg]                         <Warning: Unused variable 'fnrt_c' declared at (1) [-Wunused-variable]>
+[0224]    real(r8) :: sapw_c           ! sapwood carbon [kg]                          <Warning: Unused variable 'sapw_c' declared at (1) [-Wunused-variable]>
+[0225]    real(r8) :: store_c          ! storage carbon [kg]                          <Warning: Unused variable 'store_c' declared at (1) [-Wunused-variable]>
+[0226]    real(r8) :: struct_c         ! structure carbon [kg]                        <Warning: Unused variable 'struct_c' declared at (1) [-Wunused-variable]>
+[0321]                           bfr_per_bleaf / EDPftvarcon_inst%root_long(ipft)     <Warning: 'bfr_per_bleaf' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0405]    integer  :: refdate                                                         <Warning: Unused variable 'refdate' declared at (1) [-Wunused-variable]>
+[0406]    integer  :: curdate                                                         <Warning: Unused variable 'curdate' declared at (1) [-Wunused-variable]>
+[0408]    integer  :: yr                       ! year (0, ...)                        <Warning: Unused variable 'yr' declared at (1) [-Wunused-variable]>
+[0409]    integer  :: mon                      ! month (1, ..., 12)                   <Warning: Unused variable 'mon' declared at (1) [-Wunused-variable]>
+[0410]    integer  :: day                      ! day of month (1, ..., 31)            <Warning: Unused variable 'day' declared at (1) [-Wunused-variable]>
+[0411]    integer  :: sec                      ! seconds of the day                   <Warning: Unused variable 'sec' declared at (1) [-Wunused-variable]>
+[0413]    real(r8) :: leaf_c                       ! leaf carbon [kg]                 <Warning: Unused variable 'leaf_c' declared at (1) [-Wunused-variable]>
+[0414]    real(r8) :: fnrt_c               ! fineroot carbon [kg]                     <Warning: Unused variable 'fnrt_c' declared at (1) [-Wunused-variable]>
+[0415]    real(r8) :: sapw_c               ! sapwood carbon [kg]                      <Warning: Unused variable 'sapw_c' declared at (1) [-Wunused-variable]>
+[0416]    real(r8) :: store_c              ! storage carbon [kg]                      <Warning: Unused variable 'store_c' declared at (1) [-Wunused-variable]>
+[0417]    real(r8) :: struct_c             ! structure carbon [kg]                    <Warning: Unused variable 'struct_c' declared at (1) [-Wunused-variable]>
+[0486]    timesinceleafoff = hlm_model_day - currentSite%leafoffdate                  <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0502]    timesinceleafon = hlm_model_day - currentSite%leafondate                    <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0516]          currentSite%leafoffdate = hlm_model_day   !record leaf off date       <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0526]          currentSite%leafoffdate = hlm_model_day   !record leaf off date       <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1252]    integer  :: j                                                               <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[1420]    type(ed_site_type), pointer :: cs                                           <Warning: Unused variable 'cs' declared at (1) [-Wunused-variable]>
+[1421]    integer p,ci,j,s                                                            <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[1424]    integer           :: begp,endp                                              <Warning: Unused variable 'begp' declared at (1) [-Wunused-variable]>
+[1424]    integer           :: begp,endp                                              <Warning: Unused variable 'endp' declared at (1) [-Wunused-variable]>
+[1425]    integer           :: begc,endc                                    !bounds   <Warning: Unused variable 'begc' declared at (1) [-Wunused-variable]>
+[1425]    integer           :: begc,endc                                    !bounds   <Warning: Unused variable 'endc' declared at (1) [-Wunused-variable]>

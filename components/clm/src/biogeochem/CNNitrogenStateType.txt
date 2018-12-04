@@ -1,0 +1,26 @@
+[0402]    use clm_varpar , only : ndecomp_cascade_transitions, ndecomp_pools                   <Warning: Unused module variable 'ndecomp_cascade_transitions' which has been explicitly imported at (1) [-Wunused-variable]>
+[0402]    use clm_varpar , only : ndecomp_cascade_transitions, ndecomp_pools                   <Warning: Unused module variable 'nlevgrnd' which has been explicitly imported at (1) [-Wunused-variable]>
+[0412]    integer           :: k,l,ii,jj                                                       <Warning: Unused variable 'ii' declared at (1) [-Wunused-variable]>
+[0412]    integer           :: k,l,ii,jj                                                       <Warning: Unused variable 'jj' declared at (1) [-Wunused-variable]>
+[0412]    integer           :: k,l,ii,jj                                                       <Warning: Unused variable 'k' declared at (1) [-Wunused-variable]>
+[0413]    character(10)     :: active                                                          <Warning: Unused variable 'active' declared at (1) [-Wunused-variable]>
+[0759]    use pftvarcon      , only : noveg, npcropmin                                         <Warning: Unused module variable 'npcropmin' which has been explicitly imported at (1) [-Wunused-variable]>
+[0774]    integer :: fc,fp,g,l,c,p,j,k                       ! indices                         <Warning: Unused variable 'fp' declared at (1) [-Wunused-variable]>
+[0956]       this%prod10n_col(c)  = 0._r8	                                                     <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0957]       this%prod100n_col(c) = 0._r8	                                                     <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0958]       this%totprodn_col(c) = 0._r8	                                                     <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0996]    integer            :: i,j,k,l,c                                                      <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[1006]    integer , pointer  :: iptemp(:)  ! pointer to memory to be allocated                 <Warning: Unused variable 'iptemp' declared at (1) [-Wunused-variable]>
+[1377]	       if ( exit_spinup ) then                                                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1378]		 m = decomp_cascade_con%spinup_factor(k)                                               <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1382]		 if (decomp_cascade_con%spinup_factor(k) > 1) m = m * cnstate_vars%scalaravg_col(c,j)  <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1384]               this%decomp_npools_vr_col(c,j,k) = this%decomp_npools_vr_col(c,j,k) * m   <Warning: 'm' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1394]         this%deadstemn_patch(i)  = this%deadstemn_patch(i) * m_veg                      <Warning: 'm_veg' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1547]    use clm_varpar    , only: nlevdecomp,ndecomp_cascade_transitions,ndecomp_pools       <Warning: Unused module variable 'ndecomp_cascade_transitions' which has been explicitly imported at (1) [-Wunused-variable]>
+[1561]    integer  :: c,p,j,k,l   ! indices                                                    <Warning: Unused variable 'k' declared at (1) [-Wunused-variable]>
+[1834]           this%prod100n_col(c)	                                                         <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1879]       prior_weights,                       &                                            <Warning: Unused dummy argument 'prior_weights' at (1) [-Wunused-dummy-argument]>
+[1883]       dwt_npool_seed,                      &                                            <Warning: Unused dummy argument 'dwt_npool_seed' at (1) [-Wunused-dummy-argument]>
+[1890]       crop_product_nflux                   &                                            <Warning: Unused dummy argument 'crop_product_nflux' at (1) [-Wunused-dummy-argument]>
+[1923]    integer                     :: l, c, p                                               <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[1923]    integer                     :: l, c, p                                               <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>

@@ -1,0 +1,9 @@
+[0118]    integer  :: g                                                  ! gridcell loop index           <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0146]    real(r8) :: refrzsnow                   ! re-frozen snow [kg m-2]                              <Warning: Unused variable 'refrzsnow' declared at (1) [-Wunused-variable]>
+[0147]    real(r8) :: subsnow                     ! sublimated snow [kg m-2]                             <Warning: Unused variable 'subsnow' declared at (1) [-Wunused-variable]>
+[0148]    real(r8) :: frc_refrz                   ! fraction of layer mass that is re-frozen snow [frc]  <Warning: Unused variable 'frc_refrz' declared at (1) [-Wunused-variable]>
+[0149]    real(r8) :: frc_sub                     ! fraction of layer mass that has sublimated [frc]     <Warning: Unused variable 'frc_sub' declared at (1) [-Wunused-variable]>
+[0150]    real(r8) :: frc_transfer                ! frc_refrz + frc_sub                                  <Warning: Unused variable 'frc_transfer' declared at (1) [-Wunused-variable]>
+[0151]    real(r8) :: dm_int                      ! mass transfer [kg]                                   <Warning: Unused variable 'dm_int' declared at (1) [-Wunused-variable]>
+[0688]     use clm_varcon       , only : denh2o                                                          <Warning: Unused module variable 'denh2o' which has been explicitly imported at (1) [-Wunused-variable]>
+[1754]   subroutine BuildSnowFilter(bounds, num_nolakec, filter_nolakec, &                               <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>

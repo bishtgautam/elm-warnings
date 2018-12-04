@@ -1,0 +1,7 @@
+[0062]    integer :: fp,pi,l,fc,cc,j                                                 <Warning: Unused variable 'fp' declared at (1) [-Wunused-variable]>
+[0062]    integer :: fp,pi,l,fc,cc,j                                                 <Warning: Unused variable 'pi' declared at (1) [-Wunused-variable]>
+[0422]    use tracer_varcon, only : is_active_betr_bgc                               <Warning: Unused module variable 'is_active_betr_bgc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0436]    integer :: fp,pi                                                           <Warning: Unused variable 'fp' declared at (1) [-Wunused-variable]>
+[0436]    integer :: fp,pi                                                           <Warning: Unused variable 'pi' declared at (1) [-Wunused-variable]>
+[1300]     real(r8) :: temp                                                          <Warning: Unused variable 'temp' declared at (1) [-Wunused-variable]>
+[1318]           ciso_flux(i) = ctot_flux(i) * (ciso_state(i)/ctot_state(i)) * frax  <Warning: 'frax' may be used uninitialized in this function [-Wmaybe-uninitialized]>

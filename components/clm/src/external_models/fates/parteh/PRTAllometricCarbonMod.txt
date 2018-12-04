@@ -1,0 +1,5 @@
+[0320]    integer  :: istep                 ! current substep index                      <Warning: Unused variable 'istep' declared at (1) [-Wunused-variable]>
+[0324]    integer  :: i_var                 ! local index for iterating state variables  <Warning: Unused variable 'i_var' declared at (1) [-Wunused-variable]>
+[0842]  function AllomCGrowthDeriv(c_pools,c_mask,cbalance,intgr_params) result(dCdx)    <Warning: Unused dummy argument 'cbalance' at (1) [-Wunused-dummy-argument]>
+[0842]  function AllomCGrowthDeriv(c_pools,c_mask,cbalance,intgr_params) result(dCdx)    <Warning: 'allomcgrowthderiv' defined but not used [-Wunused-function]>
+[1056]   subroutine FastPRTAllometricCarbon(this)                                        <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>

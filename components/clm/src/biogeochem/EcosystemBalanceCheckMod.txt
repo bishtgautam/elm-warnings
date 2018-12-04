@@ -1,0 +1,13 @@
+[0066]  subroutine BeginColCBalance(bounds, num_soilc, filter_soilc, &       <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0100]  subroutine BeginColNBalance(bounds, num_soilc, filter_soilc, &       <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0134]  subroutine BeginColPBalance(bounds, num_soilc, filter_soilc, &       <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0175]  subroutine ColCBalanceCheck(bounds, &                                <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0265]            write(iulog,*)'column cbalance error = ', col_errcb(c), c  <Warning: 'err_index' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0292]  subroutine ColNBalanceCheck(bounds, &                                <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0309]    integer :: c,err_index,j,p  ! indices                              <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0743]       num_soilc, filter_soilc, &                                      <Warning: Unused dummy argument 'filter_soilc' at (1) [-Wunused-dummy-argument]>
+[0743]       num_soilc, filter_soilc, &                                      <Warning: Unused dummy argument 'num_soilc' at (1) [-Wunused-dummy-argument]>
+[0830]       num_soilc, filter_soilc, &                                      <Warning: Unused dummy argument 'filter_soilc' at (1) [-Wunused-dummy-argument]>
+[0830]       num_soilc, filter_soilc, &                                      <Warning: Unused dummy argument 'num_soilc' at (1) [-Wunused-dummy-argument]>
+[0925]       num_soilc, filter_soilc, &                                      <Warning: Unused dummy argument 'filter_soilc' at (1) [-Wunused-dummy-argument]>
+[0925]       num_soilc, filter_soilc, &                                      <Warning: Unused dummy argument 'num_soilc' at (1) [-Wunused-dummy-argument]>

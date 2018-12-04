@@ -1,0 +1,18 @@
+[0234]  subroutine clean_top_as(this, begt, endt)                         <Warning: Unused dummy argument 'begt' at (1) [-Wunused-dummy-argument]>
+[0234]  subroutine clean_top_as(this, begt, endt)                         <Warning: Unused dummy argument 'endt' at (1) [-Wunused-dummy-argument]>
+[0260]  subroutine init_acc_buffer_top_as (this, bounds)                  <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0260]  subroutine init_acc_buffer_top_as (this, bounds)                  <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0344]    integer :: g,t,c,p                   ! indices                  <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0344]    integer :: g,t,c,p                   ! indices                  <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0344]    integer :: g,t,c,p                   ! indices                  <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[0345]    integer :: dtime                     ! timestep size [seconds]  <Warning: Unused variable 'dtime' declared at (1) [-Wunused-variable]>
+[0421]  subroutine clean_top_af(this, begt, endt)                         <Warning: Unused dummy argument 'begt' at (1) [-Wunused-dummy-argument]>
+[0421]  subroutine clean_top_af(this, begt, endt)                         <Warning: Unused dummy argument 'endt' at (1) [-Wunused-dummy-argument]>
+[0446]  subroutine init_acc_buffer_top_af (this, bounds)                  <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0446]  subroutine init_acc_buffer_top_af (this, bounds)                  <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0569]    integer :: g,t,c,p                   ! indices                  <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0569]    integer :: g,t,c,p                   ! indices                  <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0569]    integer :: g,t,c,p                   ! indices                  <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[0570]    integer :: dtime                     ! timestep size [seconds]  <Warning: Unused variable 'dtime' declared at (1) [-Wunused-variable]>
+[0640]  subroutine clean_top_es(this, begt, endt)                         <Warning: Unused dummy argument 'begt' at (1) [-Wunused-dummy-argument]>
+[0640]  subroutine clean_top_es(this, begt, endt)                         <Warning: Unused dummy argument 'endt' at (1) [-Wunused-dummy-argument]>

@@ -1,0 +1,6 @@
+[0193]    real(r8), pointer :: data2dptr(:,:), data1dptr(:) ! temp. pointers for slicing larger arrays                  <Warning: Unused variable 'data1dptr' declared at (1) [-Wunused-variable]>
+[0306]    use pftvarcon           , only : noveg, roota_par, rootb_par                                                  <Warning: Unused module variable 'noveg' which has been explicitly imported at (1) [-Wunused-variable]>
+[0306]    use pftvarcon           , only : noveg, roota_par, rootb_par                                                  <Warning: Unused module variable 'roota_par' which has been explicitly imported at (1) [-Wunused-variable]>
+[0306]    use pftvarcon           , only : noveg, roota_par, rootb_par                                                  <Warning: Unused module variable 'rootb_par' which has been explicitly imported at (1) [-Wunused-variable]>
+[0586]	     nlevbed = col_pp%nlevbed(c)                                                                                 <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0891]    integer             :: beg_idx, end_idx        ! begin/end index for accessing values in data_send/data_recv  <Warning: Unused variable 'end_idx' declared at (1) [-Wunused-variable]>

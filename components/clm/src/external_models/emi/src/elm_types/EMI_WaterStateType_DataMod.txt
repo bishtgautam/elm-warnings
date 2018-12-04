@@ -1,0 +1,2 @@
+[0098]       name_val       =  'Fraction of standing water'       <Warning: CHARACTER expression will be truncated in assignment (24/26) at (1) [-Wcharacter-truncation]>
+[0285]       name_val       =  'Frac. of grnd covered with snow'  <Warning: CHARACTER expression will be truncated in assignment (24/31) at (1) [-Wcharacter-truncation]>

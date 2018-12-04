@@ -1,0 +1,6 @@
+[0059]       name_val       =  'Maximum annual depth of thaw'                               <Warning: CHARACTER expression will be truncated in assignment (24/28) at (1) [-Wcharacter-truncation]>
+[0070]       name_val       =  'Prior year maximum annual depth of thaw'                    <Warning: CHARACTER expression will be truncated in assignment (24/39) at (1) [-Wcharacter-truncation]>
+[0081]       name_val       =  'Laminar boundary layer resistance for water over dry leaf'  <Warning: CHARACTER expression will be truncated in assignment (24/57) at (1) [-Wcharacter-truncation]>
+[0092]       name_val       =  'Canopy one-sided leaf area index with burying by snow'      <Warning: CHARACTER expression will be truncated in assignment (24/53) at (1) [-Wcharacter-truncation]>
+[0114]       name_val       =  'Sunlit projected leaf area index'                           <Warning: CHARACTER expression will be truncated in assignment (24/32) at (1) [-Wcharacter-truncation]>
+[0125]       name_val       =  'Shaded projected leaf area index'                           <Warning: CHARACTER expression will be truncated in assignment (24/32) at (1) [-Wcharacter-truncation]>

@@ -1,0 +1,17 @@
+[0130]      integer  :: return_code            ! math checks on variables will return>0 if problems exist  <Warning: Unused variable 'return_code' declared at (1) [-Wunused-variable]>
+[0260]	       write(fates_log(),*) 'spread:',currentSite%spread                                            <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0268]		  ipft=currentCohort%pft                                                                           <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0269]		  write(fates_log(),*) 'maxh:',EDPftvarcon_inst%allom_dbh_maxheight(ipft)                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0271]		  write(fates_log(),*) 'd2bl2: ',EDPftvarcon_inst%allom_d2bl2(ipft)                                <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0272]		  write(fates_log(),*) 'd2bl_ediff: ',EDPftvarcon_inst%allom_blca_expnt_diff(ipft)                 <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0273]		  write(fates_log(),*) 'd2ca_min: ',EDPftvarcon_inst%allom_d2ca_coefficient_min(ipft)              <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0274]		  write(fates_log(),*) 'd2ca_max: ',EDPftvarcon_inst%allom_d2ca_coefficient_max(ipft)              <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0338]      real(r8) :: lossarea                                                                           <Warning: Unused variable 'lossarea' declared at (1) [-Wunused-variable]>
+[0510]		  call copy_cohort(currentCohort, copyc)                                                           <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0950]    integer  :: z                                                                                    <Warning: Unused variable 'z' declared at (1) [-Wunused-variable]>
+[1015]    integer  :: ifp                                                                                  <Warning: Unused variable 'ifp' declared at (1) [-Wunused-variable]>
+[1016]    integer  :: patchn                                  ! identification number for each patch.      <Warning: Unused variable 'patchn' declared at (1) [-Wunused-variable]>
+[1631]     type (ed_cohort_type) , pointer :: currentCohort                                                <Warning: Unused variable 'currentcohort' declared at (1) [-Wunused-variable]>
+[1632]     integer :: s, ifp, c, p                                                                         <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[1637]     real(r8) :: weight  ! Weighting for cohort variables in patch                                   <Warning: Unused variable 'weight' declared at (1) [-Wunused-variable]>
+[1789]     real(r8),pointer   :: ai_profile                                                                <Warning: Unused variable 'ai_profile' declared at (1) [-Wunused-variable]>

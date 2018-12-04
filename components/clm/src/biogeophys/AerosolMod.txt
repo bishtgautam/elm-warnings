@@ -1,0 +1,4 @@
+[0031]  subroutine AerosolMasses(bounds, num_on, filter_on, num_off, filter_off, &  <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0053]    integer  :: g,l,c,j,fc      ! indices                                     <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0053]    integer  :: g,l,c,j,fc      ! indices                                     <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0242]    integer  :: c,g,j,fc                                                      <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>

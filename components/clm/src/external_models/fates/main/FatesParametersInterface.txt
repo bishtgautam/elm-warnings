@@ -1,0 +1,1 @@
+[0176]    integer :: i, d, size_dim_1  <Warning: Unused variable 'size_dim_1' declared at (1) [-Wunused-variable]>

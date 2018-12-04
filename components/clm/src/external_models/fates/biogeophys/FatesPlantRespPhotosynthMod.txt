@@ -1,0 +1,9 @@
+[0164]    real(r8) :: leaf_frac          ! ratio of to leaf biomass to total alive biomass                                          <Warning: Unused variable 'leaf_frac' declared at (1) [-Wunused-variable]>
+[0214]    integer  :: cl,s,iv,j,ps,ft,ifp ! indices                                                                                 <Warning: Unused variable 'ps' declared at (1) [-Wunused-variable]>
+[0453]                              lmr25top = lmr25top * lnc_top / (umolC_to_kgC * g_per_kg)                                       <Warning: 'lnc_top' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0625]                        currentCohort%livestem_mr  = live_stem_n * ED_val_base_mr_20 * tcwood * maintresp_reduction_factor    <Warning: 'live_stem_n' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0637]                              fnrt_n * ED_val_base_mr_20 * tcsoi * currentPatch%rootfr_ft(ft,j) * maintresp_reduction_factor  <Warning: 'fnrt_n' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0649]                                 currentPatch%rootfr_ft(ft,j) * maintresp_reduction_factor                                    <Warning: 'live_croot_n' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0799]                                     veg_tempk,         &  ! in                                                               <Warning: Unused dummy argument 'veg_tempk' at (1) [-Wunused-dummy-argument]>
+[0804]                                     btran,             &  ! in                                                               <Warning: Unused dummy argument 'btran' at (1) [-Wunused-dummy-argument]>
+[1402]   subroutine quadratic_fast (a, b, c, r1, r2)                                                                                <Warning: 'quadratic_fast' defined but not used [-Wunused-function]>

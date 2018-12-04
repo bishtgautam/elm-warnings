@@ -1,0 +1,48 @@
+[0110]  subroutine SOEBaseResidual(this,snes, X, F, ierr)                                          <Warning: Unused dummy argument 'f' at (1) [-Wunused-dummy-argument]>
+[0110]  subroutine SOEBaseResidual(this,snes, X, F, ierr)                                          <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0110]  subroutine SOEBaseResidual(this,snes, X, F, ierr)                                          <Warning: Unused dummy argument 'snes' at (1) [-Wunused-dummy-argument]>
+[0110]  subroutine SOEBaseResidual(this,snes, X, F, ierr)                                          <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0110]  subroutine SOEBaseResidual(this,snes, X, F, ierr)                                          <Warning: Unused dummy argument 'x' at (1) [-Wunused-dummy-argument]>
+[0121]    PetscReal                  :: t                                                          <Warning: Unused variable 't' declared at (1) [-Wunused-variable]>
+[0132]  subroutine SOEBaseJacobian(this, snes, X, A, B, ierr)                                      <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[0132]  subroutine SOEBaseJacobian(this, snes, X, A, B, ierr)                                      <Warning: Unused dummy argument 'b' at (1) [-Wunused-dummy-argument]>
+[0132]  subroutine SOEBaseJacobian(this, snes, X, A, B, ierr)                                      <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0132]  subroutine SOEBaseJacobian(this, snes, X, A, B, ierr)                                      <Warning: Unused dummy argument 'snes' at (1) [-Wunused-dummy-argument]>
+[0132]  subroutine SOEBaseJacobian(this, snes, X, A, B, ierr)                                      <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0132]  subroutine SOEBaseJacobian(this, snes, X, A, B, ierr)                                      <Warning: Unused dummy argument 'x' at (1) [-Wunused-dummy-argument]>
+[0154]  subroutine SOEComputeRHS(this, ksp, B, ierr)                                               <Warning: Unused dummy argument 'b' at (1) [-Wunused-dummy-argument]>
+[0154]  subroutine SOEComputeRHS(this, ksp, B, ierr)                                               <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0154]  subroutine SOEComputeRHS(this, ksp, B, ierr)                                               <Warning: Unused dummy argument 'ksp' at (1) [-Wunused-dummy-argument]>
+[0154]  subroutine SOEComputeRHS(this, ksp, B, ierr)                                               <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0174]  subroutine SOEComputeOperators(this, ksp, A, B, ierr)                                      <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[0174]  subroutine SOEComputeOperators(this, ksp, A, B, ierr)                                      <Warning: Unused dummy argument 'b' at (1) [-Wunused-dummy-argument]>
+[0174]  subroutine SOEComputeOperators(this, ksp, A, B, ierr)                                      <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0174]  subroutine SOEComputeOperators(this, ksp, A, B, ierr)                                      <Warning: Unused dummy argument 'ksp' at (1) [-Wunused-dummy-argument]>
+[0174]  subroutine SOEComputeOperators(this, ksp, A, B, ierr)                                      <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0195]  subroutine SOEBasePreSolve(this)                                                           <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0213]  subroutine SOEBasePreStepDT(this)                                                          <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0231]  subroutine SOEBasePostStepDT(this)                                                         <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0652]    PetscInt                                         :: imesh                                <Warning: Unused variable 'imesh' declared at (1) [-Wunused-variable]>
+[0760]  subroutine SOEBaseSetDataFromCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)  <Warning: Unused dummy argument 'data_1d' at (1) [-Wunused-dummy-argument]>
+[0760]  subroutine SOEBaseSetDataFromCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)  <Warning: Unused dummy argument 'soe_auxvar_id' at (1) [-Wunused-dummy-argument]>
+[0760]  subroutine SOEBaseSetDataFromCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)  <Warning: Unused dummy argument 'soe_auxvar_type' at (1) [-Wunused-dummy-argument]>
+[0760]  subroutine SOEBaseSetDataFromCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)  <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0760]  subroutine SOEBaseSetDataFromCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)  <Warning: Unused dummy argument 'var_type' at (1) [-Wunused-dummy-argument]>
+[0784]  subroutine SOEBaseGetDataForCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)   <Warning: Unused dummy argument 'data_1d' at (1) [-Wunused-dummy-argument]>
+[0784]  subroutine SOEBaseGetDataForCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)   <Warning: Unused dummy argument 'soe_auxvar_id' at (1) [-Wunused-dummy-argument]>
+[0784]  subroutine SOEBaseGetDataForCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)   <Warning: Unused dummy argument 'soe_auxvar_type' at (1) [-Wunused-dummy-argument]>
+[0784]  subroutine SOEBaseGetDataForCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)   <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0784]  subroutine SOEBaseGetDataForCLM(this, soe_auxvar_type, var_type, soe_auxvar_id, data_1d)   <Warning: Unused dummy argument 'var_type' at (1) [-Wunused-dummy-argument]>
+[0809]  subroutine SOEBaseAddGovEqn(this, geq_type, name, mesh_itype)                              <Warning: Unused dummy argument 'geq_type' at (1) [-Wunused-dummy-argument]>
+[0809]  subroutine SOEBaseAddGovEqn(this, geq_type, name, mesh_itype)                              <Warning: Unused dummy argument 'mesh_itype' at (1) [-Wunused-dummy-argument]>
+[0809]  subroutine SOEBaseAddGovEqn(this, geq_type, name, mesh_itype)                              <Warning: Unused dummy argument 'name' at (1) [-Wunused-dummy-argument]>
+[0809]  subroutine SOEBaseAddGovEqn(this, geq_type, name, mesh_itype)                              <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0828]  subroutine SOEBaseAddGovEqnWithMeshRank(this, geq_type, name, mesh_rank)                   <Warning: Unused dummy argument 'geq_type' at (1) [-Wunused-dummy-argument]>
+[0828]  subroutine SOEBaseAddGovEqnWithMeshRank(this, geq_type, name, mesh_rank)                   <Warning: Unused dummy argument 'mesh_rank' at (1) [-Wunused-dummy-argument]>
+[0828]  subroutine SOEBaseAddGovEqnWithMeshRank(this, geq_type, name, mesh_rank)                   <Warning: Unused dummy argument 'name' at (1) [-Wunused-dummy-argument]>
+[0828]  subroutine SOEBaseAddGovEqnWithMeshRank(this, geq_type, name, mesh_rank)                   <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0874]    PetscInt                                        :: cond_type                             <Warning: Unused variable 'cond_type' declared at (1) [-Wunused-variable]>
+[0875]    PetscInt                                        :: ss_or_bc_type                         <Warning: Unused variable 'ss_or_bc_type' declared at (1) [-Wunused-variable]>
+[0926]    class(goveqn_base_type),pointer             :: other_goveq                               <Warning: Unused variable 'other_goveq' declared at (1) [-Wunused-variable]>
+[0927]    PetscInt                                    :: ii                                        <Warning: Unused variable 'ii' declared at (1) [-Wunused-variable]>
+[0954]  subroutine SOBCreateVectorsForGovEqn(this)                                                 <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>

@@ -1,0 +1,10 @@
+[0280]    PetscInt                                   :: iauxvar              <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0315]       soe_auxvar_id, data_1d)                                         <Warning: Unused dummy argument 'soe_auxvar_id' at (1) [-Wunused-dummy-argument]>
+[0338]    PetscInt                                   :: iauxvar              <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0382]    PetscInt                      :: iauxvar                           <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0589]    PetscInt                      :: iauxvar                           <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0628]  subroutine ThermalSOEComputeRHS(this, ksp, B, ierr)                  <Warning: Unused dummy argument 'ksp' at (1) [-Wunused-dummy-argument]>
+[0735]  subroutine ThermalSOEComputeOperators(this, ksp, A, B, ierr)         <Warning: Unused dummy argument 'ksp' at (1) [-Wunused-dummy-argument]>
+[0877]    PetscInt                            :: idx                         <Warning: Unused variable 'idx' declared at (1) [-Wunused-variable]>
+[0884]    PetscReal                           :: var_value                   <Warning: Unused variable 'var_value' declared at (1) [-Wunused-variable]>
+[0944]                ids(iauxvar) = cur_conn_set_2%conn(iauxvar)%GetIDDn()  <Warning: 'cur_conn_set_2' may be used uninitialized in this function [-Wmaybe-uninitialized]>

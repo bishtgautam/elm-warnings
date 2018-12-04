@@ -1,0 +1,6 @@
+[0040]     integer  :: ier, p                        ! error status, do-loop index   <Warning: Unused variable 'ier' declared at (1) [-Wunused-variable]>
+[0041]     character(len=32) :: subname='dynCNDV_init' ! subroutine name             <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0068]    integer  :: c,g,l,p            ! indices                                   <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0069]    real(r8) :: cday               ! current calendar day (1.0 = 0Z on Jan 1)  <Warning: Unused variable 'cday' declared at (1) [-Wunused-variable]>
+[0072]    real(r8) :: days_per_year      ! days per year                             <Warning: Unused variable 'days_per_year' declared at (1) [-Wunused-variable]>
+[0078]    character(len=32) :: subname='dynCNDV_interp' ! subroutine name            <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>

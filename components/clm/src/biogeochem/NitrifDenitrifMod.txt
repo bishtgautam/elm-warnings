@@ -1,0 +1,6 @@
+[0058]    character(len=32)  :: subname = 'NitrifDenitrifParamsType'        <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0129]    integer  :: c, fc, reflev, j                                      <Warning: Unused variable 'reflev' declared at (1) [-Wunused-variable]>
+[0134]    real(r8) :: mu, sigma                                             <Warning: Unused variable 'mu' declared at (1) [-Wunused-variable]>
+[0134]    real(r8) :: mu, sigma                                             <Warning: Unused variable 'sigma' declared at (1) [-Wunused-variable]>
+[0135]    real(r8) :: t                                                     <Warning: Unused variable 't' declared at (1) [-Wunused-variable]>
+[0155]    character(len=32) :: subname='nitrif_denitrif' ! subroutine name  <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>

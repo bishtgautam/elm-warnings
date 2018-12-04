@@ -1,0 +1,4 @@
+[0085]       name_val       =  'Standing water temperature'    <Warning: CHARACTER expression will be truncated in assignment (24/26) at (1) [-Wcharacter-truncation]>
+[0096]       name_val       =  'Soil temperature in top 10cm'  <Warning: CHARACTER expression will be truncated in assignment (24/28) at (1) [-Wcharacter-truncation]>
+[0107]       name_val       =  'Soil temperature in nlevsoi'   <Warning: CHARACTER expression will be truncated in assignment (24/27) at (1) [-Wcharacter-truncation]>
+[0157]       name_val       =  'Standing water temperature'    <Warning: CHARACTER expression will be truncated in assignment (24/26) at (1) [-Wcharacter-truncation]>

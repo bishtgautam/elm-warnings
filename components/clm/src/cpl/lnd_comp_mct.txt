@@ -1,0 +1,23 @@
+[0035]  subroutine lnd_init_mct( EClock, cdata_l, x2l_l, l2x_l, NLFilename )                  <Warning: Unused dummy argument 'nlfilename' at (1) [-Wunused-dummy-argument]>
+[0046]    use clm_varctl       , only : finidat,single_column, clm_varctl_set, iulog, noland  <Warning: Unused module variable 'finidat' which has been explicitly imported at (1) [-Wunused-variable]>
+[0077]    integer                          :: LNDID	     ! Land identifyer                    <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0083]    integer  :: g,i,j                                ! indices                          <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0083]    integer  :: g,i,j                                ! indices                          <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0083]    integer  :: g,i,j                                ! indices                          <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0109]    integer :: lbnum                                 ! input to memory diagnostic       <Warning: Unused variable 'lbnum' declared at (1) [-Wunused-variable]>
+[0243]    call lnd_SetgsMap_mct( bounds, mpicom_lnd, LNDID, gsMap_lnd ) 	                     <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0337]    use spmdMod         ,  only : masterproc, mpicom                                    <Warning: Unused module variable 'masterproc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0371]    integer      :: lbnum                ! input to memory diagnostic                   <Warning: Unused variable 'lbnum' declared at (1) [-Wunused-variable]>
+[0372]    integer      :: g,i,lsz              ! counters                                     <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0372]    integer      :: g,i,lsz              ! counters                                     <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0372]    integer      :: g,i,lsz              ! counters                                     <Warning: Unused variable 'lsz' declared at (1) [-Wunused-variable]>
+[0377]    real(r8)     :: recip                ! reciprical                                   <Warning: Unused variable 'recip' declared at (1) [-Wunused-variable]>
+[0460]	  doalb = .false. 	                                                                    <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0534]  subroutine lnd_final_mct( EClock, cdata_l, x2l_l, l2x_l)                              <Warning: Unused dummy argument 'cdata_l' at (1) [-Wunused-dummy-argument]>
+[0534]  subroutine lnd_final_mct( EClock, cdata_l, x2l_l, l2x_l)                              <Warning: Unused dummy argument 'eclock' at (1) [-Wunused-dummy-argument]>
+[0534]  subroutine lnd_final_mct( EClock, cdata_l, x2l_l, l2x_l)                              <Warning: Unused dummy argument 'l2x_l' at (1) [-Wunused-dummy-argument]>
+[0534]  subroutine lnd_final_mct( EClock, cdata_l, x2l_l, l2x_l)                              <Warning: Unused dummy argument 'x2l_l' at (1) [-Wunused-dummy-argument]>
+[0579]    integer :: i, j, n, gi            ! Indices                                         <Warning: Unused variable 'gi' declared at (1) [-Wunused-variable]>
+[0579]    integer :: i, j, n, gi            ! Indices                                         <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0579]    integer :: i, j, n, gi            ! Indices                                         <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0626]    integer :: g,i,j              ! index                                               <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>

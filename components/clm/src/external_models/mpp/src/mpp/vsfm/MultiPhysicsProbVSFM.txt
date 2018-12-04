@@ -1,0 +1,64 @@
+[0086]  subroutine VSFMMPPInitialize(vsfm_mpp, begc, endc, ncols_ghost, &                        <Warning: 'vsfmmppinitialize' defined but not used [-Wunused-function]>
+[0287]    class(sysofeqns_vsfm_type),pointer                :: vsfm_soe                          <note: 'vsfm_soe._data' was declared here>
+[0298]    PetscInt                                          :: ncells                            <Warning: Unused variable 'ncells' declared at (1) [-Wunused-variable]>
+[0299]    PetscInt                                          :: j,c,g,l                           <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0299]    PetscInt                                          :: j,c,g,l                           <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0320]    cur_goveq => vsfm_soe%goveqns                                                          <Warning: 'vsfm_soe._data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0499]    PetscInt                                          :: size                              <Warning: Unused variable 'size' declared at (1) [-Wunused-variable]>
+[0509]    PetscInt                                          :: ghosted_id                        <Warning: Unused variable 'ghosted_id' declared at (1) [-Wunused-variable]>
+[0510]    PetscReal                                         :: initial_sat, initial_pressure     <Warning: Unused variable 'initial_pressure' declared at (1) [-Wunused-variable]>
+[0510]    PetscReal                                         :: initial_sat, initial_pressure     <Warning: Unused variable 'initial_sat' declared at (1) [-Wunused-variable]>
+[0511]    PetscInt                                          :: j,c,g,l                           <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0511]    PetscInt                                          :: j,c,g,l                           <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0654]    if (size(data_1d) /= goveq_richards_pres%mesh%ncells_local) then                       <Warning: 'goveq_richards_pres._data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0688]    cur_goveq => vsfm_soe%goveqns                                                          <Warning: 'vsfm_soe._data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0813]    allocate(soe%aux_vars_in           (soe%num_auxvars_in))                               <Warning: 'soe._data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1124]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_in(:)  <Warning: Unused variable 'ode_aux_vars_in' declared at (1) [-Wunused-variable]>
+[1125]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_bc(:)  <Warning: Unused variable 'ode_aux_vars_bc' declared at (1) [-Wunused-variable]>
+[1126]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_ss(:)  <Warning: Unused variable 'ode_aux_vars_ss' declared at (1) [-Wunused-variable]>
+[1127]    PetscInt                                                        :: icell               <Warning: Unused variable 'icell' declared at (1) [-Wunused-variable]>
+[1129]    type(condition_type)                      , pointer             :: cur_cond            <Warning: Unused variable 'cur_cond' declared at (1) [-Wunused-variable]>
+[1130]    type(connection_set_type)                 , pointer             :: cur_conn_set        <Warning: Unused variable 'cur_conn_set' declared at (1) [-Wunused-variable]>
+[1131]    PetscInt                                                        :: ghosted_id          <Warning: Unused variable 'ghosted_id' declared at (1) [-Wunused-variable]>
+[1132]    PetscInt                                                        :: sum_conn            <Warning: Unused variable 'sum_conn' declared at (1) [-Wunused-variable]>
+[1133]    PetscInt                                                        :: iconn               <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[1192]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_in(:)  <Warning: Unused variable 'ode_aux_vars_in' declared at (1) [-Wunused-variable]>
+[1193]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_bc(:)  <Warning: Unused variable 'ode_aux_vars_bc' declared at (1) [-Wunused-variable]>
+[1194]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_ss(:)  <Warning: Unused variable 'ode_aux_vars_ss' declared at (1) [-Wunused-variable]>
+[1195]    PetscInt                                                        :: icell               <Warning: Unused variable 'icell' declared at (1) [-Wunused-variable]>
+[1197]    type(condition_type)                      , pointer             :: cur_cond            <Warning: Unused variable 'cur_cond' declared at (1) [-Wunused-variable]>
+[1198]    type(connection_set_type)                 , pointer             :: cur_conn_set        <Warning: Unused variable 'cur_conn_set' declared at (1) [-Wunused-variable]>
+[1199]    PetscInt                                                        :: ghosted_id          <Warning: Unused variable 'ghosted_id' declared at (1) [-Wunused-variable]>
+[1200]    PetscInt                                                        :: sum_conn            <Warning: Unused variable 'sum_conn' declared at (1) [-Wunused-variable]>
+[1201]    PetscInt                                                        :: iconn               <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[1303]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_in(:)  <Warning: Unused variable 'ode_aux_vars_in' declared at (1) [-Wunused-variable]>
+[1304]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_bc(:)  <Warning: Unused variable 'ode_aux_vars_bc' declared at (1) [-Wunused-variable]>
+[1305]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_ss(:)  <Warning: Unused variable 'ode_aux_vars_ss' declared at (1) [-Wunused-variable]>
+[1306]    PetscInt                                                        :: icell               <Warning: Unused variable 'icell' declared at (1) [-Wunused-variable]>
+[1308]    type(condition_type)                      , pointer             :: cur_cond            <Warning: Unused variable 'cur_cond' declared at (1) [-Wunused-variable]>
+[1309]    type(connection_set_type)                 , pointer             :: cur_conn_set        <Warning: Unused variable 'cur_conn_set' declared at (1) [-Wunused-variable]>
+[1310]    PetscInt                                                        :: ghosted_id          <Warning: Unused variable 'ghosted_id' declared at (1) [-Wunused-variable]>
+[1311]    PetscInt                                                        :: sum_conn            <Warning: Unused variable 'sum_conn' declared at (1) [-Wunused-variable]>
+[1312]    PetscInt                                                        :: iconn               <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[1375]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_in(:)  <Warning: Unused variable 'ode_aux_vars_in' declared at (1) [-Wunused-variable]>
+[1376]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_bc(:)  <Warning: Unused variable 'ode_aux_vars_bc' declared at (1) [-Wunused-variable]>
+[1377]    type (rich_ode_pres_auxvar_type)          , pointer             :: ode_aux_vars_ss(:)  <Warning: Unused variable 'ode_aux_vars_ss' declared at (1) [-Wunused-variable]>
+[1378]    PetscInt                                                        :: icell               <Warning: Unused variable 'icell' declared at (1) [-Wunused-variable]>
+[1380]    type(condition_type)                      , pointer             :: cur_cond            <Warning: Unused variable 'cur_cond' declared at (1) [-Wunused-variable]>
+[1381]    type(connection_set_type)                 , pointer             :: cur_conn_set        <Warning: Unused variable 'cur_conn_set' declared at (1) [-Wunused-variable]>
+[1382]    PetscInt                                                        :: ghosted_id          <Warning: Unused variable 'ghosted_id' declared at (1) [-Wunused-variable]>
+[1383]    PetscInt                                                        :: sum_conn            <Warning: Unused variable 'sum_conn' declared at (1) [-Wunused-variable]>
+[1384]    PetscInt                                                        :: iconn               <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[1478]    cur_cond        => goveq_richards_ode_pres%source_sinks%first                          <Warning: 'goveq_richards_ode_pres._data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1537]    type (rich_ode_pres_conn_auxvar_type)     , pointer             :: conn_aux_vars(:)    <Warning: Unused variable 'conn_aux_vars' declared at (1) [-Wunused-variable]>
+[1538]    type(condition_type)                      , pointer             :: cur_cond            <Warning: Unused variable 'cur_cond' declared at (1) [-Wunused-variable]>
+[1539]    class(connection_set_type)                , pointer             :: cur_conn_set        <Warning: Unused variable 'cur_conn_set' declared at (1) [-Wunused-variable]>
+[1541]    PetscInt                                                        :: ghosted_id          <Warning: Unused variable 'ghosted_id' declared at (1) [-Wunused-variable]>
+[1542]    PetscInt                                                        :: sum_conn            <Warning: Unused variable 'sum_conn' declared at (1) [-Wunused-variable]>
+[1543]    PetscInt                                                        :: iconn               <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[1609]    type (rich_ode_pres_conn_auxvar_type)     , pointer             :: conn_aux_vars(:)    <Warning: Unused variable 'conn_aux_vars' declared at (1) [-Wunused-variable]>
+[1610]    type(condition_type)                      , pointer             :: cur_cond            <Warning: Unused variable 'cur_cond' declared at (1) [-Wunused-variable]>
+[1611]    class(connection_set_type)                , pointer             :: cur_conn_set        <Warning: Unused variable 'cur_conn_set' declared at (1) [-Wunused-variable]>
+[1613]    PetscInt                                                        :: ghosted_id          <Warning: Unused variable 'ghosted_id' declared at (1) [-Wunused-variable]>
+[1614]    PetscInt                                                        :: sum_conn            <Warning: Unused variable 'sum_conn' declared at (1) [-Wunused-variable]>
+[1615]    PetscInt                                                        :: iconn               <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>

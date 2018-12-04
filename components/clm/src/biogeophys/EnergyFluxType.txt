@@ -1,0 +1,20 @@
+[0156]    use clm_varpar     , only : nlevsno, nlevgrnd, nlevlak, crop_prog                             <Warning: Unused module variable 'crop_prog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0156]    use clm_varpar     , only : nlevsno, nlevgrnd, nlevlak, crop_prog                             <Warning: Unused module variable 'nlevlak' which has been explicitly imported at (1) [-Wunused-variable]>
+[0274]    use clm_varpar     , only : nlevsno, nlevgrnd, crop_prog                                      <Warning: Unused module variable 'crop_prog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0274]    use clm_varpar     , only : nlevsno, nlevgrnd, crop_prog                                      <Warning: Unused module variable 'nlevgrnd' which has been explicitly imported at (1) [-Wunused-variable]>
+[0286]    character(10)     :: active                                                                   <Warning: Unused variable 'active' declared at (1) [-Wunused-variable]>
+[0287]    real(r8), pointer :: data2dptr(:,:), data1dptr(:) ! temp. pointers for slicing larger arrays  <Warning: Unused variable 'data1dptr' declared at (1) [-Wunused-variable]>
+[0287]    real(r8), pointer :: data2dptr(:,:), data1dptr(:) ! temp. pointers for slicing larger arrays  <Warning: Unused variable 'data2dptr' declared at (1) [-Wunused-variable]>
+[0599]    use clm_varpar      , only : nlevsoi, nlevgrnd, nlevsno, nlevlak, nlevurb                     <Warning: Unused module variable 'nlevlak' which has been explicitly imported at (1) [-Wunused-variable]>
+[0599]    use clm_varpar      , only : nlevsoi, nlevgrnd, nlevsno, nlevlak, nlevurb                     <Warning: Unused module variable 'nlevsoi' which has been explicitly imported at (1) [-Wunused-variable]>
+[0599]    use clm_varpar      , only : nlevsoi, nlevgrnd, nlevsno, nlevlak, nlevurb                     <Warning: Unused module variable 'nlevurb' which has been explicitly imported at (1) [-Wunused-variable]>
+[0600]    use clm_varcon      , only : denice, denh2o, sb                                               <Warning: Unused module variable 'denh2o' which has been explicitly imported at (1) [-Wunused-variable]>
+[0600]    use clm_varcon      , only : denice, denh2o, sb                                               <Warning: Unused module variable 'denice' which has been explicitly imported at (1) [-Wunused-variable]>
+[0604]    use clm_varctl      , only : iulog, use_vancouver, use_mexicocity                             <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0604]    use clm_varctl      , only : iulog, use_vancouver, use_mexicocity                             <Warning: Unused module variable 'use_mexicocity' which has been explicitly imported at (1) [-Wunused-variable]>
+[0604]    use clm_varctl      , only : iulog, use_vancouver, use_mexicocity                             <Warning: Unused module variable 'use_vancouver' which has been explicitly imported at (1) [-Wunused-variable]>
+[0612]    integer  :: j,l,c,p,levs,lev                                                                  <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0612]    integer  :: j,l,c,p,levs,lev                                                                  <Warning: Unused variable 'levs' declared at (1) [-Wunused-variable]>
+[0682]    use spmdMod    , only : masterproc                                                            <Warning: Unused module variable 'masterproc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0694]    integer :: j,c ! indices                                                                      <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0694]    integer :: j,c ! indices                                                                      <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>

@@ -1,0 +1,6 @@
+[0146]    use clm_varctl    , only : use_snicar_frc           <Warning: Unused module variable 'use_snicar_frc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0278]  subroutine Restart(this, bounds, ncid, flag)          <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0285]    use clm_varctl     , only : use_snicar_frc, iulog   <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0285]    use clm_varctl     , only : use_snicar_frc, iulog   <Warning: Unused module variable 'use_snicar_frc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0286]    use spmdMod        , only : masterproc              <Warning: Unused module variable 'masterproc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0299]    integer :: p                                        <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>

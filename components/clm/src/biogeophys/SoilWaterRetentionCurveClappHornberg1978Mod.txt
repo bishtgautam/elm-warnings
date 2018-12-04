@@ -1,0 +1,4 @@
+[0035]  type(soil_water_retention_curve_clapp_hornberg_1978_type) function constructor()  <Warning: Return value of function 'constructor' at (1) not set [-Wreturn-type]>
+[0045]  subroutine soil_hk(this, hksat, imped, s, bsw, hk, dhkds)                         <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0077]  subroutine soil_suction(this, smpsat, s, bsw, smp, dsmpds)                        <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0108]  subroutine soil_suction_inverse(this, smp_target, smpsat, bsw, s_target)          <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>

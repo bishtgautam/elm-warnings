@@ -1,0 +1,11 @@
+[0740]    integer :: i_bc     ! loop iterator for boundary pointers                            <Warning: Unused variable 'i_bc' declared at (1) [-Wunused-variable]>
+[0742]    integer :: num_bc_in                                                                 <Warning: Unused variable 'num_bc_in' declared at (1) [-Wunused-variable]>
+[0743]    integer :: num_bc_inout                                                              <Warning: Unused variable 'num_bc_inout' declared at (1) [-Wunused-variable]>
+[0744]    integer :: num_bc_out                                                                <Warning: Unused variable 'num_bc_out' declared at (1) [-Wunused-variable]>
+[1186]   function GetCoordVal(this, organ_id, element_id ) result(prt_val)                     <Warning: Unused dummy argument 'element_id' at (1) [-Wunused-dummy-argument]>
+[1186]   function GetCoordVal(this, organ_id, element_id ) result(prt_val)                     <Warning: Return value 'prt_val' of function 'getcoordval' declared at (1) not set [-Wreturn-type]>
+[1186]   function GetCoordVal(this, organ_id, element_id ) result(prt_val)                     <Warning: Unused dummy argument 'organ_id' at (1) [-Wunused-dummy-argument]>
+[1186]   function GetCoordVal(this, organ_id, element_id ) result(prt_val)                     <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[1204]   subroutine DailyPRTBase(this)                                                         <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[1215]   subroutine FastPRTBase(this)                                                          <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[1240]     integer                               :: i_element     ! loop counter for elements  <Warning: Unused variable 'i_element' declared at (1) [-Wunused-variable]>

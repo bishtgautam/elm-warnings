@@ -1,0 +1,2 @@
+[0555]	 if ( debug ) then                                                    <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0564]         if  (currentCohort%n/currentPatch%area <= min_npm2 .or.	&  !  <Warning: Nonconforming tab character at (1) [-Wtabs]>

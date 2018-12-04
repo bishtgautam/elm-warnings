@@ -1,0 +1,2 @@
+[0185]    integer :: ier                    ! error code                 <Warning: Unused variable 'ier' declared at (1) [-Wunused-variable]>
+[1240]          name_val      = 'Number of non-lake & non-urban filter'  <Warning: CHARACTER expression will be truncated in assignment (32/37) at (1) [-Wcharacter-truncation]>

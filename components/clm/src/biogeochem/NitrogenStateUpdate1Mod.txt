@@ -1,0 +1,1 @@
+[0124]    integer :: c,p,j,l,k ! indices  <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>

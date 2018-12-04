@@ -1,0 +1,7 @@
+[0471]    integer :: p, f, j, c, l                                   ! indices              <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0471]    integer :: p, f, j, c, l                                   ! indices              <Warning: Unused variable 'f' declared at (1) [-Wunused-variable]>
+[0471]    integer :: p, f, j, c, l                                   ! indices              <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0471]    integer :: p, f, j, c, l                                   ! indices              <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0471]    integer :: p, f, j, c, l                                   ! indices              <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[0472]    real(r8) :: smp_node, s_node                               ! temporary variables  <Warning: Unused variable 's_node' declared at (1) [-Wunused-variable]>
+[0472]    real(r8) :: smp_node, s_node                               ! temporary variables  <Warning: Unused variable 'smp_node' declared at (1) [-Wunused-variable]>

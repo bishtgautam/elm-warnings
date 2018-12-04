@@ -1,0 +1,14 @@
+[0032]  subroutine NStateUpdate2(num_soilc, filter_soilc, num_soilp, filter_soilp, &   <Warning: Unused dummy argument 'filter_soilc' at (1) [-Wunused-dummy-argument]>
+[0032]  subroutine NStateUpdate2(num_soilc, filter_soilc, num_soilp, filter_soilp, &   <Warning: Unused dummy argument 'num_soilc' at (1) [-Wunused-dummy-argument]>
+[0041]    use tracer_varcon, only : is_active_betr_bgc                                 <Warning: Unused module variable 'is_active_betr_bgc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0051]    integer  :: c,p,j,l ! indices                                                <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0051]    integer  :: c,p,j,l ! indices                                                <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0051]    integer  :: c,p,j,l ! indices                                                <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0052]    integer  :: fp,fc   ! lake filter indices                                    <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>
+[0101]  subroutine NStateUpdate2h(num_soilc, filter_soilc, num_soilp, filter_soilp, &  <Warning: Unused dummy argument 'filter_soilc' at (1) [-Wunused-dummy-argument]>
+[0101]  subroutine NStateUpdate2h(num_soilc, filter_soilc, num_soilp, filter_soilp, &  <Warning: Unused dummy argument 'num_soilc' at (1) [-Wunused-dummy-argument]>
+[0110]    use tracer_varcon, only : is_active_betr_bgc                                 <Warning: Unused module variable 'is_active_betr_bgc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0120]    integer :: c,p,j,l ! indices                                                 <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0120]    integer :: c,p,j,l ! indices                                                 <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0120]    integer :: c,p,j,l ! indices                                                 <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0121]    integer :: fp,fc   ! lake filter indices                                     <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>

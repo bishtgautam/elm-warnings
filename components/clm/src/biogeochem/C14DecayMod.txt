@@ -1,0 +1,2 @@
+[0055]    integer  :: fp,j,l,p,fc,c,i                                <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0254]    integer :: dimid,varid                ! input netCDF id's  <Warning: Unused variable 'varid' declared at (1) [-Wunused-variable]>

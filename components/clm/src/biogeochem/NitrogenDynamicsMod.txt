@@ -1,0 +1,5 @@
+[0095]    character(len=32)  :: subname = 'CNNDynamicsParamsType'                                                                     <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0459]    integer :: c,fc                 ! indices                                                                                   <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0459]    integer :: c,fc                 ! indices                                                                                   <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>
+[0587]               fxr = min(1._r8, fxw, fxn) * fxg                                                                                 <Warning: 'fxn' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0615]             nitrogenstate_vars, nitrogenflux_vars, temperature_vars, waterstate_vars, carbonstate_vars, phosphorusstate_vars)  <Warning: Unused dummy argument 'phosphorusstate_vars' at (1) [-Wunused-dummy-argument]>

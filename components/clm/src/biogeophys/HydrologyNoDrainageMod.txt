@@ -1,0 +1,7 @@
+[0063]    use clm_varcon           , only : denh2o, denice, hfus, grav, tfrz                       <Warning: Unused module variable 'grav' which has been explicitly imported at (1) [-Wunused-variable]>
+[0063]    use clm_varcon           , only : denh2o, denice, hfus, grav, tfrz                       <Warning: Unused module variable 'hfus' which has been explicitly imported at (1) [-Wunused-variable]>
+[0108]    integer  :: g,l,c,j,fc                    ! indices                                      <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0111]    real(r8) :: psi,vwc,fsattmp,psifrz        ! temporary variables for soilpsi calculation  <Warning: Unused variable 'psifrz' declared at (1) [-Wunused-variable]>
+[0119]    real(r8) :: s_node                        ! soil wetness (-)                             <Warning: Unused variable 's_node' declared at (1) [-Wunused-variable]>
+[0120]    real(r8) :: icefrac(bounds%begc:bounds%endc,1:nlevgrnd)                                  <Warning: Unused variable 'icefrac' declared at (1) [-Wunused-variable]>
+[0377]	 nlevbed = nlev2bed(c)                                                                      <Warning: Nonconforming tab character at (1) [-Wtabs]>

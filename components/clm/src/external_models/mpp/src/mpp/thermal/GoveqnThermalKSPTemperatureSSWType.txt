@@ -1,0 +1,7 @@
+[0255]    integer                                                       :: iauxvar, iauxvar_off, iconn  <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0343]    integer                                                       :: iauxvar                      <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0595]    conn_set => soil_temp_cond%conn_set                                                           <Warning: 'soil_temp_cond' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0657]  subroutine ThermKSPTempSSWComputeOperatorsDiag(this, A, B, ierr)                                <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[0794]  subroutine ThermKSPTempSSWComputeOperatorsOffDiag(this, A, B, &                                 <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[0795]       itype_of_other_goveq, rank_of_other_goveq, ierr)                                           <Warning: Unused dummy argument 'itype_of_other_goveq' at (1) [-Wunused-dummy-argument]>
+[1091]  subroutine DiffHeatFlux(T_up, therm_cond_up, T_dn, therm_cond_dn, &                             <Warning: 'diffheatflux' defined but not used [-Wunused-function]>

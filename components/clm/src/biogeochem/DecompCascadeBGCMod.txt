@@ -1,0 +1,7 @@
+[0104]    character(len=32)  :: subname = 'DecompBGCParamsType'                                    <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0636]    real(r8):: rate_scalar                  ! combined rate scalar for decomp                <Warning: Unused variable 'rate_scalar' declared at (1) [-Wunused-variable]>
+[0645]    real(r8):: tau_l3                       ! turnover time of  litter 3 (yr)                <Warning: Unused variable 'tau_l3' declared at (1) [-Wunused-variable]>
+[0650]    real(r8):: cwdc_loss                    ! fragmentation rate for CWD carbon (gC/m2/s)    <Warning: Unused variable 'cwdc_loss' declared at (1) [-Wunused-variable]>
+[0651]    real(r8):: cwdn_loss                    ! fragmentation rate for CWD nitrogen (gN/m2/s)  <Warning: Unused variable 'cwdn_loss' declared at (1) [-Wunused-variable]>
+[0661]    integer :: c, fc, j, k, l                                                                <Warning: Unused variable 'k' declared at (1) [-Wunused-variable]>
+[0661]    integer :: c, fc, j, k, l                                                                <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>

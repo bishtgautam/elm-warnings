@@ -1,0 +1,12 @@
+[0155]    real(r8), pointer :: data2dptr(:,:) ! temp. pointers for slicing larger arrays  <Warning: Unused variable 'data2dptr' declared at (1) [-Wunused-variable]>
+[0286]  subroutine InitCold(this, bounds)                                                 <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0286]  subroutine InitCold(this, bounds)                                                 <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0295]    integer :: p,l                                                                  <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0295]    integer :: p,l                                                                  <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[0304]       num_urbanp, filter_urbanp, num_urbanc, filter_urbanc, &                      <Warning: Unused dummy argument 'filter_urbanc' at (1) [-Wunused-dummy-argument]>
+[0304]       num_urbanp, filter_urbanp, num_urbanc, filter_urbanc, &                      <Warning: Unused dummy argument 'num_urbanc' at (1) [-Wunused-dummy-argument]>
+[0305]       atm2lnd_vars, waterstate_vars, canopystate_vars, surfalb_vars, &             <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0358]     integer  :: iv                                  ! canopy layer                 <Warning: Unused variable 'iv' declared at (1) [-Wunused-variable]>
+[0744]          local_secp1 = secs + nint((grc_pp%londeg(g)/degpsec)/dtime)*dtime         <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0793]          local_secp1 = secs + nint((grc_pp%londeg(g)/degpsec)/dtime)*dtime         <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0846]                                      atm2lnd_vars, surfalb_vars,     &             <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>

@@ -1,0 +1,9 @@
+[0085]    use mpp_varpar       , only : nlevgrnd, nlevsoi, nlevsno        <Warning: Unused module variable 'nlevsno' which has been explicitly imported at (1) [-Wunused-variable]>
+[0109]    PetscInt                                            :: j,c,g,l  <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0109]    PetscInt                                            :: j,c,g,l  <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0189]   cur_cond    => goveq_soil%boundary_conditions%first              <Warning: 'goveq_soil._data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0308]    allocate(soe%aux_vars_in           (soe%num_auxvars_in))        <Warning: 'soe._data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0472]    PetscInt                                :: bc_idx_1             <Warning: Unused variable 'bc_idx_1' declared at (1) [-Wunused-variable]>
+[0473]    PetscInt                                :: bc_idx_2             <Warning: Unused variable 'bc_idx_2' declared at (1) [-Wunused-variable]>
+[0474]    PetscInt                                :: bc_offset_1          <Warning: Unused variable 'bc_offset_1' declared at (1) [-Wunused-variable]>
+[0487]    do ii = 1, soe%ngoveqns                                         <Warning: 'soe._data' may be used uninitialized in this function [-Wmaybe-uninitialized]>

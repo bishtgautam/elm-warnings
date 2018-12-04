@@ -1,0 +1,35 @@
+[0063]    class(emi_data), pointer :: data                                                      <Warning: Unused variable 'data' declared at (1) [-Wunused-variable]>
+[0131]  subroutine EM_BETR_Populate_E2L_List(e2l_list)                                          <Warning: Unused dummy argument 'e2l_list' at (1) [-Wunused-dummy-argument]>
+[0144]    class(emi_data), pointer :: data                                                      <Warning: Unused variable 'data' declared at (1) [-Wunused-variable]>
+[0145]    integer        , pointer :: em_stages(:)                                              <Warning: Unused variable 'em_stages' declared at (1) [-Wunused-variable]>
+[0146]    integer                  :: number_em_stages                                          <Warning: Unused variable 'number_em_stages' declared at (1) [-Wunused-variable]>
+[0153]       bounds_clump)                                                                      <Warning: Unused dummy argument 'bounds_clump' at (1) [-Wunused-dummy-argument]>
+[0191]  subroutine EM_BETR_BeginMassBalance_Solve(dt, nstep, bounds_clump, l2e_list, e2l_list)  <Warning: Unused dummy argument 'bounds_clump' at (1) [-Wunused-dummy-argument]>
+[0191]  subroutine EM_BETR_BeginMassBalance_Solve(dt, nstep, bounds_clump, l2e_list, e2l_list)  <Warning: Unused dummy argument 'dt' at (1) [-Wunused-dummy-argument]>
+[0191]  subroutine EM_BETR_BeginMassBalance_Solve(dt, nstep, bounds_clump, l2e_list, e2l_list)  <Warning: Unused dummy argument 'e2l_list' at (1) [-Wunused-dummy-argument]>
+[0191]  subroutine EM_BETR_BeginMassBalance_Solve(dt, nstep, bounds_clump, l2e_list, e2l_list)  <Warning: Unused dummy argument 'l2e_list' at (1) [-Wunused-dummy-argument]>
+[0191]  subroutine EM_BETR_BeginMassBalance_Solve(dt, nstep, bounds_clump, l2e_list, e2l_list)  <Warning: Unused dummy argument 'nstep' at (1) [-Wunused-dummy-argument]>
+[0199]    use clm_varctl                , only : iulog                                          <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0225]  subroutine EM_BETR_PreDiagSoilColWaterFlux_Solve(bounds, l2e_list, e2l_list)            <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0225]  subroutine EM_BETR_PreDiagSoilColWaterFlux_Solve(bounds, l2e_list, e2l_list)            <Warning: Unused dummy argument 'e2l_list' at (1) [-Wunused-dummy-argument]>
+[0225]  subroutine EM_BETR_PreDiagSoilColWaterFlux_Solve(bounds, l2e_list, e2l_list)            <Warning: Unused dummy argument 'l2e_list' at (1) [-Wunused-dummy-argument]>
+[0233]    use clm_varctl                , only : iulog                                          <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0234]    use clm_varpar                , only : nlevsoi                                        <Warning: Unused module variable 'nlevsoi' which has been explicitly imported at (1) [-Wunused-variable]>
+[0248]    real(r8), pointer      :: l2e_frac_h2osfc(:)                                          <Warning: Unused variable 'l2e_frac_h2osfc' declared at (1) [-Wunused-variable]>
+[0249]    real(r8), pointer      :: l2e_finundated(:)                                           <Warning: Unused variable 'l2e_finundated' declared at (1) [-Wunused-variable]>
+[0250]    real(r8), pointer      :: l2e_h2osoi_liq(:,:)                                         <Warning: Unused variable 'l2e_h2osoi_liq' declared at (1) [-Wunused-variable]>
+[0251]    real(r8), pointer      :: l2e_h2osoi_ice(:,:)                                         <Warning: Unused variable 'l2e_h2osoi_ice' declared at (1) [-Wunused-variable]>
+[0252]    real(r8), pointer      :: l2e_h2osoi_liqvol(:,:)                                      <Warning: Unused variable 'l2e_h2osoi_liqvol' declared at (1) [-Wunused-variable]>
+[0253]    real(r8), pointer      :: l2e_h2osoi_icevol(:,:)                                      <Warning: Unused variable 'l2e_h2osoi_icevol' declared at (1) [-Wunused-variable]>
+[0254]    real(r8), pointer      :: l2e_h2osoi_vol(:,:)                                         <Warning: Unused variable 'l2e_h2osoi_vol' declared at (1) [-Wunused-variable]>
+[0255]    real(r8), pointer      :: l2e_air_vol(:,:)                                            <Warning: Unused variable 'l2e_air_vol' declared at (1) [-Wunused-variable]>
+[0256]    real(r8), pointer      :: l2e_rho_vap(:,:)                                            <Warning: Unused variable 'l2e_rho_vap' declared at (1) [-Wunused-variable]>
+[0257]    real(r8), pointer      :: l2e_rhvap_soi(:,:)                                          <Warning: Unused variable 'l2e_rhvap_soi' declared at (1) [-Wunused-variable]>
+[0258]    real(r8), pointer      :: l2e_smp_l(:,:)                                              <Warning: Unused variable 'l2e_smp_l' declared at (1) [-Wunused-variable]>
+[0259]    integer, pointer       :: l2e_filter_nolakec(:)                                       <Warning: Unused variable 'l2e_filter_nolakec' declared at (1) [-Wunused-variable]>
+[0260]    integer                :: l2e_num_nolakec                                             <Warning: Unused variable 'l2e_num_nolakec' declared at (1) [-Wunused-variable]>
+[0261]    integer                :: cc, c, fc, lbj, ubj                                         <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0261]    integer                :: cc, c, fc, lbj, ubj                                         <Warning: Unused variable 'cc' declared at (1) [-Wunused-variable]>
+[0261]    integer                :: cc, c, fc, lbj, ubj                                         <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>
+[0261]    integer                :: cc, c, fc, lbj, ubj                                         <Warning: Unused variable 'lbj' declared at (1) [-Wunused-variable]>
+[0261]    integer                :: cc, c, fc, lbj, ubj                                         <Warning: Unused variable 'ubj' declared at (1) [-Wunused-variable]>

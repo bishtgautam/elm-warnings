@@ -1,0 +1,7 @@
+[0263]    integer                             :: iauxvar                   <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0361]    integer                             :: iauxvar                   <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0873]                     area * factor                                   <Warning: 'area' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0972]  subroutine ThermKSPTempSoilComputeOperatorsDiag(this, A, B, ierr)  <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[1198]  subroutine ThermKSPTempSoilComputeOperatorsOffDiag(this, A, B, &   <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[1199]       itype_of_other_goveq, rank_of_other_goveq, ierr)              <Warning: Unused dummy argument 'itype_of_other_goveq' at (1) [-Wunused-dummy-argument]>
+[1336]    use mpp_varpar, only                 : nlevsno                   <Warning: Unused module variable 'nlevsno' which has been explicitly imported at (1) [-Wunused-variable]>

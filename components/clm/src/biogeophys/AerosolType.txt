@@ -1,0 +1,4 @@
+[0182]    real(r8), pointer :: data2dptr(:,:) ! temp. pointers for slicing larger arrays  <Warning: Unused variable 'data2dptr' declared at (1) [-Wunused-variable]>
+[0282]    use clm_varpar , only : nlevsno, nlevsoi                                        <Warning: Unused module variable 'nlevsoi' which has been explicitly imported at (1) [-Wunused-variable]>
+[0284]    use clm_varctl , only : iulog                                                   <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0286]    use spmdMod    , only : masterproc                                              <Warning: Unused module variable 'masterproc' which has been explicitly imported at (1) [-Wunused-variable]>

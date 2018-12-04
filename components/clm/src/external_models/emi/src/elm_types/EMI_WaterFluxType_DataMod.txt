@@ -1,0 +1,15 @@
+[0094]       name_val       =  'Snow layer disappearance sink'                          <Warning: CHARACTER expression will be truncated in assignment (24/29) at (1) [-Wcharacter-truncation]>
+[0105]       name_val       =  'Snow layer disappearance sink'                          <Warning: CHARACTER expression will be truncated in assignment (24/29) at (1) [-Wcharacter-truncation]>
+[0116]       name_val       =  'Snow layer disappearance sink needed at restart'        <Warning: CHARACTER expression will be truncated in assignment (24/47) at (1) [-Wcharacter-truncation]>
+[0162]       name_val       =  'Gross evaporation from soil'                            <Warning: CHARACTER expression will be truncated in assignment (24/27) at (1) [-Wcharacter-truncation]>
+[0173]       name_val       =  'Gross evaporation infiltration'                         <Warning: CHARACTER expression will be truncated in assignment (24/30) at (1) [-Wcharacter-truncation]>
+[0195]       name_val       =  'Surface dew added to ground'                            <Warning: CHARACTER expression will be truncated in assignment (24/27) at (1) [-Wcharacter-truncation]>
+[0206]       name_val       =  'Surface dew added to snow pacK'                         <Warning: CHARACTER expression will be truncated in assignment (24/30) at (1) [-Wcharacter-truncation]>
+[0217]       name_val       =  'Sublimation vol from snow pack'                         <Warning: CHARACTER expression will be truncated in assignment (24/30) at (1) [-Wcharacter-truncation]>
+[0228]       name_val       =  'sublimation rate from snow pack'                        <Warning: CHARACTER expression will be truncated in assignment (24/31) at (1) [-Wcharacter-truncation]>
+[0239]       name_val       =  'Rate of surface standing water entering top soil'       <Warning: CHARACTER expression will be truncated in assignment (24/48) at (1) [-Wcharacter-truncation]>
+[0250]       name_val       =  'Rate of snow entering top soil'                         <Warning: CHARACTER expression will be truncated in assignment (24/30) at (1) [-Wcharacter-truncation]>
+[0261]       name_val       =  'Root and soil water exchange'                           <Warning: CHARACTER expression will be truncated in assignment (24/28) at (1) [-Wcharacter-truncation]>
+[0274]       name_val       =  'Advective flux across different soil layer interfaces'  <Warning: CHARACTER expression will be truncated in assignment (24/53) at (1) [-Wcharacter-truncation]>
+[0287]       name_val       =  'liquid water losted as drainage'                        <Warning: CHARACTER expression will be truncated in assignment (24/31) at (1) [-Wcharacter-truncation]>
+[0324]       name_val       =  'Snow layer disappearance sink'                          <Warning: CHARACTER expression will be truncated in assignment (24/29) at (1) [-Wcharacter-truncation]>

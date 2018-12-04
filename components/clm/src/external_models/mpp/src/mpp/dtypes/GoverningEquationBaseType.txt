@@ -1,0 +1,34 @@
+[0124]  subroutine GoveqnBaseComputeResidual(this, X, F, ierr)               <Warning: Unused dummy argument 'f' at (1) [-Wunused-dummy-argument]>
+[0124]  subroutine GoveqnBaseComputeResidual(this, X, F, ierr)               <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0124]  subroutine GoveqnBaseComputeResidual(this, X, F, ierr)               <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0124]  subroutine GoveqnBaseComputeResidual(this, X, F, ierr)               <Warning: Unused dummy argument 'x' at (1) [-Wunused-dummy-argument]>
+[0143]  subroutine GoveqnBaseComputeOffDiagJacobian(this, X_1, X_2, A, B, &  <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[0143]  subroutine GoveqnBaseComputeOffDiagJacobian(this, X_1, X_2, A, B, &  <Warning: Unused dummy argument 'b' at (1) [-Wunused-dummy-argument]>
+[0143]  subroutine GoveqnBaseComputeOffDiagJacobian(this, X_1, X_2, A, B, &  <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0143]  subroutine GoveqnBaseComputeOffDiagJacobian(this, X_1, X_2, A, B, &  <Warning: Unused dummy argument 'x_1' at (1) [-Wunused-dummy-argument]>
+[0143]  subroutine GoveqnBaseComputeOffDiagJacobian(this, X_1, X_2, A, B, &  <Warning: Unused dummy argument 'x_2' at (1) [-Wunused-dummy-argument]>
+[0144]       itype_of_other_goveq, &                                         <Warning: Unused dummy argument 'itype_of_other_goveq' at (1) [-Wunused-dummy-argument]>
+[0145]       rank_of_other_goveq, &                                          <Warning: Unused dummy argument 'rank_of_other_goveq' at (1) [-Wunused-dummy-argument]>
+[0146]       ierr)                                                           <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0170]  subroutine GoveqnBaseComputeJacobian(this, X, A, B, ierr)            <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[0170]  subroutine GoveqnBaseComputeJacobian(this, X, A, B, ierr)            <Warning: Unused dummy argument 'b' at (1) [-Wunused-dummy-argument]>
+[0170]  subroutine GoveqnBaseComputeJacobian(this, X, A, B, ierr)            <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0170]  subroutine GoveqnBaseComputeJacobian(this, X, A, B, ierr)            <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0170]  subroutine GoveqnBaseComputeJacobian(this, X, A, B, ierr)            <Warning: Unused dummy argument 'x' at (1) [-Wunused-dummy-argument]>
+[0190]  subroutine GoveqnBaseComputeRHS(this, B, ierr)                       <Warning: Unused dummy argument 'b' at (1) [-Wunused-dummy-argument]>
+[0190]  subroutine GoveqnBaseComputeRHS(this, B, ierr)                       <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0190]  subroutine GoveqnBaseComputeRHS(this, B, ierr)                       <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0208]  subroutine GoveqnBaseComputeOperatorsDiag(this, A, B, ierr)          <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[0208]  subroutine GoveqnBaseComputeOperatorsDiag(this, A, B, ierr)          <Warning: Unused dummy argument 'b' at (1) [-Wunused-dummy-argument]>
+[0208]  subroutine GoveqnBaseComputeOperatorsDiag(this, A, B, ierr)          <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0208]  subroutine GoveqnBaseComputeOperatorsDiag(this, A, B, ierr)          <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0227]  subroutine GoveqnBaseComputeOperatorsOffDiag(this, A, B, &           <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[0227]  subroutine GoveqnBaseComputeOperatorsOffDiag(this, A, B, &           <Warning: Unused dummy argument 'b' at (1) [-Wunused-dummy-argument]>
+[0227]  subroutine GoveqnBaseComputeOperatorsOffDiag(this, A, B, &           <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0228]       itype_of_other_goveq, rank_of_other_goveq, ierr)                <Warning: Unused dummy argument 'ierr' at (1) [-Wunused-dummy-argument]>
+[0228]       itype_of_other_goveq, rank_of_other_goveq, ierr)                <Warning: Unused dummy argument 'itype_of_other_goveq' at (1) [-Wunused-dummy-argument]>
+[0228]       itype_of_other_goveq, rank_of_other_goveq, ierr)                <Warning: Unused dummy argument 'rank_of_other_goveq' at (1) [-Wunused-dummy-argument]>
+[0292]  subroutine GoveqnBasePreSolve(this)                                  <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0416]    type(condition_type) , pointer     :: cur_cond                     <Warning: Unused variable 'cur_cond' declared at (1) [-Wunused-variable]>
+[0636]    PetscReal, pointer            :: conn_type(:)    !                 <Warning: Unused variable 'conn_type' declared at (1) [-Wunused-variable]>
+[0697]       call cond%conn_set%conn(iconn)%SetIDUp  (conn_id_up(iconn))     <Warning: 'cond' may be used uninitialized in this function [-Wmaybe-uninitialized]>

@@ -1,0 +1,2 @@
+[0091]    subroutine InitCold(this, bounds)  <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0091]    subroutine InitCold(this, bounds)  <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>

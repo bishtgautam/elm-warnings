@@ -1,0 +1,4 @@
+[0059]         atm2lnd_vars, waterstate_vars, waterflux_vars,                  &                                      <Warning: Unused dummy argument 'waterflux_vars' at (1) [-Wunused-dummy-argument]>
+[0575]  subroutine update_plant_nutrient_buffer(bounds,col, pft, num_soilc, filter_soilc, num_soilp, filter_soilp, &  <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0575]  subroutine update_plant_nutrient_buffer(bounds,col, pft, num_soilc, filter_soilc, num_soilp, filter_soilp, &  <Warning: Unused dummy argument 'filter_soilp' at (1) [-Wunused-dummy-argument]>
+[0575]  subroutine update_plant_nutrient_buffer(bounds,col, pft, num_soilc, filter_soilc, num_soilp, filter_soilp, &  <Warning: Unused dummy argument 'num_soilp' at (1) [-Wunused-dummy-argument]>

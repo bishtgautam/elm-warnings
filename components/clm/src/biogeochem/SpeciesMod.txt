@@ -1,0 +1,2 @@
+[0039]  function species_from_string(species_string) result(species)  <note: 'species' was declared here>
+[0068]  end function species_from_string                              <Warning: 'species' may be used uninitialized in this function [-Wmaybe-uninitialized]>

@@ -1,0 +1,113 @@
+[0028]    use clm_varctl       , only: co2_type, co2_ppmv, iulog, use_c13, create_glacier_mec_landunit, &  <Warning: Unused module variable 'aero_file' which has been explicitly imported at (1) [-Wunused-variable]>
+[0028]    use clm_varctl       , only: co2_type, co2_ppmv, iulog, use_c13, create_glacier_mec_landunit, &  <Warning: Unused module variable 'co2_file' which has been explicitly imported at (1) [-Wunused-variable]>
+[0028]    use clm_varctl       , only: co2_type, co2_ppmv, iulog, use_c13, create_glacier_mec_landunit, &  <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0028]    use clm_varctl       , only: co2_type, co2_ppmv, iulog, use_c13, create_glacier_mec_landunit, &  <Warning: Unused module variable 'metdata_biases' which has been explicitly imported at (1) [-Wunused-variable]>
+[0028]    use clm_varctl       , only: co2_type, co2_ppmv, iulog, use_c13, create_glacier_mec_landunit, &  <Warning: Unused module variable 'metdata_bypass' which has been explicitly imported at (1) [-Wunused-variable]>
+[0028]    use clm_varctl       , only: co2_type, co2_ppmv, iulog, use_c13, create_glacier_mec_landunit, &  <Warning: Unused module variable 'metdata_type' which has been explicitly imported at (1) [-Wunused-variable]>
+[0032]    use controlMod       , only: NLFilename                                                          <Warning: Unused module variable 'nlfilename' which has been explicitly imported at (1) [-Wunused-variable]>
+[0037]    use spmdmod          , only: masterproc, mpicom, MPI_REAL8                                       <Warning: Unused module variable 'masterproc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0037]    use spmdmod          , only: masterproc, mpicom, MPI_REAL8                                       <Warning: Unused module variable 'mpicom' which has been explicitly imported at (1) [-Wunused-variable]>
+[0048]    integer  :: g,topo,i,m,thism,nstep,ier  ! indices, number of steps, and error code               <Warning: Unused variable 'ier' declared at (1) [-Wunused-variable]>
+[0048]    integer  :: g,topo,i,m,thism,nstep,ier  ! indices, number of steps, and error code               <Warning: Unused variable 'm' declared at (1) [-Wunused-variable]>
+[0048]    integer  :: g,topo,i,m,thism,nstep,ier  ! indices, number of steps, and error code               <Warning: Unused variable 'nstep' declared at (1) [-Wunused-variable]>
+[0048]    integer  :: g,topo,i,m,thism,nstep,ier  ! indices, number of steps, and error code               <Warning: Unused variable 'thism' declared at (1) [-Wunused-variable]>
+[0050]    real(r8) :: e, ea                ! vapor pressure (Pa)                                           <Warning: Unused variable 'ea' declared at (1) [-Wunused-variable]>
+[0068]    integer  :: num, nu_nml, nml_error                                                               <Warning: Unused variable 'nml_error' declared at (1) [-Wunused-variable]>
+[0068]    integer  :: num, nu_nml, nml_error                                                               <Warning: Unused variable 'nu_nml' declared at (1) [-Wunused-variable]>
+[0069]    real(r8) :: swndf, swndr, swvdf, swvdr, ratio_rvrf, frac, q                                      <Warning: Unused variable 'frac' declared at (1) [-Wunused-variable]>
+[0069]    real(r8) :: swndf, swndr, swvdf, swvdr, ratio_rvrf, frac, q                                      <Warning: Unused variable 'q' declared at (1) [-Wunused-variable]>
+[0069]    real(r8) :: swndf, swndr, swvdf, swvdr, ratio_rvrf, frac, q                                      <Warning: Unused variable 'ratio_rvrf' declared at (1) [-Wunused-variable]>
+[0069]    real(r8) :: swndf, swndr, swvdf, swvdr, ratio_rvrf, frac, q                                      <Warning: Unused variable 'swndf' declared at (1) [-Wunused-variable]>
+[0069]    real(r8) :: swndf, swndr, swvdf, swvdr, ratio_rvrf, frac, q                                      <Warning: Unused variable 'swndr' declared at (1) [-Wunused-variable]>
+[0069]    real(r8) :: swndf, swndr, swvdf, swvdr, ratio_rvrf, frac, q                                      <Warning: Unused variable 'swvdf' declared at (1) [-Wunused-variable]>
+[0069]    real(r8) :: swndf, swndr, swvdf, swvdr, ratio_rvrf, frac, q                                      <Warning: Unused variable 'swvdr' declared at (1) [-Wunused-variable]>
+[0070]    real(r8) :: thiscosz, avgcosz, szenith                                                           <Warning: Unused variable 'avgcosz' declared at (1) [-Wunused-variable]>
+[0070]    real(r8) :: thiscosz, avgcosz, szenith                                                           <Warning: Unused variable 'szenith' declared at (1) [-Wunused-variable]>
+[0070]    real(r8) :: thiscosz, avgcosz, szenith                                                           <Warning: Unused variable 'thiscosz' declared at (1) [-Wunused-variable]>
+[0071]    real(r8) :: timetemp(2)                                                                          <Warning: Unused variable 'timetemp' declared at (1) [-Wunused-variable]>
+[0072]    real(r8) :: latixy(500000), longxy(500000)                                                       <Warning: Unused variable 'latixy' declared at (1) [-Wunused-variable]>
+[0072]    real(r8) :: latixy(500000), longxy(500000)                                                       <Warning: Unused variable 'longxy' declared at (1) [-Wunused-variable]>
+[0073]    integer ::  ierr, varid, dimid, yr, mon, day, tod, nindex(2), caldaym(13)                        <Warning: Unused variable 'day' declared at (1) [-Wunused-variable]>
+[0073]    integer ::  ierr, varid, dimid, yr, mon, day, tod, nindex(2), caldaym(13)                        <Warning: Unused variable 'dimid' declared at (1) [-Wunused-variable]>
+[0073]    integer ::  ierr, varid, dimid, yr, mon, day, tod, nindex(2), caldaym(13)                        <Warning: Unused variable 'ierr' declared at (1) [-Wunused-variable]>
+[0073]    integer ::  ierr, varid, dimid, yr, mon, day, tod, nindex(2), caldaym(13)                        <Warning: Unused variable 'mon' declared at (1) [-Wunused-variable]>
+[0073]    integer ::  ierr, varid, dimid, yr, mon, day, tod, nindex(2), caldaym(13)                        <Warning: Unused variable 'nindex' declared at (1) [-Wunused-variable]>
+[0073]    integer ::  ierr, varid, dimid, yr, mon, day, tod, nindex(2), caldaym(13)                        <Warning: Unused variable 'tod' declared at (1) [-Wunused-variable]>
+[0073]    integer ::  ierr, varid, dimid, yr, mon, day, tod, nindex(2), caldaym(13)                        <Warning: Unused variable 'varid' declared at (1) [-Wunused-variable]>
+[0073]    integer ::  ierr, varid, dimid, yr, mon, day, tod, nindex(2), caldaym(13)                        <Warning: Unused variable 'yr' declared at (1) [-Wunused-variable]>
+[0074]    integer ::  ncid, met_ncids(14), mask_ncid, thisncid, ng, tm                                     <Warning: Unused variable 'mask_ncid' declared at (1) [-Wunused-variable]>
+[0074]    integer ::  ncid, met_ncids(14), mask_ncid, thisncid, ng, tm                                     <Warning: Unused variable 'met_ncids' declared at (1) [-Wunused-variable]>
+[0074]    integer ::  ncid, met_ncids(14), mask_ncid, thisncid, ng, tm                                     <Warning: Unused variable 'ncid' declared at (1) [-Wunused-variable]>
+[0074]    integer ::  ncid, met_ncids(14), mask_ncid, thisncid, ng, tm                                     <Warning: Unused variable 'ng' declared at (1) [-Wunused-variable]>
+[0074]    integer ::  ncid, met_ncids(14), mask_ncid, thisncid, ng, tm                                     <Warning: Unused variable 'thisncid' declared at (1) [-Wunused-variable]>
+[0074]    integer ::  ncid, met_ncids(14), mask_ncid, thisncid, ng, tm                                     <Warning: Unused variable 'tm' declared at (1) [-Wunused-variable]>
+[0075]    integer ::  aindex(2), tindex(14,2), starti(3), counti(3)                                        <Warning: Unused variable 'aindex' declared at (1) [-Wunused-variable]>
+[0075]    integer ::  aindex(2), tindex(14,2), starti(3), counti(3)                                        <Warning: Unused variable 'counti' declared at (1) [-Wunused-variable]>
+[0075]    integer ::  aindex(2), tindex(14,2), starti(3), counti(3)                                        <Warning: Unused variable 'starti' declared at (1) [-Wunused-variable]>
+[0075]    integer ::  aindex(2), tindex(14,2), starti(3), counti(3)                                        <Warning: Unused variable 'tindex' declared at (1) [-Wunused-variable]>
+[0076]    integer ::  grid_map(500000), zone_map(500000)                                                   <Warning: Unused variable 'grid_map' declared at (1) [-Wunused-variable]>
+[0076]    integer ::  grid_map(500000), zone_map(500000)                                                   <Warning: Unused variable 'zone_map' declared at (1) [-Wunused-variable]>
+[0077]    integer ::  met_nvars, nyears_spinup, nyears_trans, starti_site, endi_site                       <Warning: Unused variable 'endi_site' declared at (1) [-Wunused-variable]>
+[0077]    integer ::  met_nvars, nyears_spinup, nyears_trans, starti_site, endi_site                       <Warning: Unused variable 'met_nvars' declared at (1) [-Wunused-variable]>
+[0077]    integer ::  met_nvars, nyears_spinup, nyears_trans, starti_site, endi_site                       <Warning: Unused variable 'nyears_spinup' declared at (1) [-Wunused-variable]>
+[0077]    integer ::  met_nvars, nyears_spinup, nyears_trans, starti_site, endi_site                       <Warning: Unused variable 'nyears_trans' declared at (1) [-Wunused-variable]>
+[0077]    integer ::  met_nvars, nyears_spinup, nyears_trans, starti_site, endi_site                       <Warning: Unused variable 'starti_site' declared at (1) [-Wunused-variable]>
+[0078]    real(r8) :: smap05_lat(360), smap05_lon(720)                                                     <Warning: Unused variable 'smap05_lat' declared at (1) [-Wunused-variable]>
+[0078]    real(r8) :: smap05_lat(360), smap05_lon(720)                                                     <Warning: Unused variable 'smap05_lon' declared at (1) [-Wunused-variable]>
+[0079]    real(r8) :: smapt62_lat(94), smapt62_lon(192)                                                    <Warning: Unused variable 'smapt62_lat' declared at (1) [-Wunused-variable]>
+[0079]    real(r8) :: smapt62_lat(94), smapt62_lon(192)                                                    <Warning: Unused variable 'smapt62_lon' declared at (1) [-Wunused-variable]>
+[0080]    real(r8) :: smap2_lat(96), smap2_lon(144)                                                        <Warning: Unused variable 'smap2_lat' declared at (1) [-Wunused-variable]>
+[0080]    real(r8) :: smap2_lat(96), smap2_lon(144)                                                        <Warning: Unused variable 'smap2_lon' declared at (1) [-Wunused-variable]>
+[0081]    real(r8) :: thisdist, mindist, thislon                                                           <Warning: Unused variable 'mindist' declared at (1) [-Wunused-variable]>
+[0081]    real(r8) :: thisdist, mindist, thislon                                                           <Warning: Unused variable 'thisdist' declared at (1) [-Wunused-variable]>
+[0081]    real(r8) :: thisdist, mindist, thislon                                                           <Warning: Unused variable 'thislon' declared at (1) [-Wunused-variable]>
+[0082]    real(r8) :: tbot, tempndep(1,1,158), thiscalday, wt1(14), wt2(14), thisdoy                       <Warning: Unused variable 'tbot' declared at (1) [-Wunused-variable]>
+[0082]    real(r8) :: tbot, tempndep(1,1,158), thiscalday, wt1(14), wt2(14), thisdoy                       <Warning: Unused variable 'tempndep' declared at (1) [-Wunused-variable]>
+[0082]    real(r8) :: tbot, tempndep(1,1,158), thiscalday, wt1(14), wt2(14), thisdoy                       <Warning: Unused variable 'thiscalday' declared at (1) [-Wunused-variable]>
+[0082]    real(r8) :: tbot, tempndep(1,1,158), thiscalday, wt1(14), wt2(14), thisdoy                       <Warning: Unused variable 'thisdoy' declared at (1) [-Wunused-variable]>
+[0082]    real(r8) :: tbot, tempndep(1,1,158), thiscalday, wt1(14), wt2(14), thisdoy                       <Warning: Unused variable 'wt1' declared at (1) [-Wunused-variable]>
+[0082]    real(r8) :: tbot, tempndep(1,1,158), thiscalday, wt1(14), wt2(14), thisdoy                       <Warning: Unused variable 'wt2' declared at (1) [-Wunused-variable]>
+[0083]    real(r8) :: site_metdata(14,12)                                                                  <Warning: Unused variable 'site_metdata' declared at (1) [-Wunused-variable]>
+[0084]    real(r8) :: var_month_mean(12)                                                                   <Warning: Unused variable 'var_month_mean' declared at (1) [-Wunused-variable]>
+[0085]    real(r8) :: hdm1(720,360,1), hdm2(720,360,1)                                                     <Warning: Unused variable 'hdm1' declared at (1) [-Wunused-variable]>
+[0085]    real(r8) :: hdm1(720,360,1), hdm2(720,360,1)                                                     <Warning: Unused variable 'hdm2' declared at (1) [-Wunused-variable]>
+[0086]    real(r8) :: lnfm1(192,94,2920)                                                                   <Warning: Unused variable 'lnfm1' declared at (1) [-Wunused-variable]>
+[0087]    real(r8) :: ndep1(144,96,1), ndep2(144,96,1)                                                     <Warning: Unused variable 'ndep1' declared at (1) [-Wunused-variable]>
+[0087]    real(r8) :: ndep1(144,96,1), ndep2(144,96,1)                                                     <Warning: Unused variable 'ndep2' declared at (1) [-Wunused-variable]>
+[0088]    real(r8) :: aerodata(14,144,96,14)                                                               <Warning: Unused variable 'aerodata' declared at (1) [-Wunused-variable]>
+[0089]    integer  :: var_month_count(12)                                                                  <Warning: Unused variable 'var_month_count' declared at (1) [-Wunused-variable]>
+[0090]    integer*2 :: temp(1,500000)                                                                      <Warning: Unused variable 'temp' declared at (1) [-Wunused-variable]>
+[0091]    integer :: xtoget, ytoget, thisx, thisy, calday_start                                            <Warning: Unused variable 'calday_start' declared at (1) [-Wunused-variable]>
+[0091]    integer :: xtoget, ytoget, thisx, thisy, calday_start                                            <Warning: Unused variable 'thisx' declared at (1) [-Wunused-variable]>
+[0091]    integer :: xtoget, ytoget, thisx, thisy, calday_start                                            <Warning: Unused variable 'thisy' declared at (1) [-Wunused-variable]>
+[0091]    integer :: xtoget, ytoget, thisx, thisy, calday_start                                            <Warning: Unused variable 'xtoget' declared at (1) [-Wunused-variable]>
+[0091]    integer :: xtoget, ytoget, thisx, thisy, calday_start                                            <Warning: Unused variable 'ytoget' declared at (1) [-Wunused-variable]>
+[0092]    character(len=200) metsource_str, thisline                                                       <Warning: Unused variable 'metsource_str' declared at (1) [-Wunused-variable]>
+[0092]    character(len=200) metsource_str, thisline                                                       <Warning: Unused variable 'thisline' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'av' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'g3' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'gtoget' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'line' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'mystart' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'n' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'nummetdims' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'thistimelen' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'tod_start' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'v' declared at (1) [-Wunused-variable]>
+[0094]    integer :: av, v, n, nummetdims, g3, gtoget, ztoget, line, mystart, tod_start, thistimelen       <Warning: Unused variable 'ztoget' declared at (1) [-Wunused-variable]>
+[0095]    character(len=20) aerovars(14), metvars(14)                                                      <Warning: Unused variable 'aerovars' declared at (1) [-Wunused-variable]>
+[0095]    character(len=20) aerovars(14), metvars(14)                                                      <Warning: Unused variable 'metvars' declared at (1) [-Wunused-variable]>
+[0096]    character(len=3) zst                                                                             <Warning: Unused variable 'zst' declared at (1) [-Wunused-variable]>
+[0100]    character(len=CL)  :: metdata_fname                                                              <Warning: Unused variable 'metdata_fname' declared at (1) [-Wunused-variable]>
+[0107]    logical :: use_sitedata, has_zonefile, use_daymet, use_livneh                                    <Warning: Unused variable 'has_zonefile' declared at (1) [-Wunused-variable]>
+[0107]    logical :: use_sitedata, has_zonefile, use_daymet, use_livneh                                    <Warning: Unused variable 'use_daymet' declared at (1) [-Wunused-variable]>
+[0107]    logical :: use_sitedata, has_zonefile, use_daymet, use_livneh                                    <Warning: Unused variable 'use_livneh' declared at (1) [-Wunused-variable]>
+[0107]    logical :: use_sitedata, has_zonefile, use_daymet, use_livneh                                    <Warning: Unused variable 'use_sitedata' declared at (1) [-Wunused-variable]>
+[0108]    data caldaym / 1, 32, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335, 366 /	                     <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0144]	stream_year_last_ndep,   &                                                                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1029]         top_as%pco2bot(topo) = co2_ppmv_val * 1.e-6_r8 * top_as%pbot(topo)                          <Warning: 'co2_ppmv_val' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1169]    use clm_varctl         , only : iulog, create_glacier_mec_landunit                               <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[1183]    integer  :: ier   ! error status                                                                 <Warning: Unused variable 'ier' declared at (1) [-Wunused-variable]>
+[1184]    integer  :: nstep ! time step index                                                              <Warning: Unused variable 'nstep' declared at (1) [-Wunused-variable]>
+[1185]    integer  :: dtime ! time step                                                                    <Warning: Unused variable 'dtime' declared at (1) [-Wunused-variable]>
+[1287]  min = min - offset_min                                                                             <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>

@@ -1,0 +1,43 @@
+[0070]  integer, private :: ih_daily_temp                                                             <Warning: Unused PRIVATE module variable 'ih_daily_temp' declared at (1) [-Wunused-value]>
+[0071]  integer, private :: ih_daily_rh                                                               <Warning: Unused PRIVATE module variable 'ih_daily_rh' declared at (1) [-Wunused-value]>
+[0072]  integer, private :: ih_daily_prec                                                             <Warning: Unused PRIVATE module variable 'ih_daily_prec' declared at (1) [-Wunused-value]>
+[0115]  integer, private :: ih_nep_timeintegrated_si                                                  <Warning: Unused PRIVATE module variable 'ih_nep_timeintegrated_si' declared at (1) [-Wunused-value]>
+[0116]  integer, private :: ih_npp_timeintegrated_si                                                  <Warning: Unused PRIVATE module variable 'ih_npp_timeintegrated_si' declared at (1) [-Wunused-value]>
+[0117]  integer, private :: ih_hr_timeintegrated_si                                                   <Warning: Unused PRIVATE module variable 'ih_hr_timeintegrated_si' declared at (1) [-Wunused-value]>
+[0123]  integer, private :: ih_ed_to_bgc_this_edts_si                                                 <Warning: Unused PRIVATE module variable 'ih_ed_to_bgc_this_edts_si' declared at (1) [-Wunused-value]>
+[0124]  integer, private :: ih_ed_to_bgc_last_edts_si                                                 <Warning: Unused PRIVATE module variable 'ih_ed_to_bgc_last_edts_si' declared at (1) [-Wunused-value]>
+[0126]  integer, private :: ih_totecosysc_old_si                                                      <Warning: Unused PRIVATE module variable 'ih_totecosysc_old_si' declared at (1) [-Wunused-value]>
+[0127]  integer, private :: ih_totedc_si                                                              <Warning: Unused PRIVATE module variable 'ih_totedc_si' declared at (1) [-Wunused-value]>
+[0128]  integer, private :: ih_totedc_old_si                                                          <Warning: Unused PRIVATE module variable 'ih_totedc_old_si' declared at (1) [-Wunused-value]>
+[0129]  integer, private :: ih_totbgcc_si                                                             <Warning: Unused PRIVATE module variable 'ih_totbgcc_si' declared at (1) [-Wunused-value]>
+[0130]  integer, private :: ih_totbgcc_old_si                                                         <Warning: Unused PRIVATE module variable 'ih_totbgcc_old_si' declared at (1) [-Wunused-value]>
+[0327]  integer, private :: ih_supsub_scpf                                                            <Warning: Unused PRIVATE module variable 'ih_supsub_scpf' declared at (1) [-Wunused-value]>
+[1026]   integer                      :: lb1,ub1,lb2,ub2                                              <Warning: Unused variable 'lb1' declared at (1) [-Wunused-variable]>
+[1026]   integer                      :: lb1,ub1,lb2,ub2                                              <Warning: Unused variable 'lb2' declared at (1) [-Wunused-variable]>
+[1026]   integer                      :: lb1,ub1,lb2,ub2                                              <Warning: Unused variable 'ub1' declared at (1) [-Wunused-variable]>
+[1026]   integer                      :: lb1,ub1,lb2,ub2                                              <Warning: Unused variable 'ub2' declared at (1) [-Wunused-variable]>
+[1068]    integer :: ub1, lb1, ub2, lb2    ! Bounds for allocating the var                            <Warning: Unused variable 'lb1' declared at (1) [-Wunused-variable]>
+[1068]    integer :: ub1, lb1, ub2, lb2    ! Bounds for allocating the var                            <Warning: Unused variable 'lb2' declared at (1) [-Wunused-variable]>
+[1068]    integer :: ub1, lb1, ub2, lb2    ! Bounds for allocating the var                            <Warning: Unused variable 'ub1' declared at (1) [-Wunused-variable]>
+[1068]    integer :: ub1, lb1, ub2, lb2    ! Bounds for allocating the var                            <Warning: Unused variable 'ub2' declared at (1) [-Wunused-variable]>
+[1069]    integer :: ityp                                                                             <Warning: Unused variable 'ityp' declared at (1) [-Wunused-variable]>
+[1292]    integer  :: lb1,ub1,lb2,ub2  ! IO array bounds for the calling thread                       <Warning: Unused variable 'lb1' declared at (1) [-Wunused-variable]>
+[1292]    integer  :: lb1,ub1,lb2,ub2  ! IO array bounds for the calling thread                       <Warning: Unused variable 'lb2' declared at (1) [-Wunused-variable]>
+[1292]    integer  :: lb1,ub1,lb2,ub2  ! IO array bounds for the calling thread                       <Warning: Unused variable 'ub1' declared at (1) [-Wunused-variable]>
+[1292]    integer  :: lb1,ub1,lb2,ub2  ! IO array bounds for the calling thread                       <Warning: Unused variable 'ub2' declared at (1) [-Wunused-variable]>
+[1293]    integer  :: ivar             ! index of IO variable object vector                           <Warning: Unused variable 'ivar' declared at (1) [-Wunused-variable]>
+[1308]    real(r8) :: npp_partition_error ! a check that the NPP partitions sum to carbon allocation  <Warning: Unused variable 'npp_partition_error' declared at (1) [-Wunused-variable]>
+[1772]		       hio_m7_si_scls(io_si,scls) = hio_m7_si_scls(io_si,scls) + &                            <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1844]			    (ccohort%lmort_direct + ccohort%lmort_collateral + ccohort%lmort_infra) * &              <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1926]			    (ccohort%lmort_direct + ccohort%lmort_collateral + ccohort%lmort_infra) * &              <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2183]		    hio_m7_si_scpf(io_si,i_scpf) + &                                                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2262]    integer  :: lb1,ub1,lb2,ub2  ! IO array bounds for the calling thread                       <Warning: Unused variable 'lb1' declared at (1) [-Wunused-variable]>
+[2262]    integer  :: lb1,ub1,lb2,ub2  ! IO array bounds for the calling thread                       <Warning: Unused variable 'lb2' declared at (1) [-Wunused-variable]>
+[2262]    integer  :: lb1,ub1,lb2,ub2  ! IO array bounds for the calling thread                       <Warning: Unused variable 'ub1' declared at (1) [-Wunused-variable]>
+[2262]    integer  :: lb1,ub1,lb2,ub2  ! IO array bounds for the calling thread                       <Warning: Unused variable 'ub2' declared at (1) [-Wunused-variable]>
+[2263]    integer  :: ivar             ! index of IO variable object vector                           <Warning: Unused variable 'ivar' declared at (1) [-Wunused-variable]>
+[2264]    integer  :: ft               ! functional type index                                        <Warning: Unused variable 'ft' declared at (1) [-Wunused-variable]>
+[2693]    integer  :: ft               ! functional type index                                        <Warning: Unused variable 'ft' declared at (1) [-Wunused-variable]>
+[2702]    integer  :: ipa2     ! patch incrementer                                                    <Warning: Unused variable 'ipa2' declared at (1) [-Wunused-variable]>
+[2749]	  hio_aflc_scpf          => this%hvars(ih_aflc_scpf)%r82d, &                                   <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2965]		  hio_aflc_scpf(io_si,iscpf)             = hio_aflc_scpf(io_si,iscpf) + &                     <Warning: Nonconforming tab character at (1) [-Wtabs]>

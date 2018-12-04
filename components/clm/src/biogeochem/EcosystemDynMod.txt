@@ -1,0 +1,8 @@
+[0090]       num_soilp, filter_soilp, num_pcropp, filter_pcropp, doalb, &                <Warning: Unused dummy argument 'doalb' at (1) [-Wunused-dummy-argument]>
+[0090]       num_soilp, filter_soilp, num_pcropp, filter_pcropp, doalb, &                <Warning: Unused dummy argument 'filter_pcropp' at (1) [-Wunused-dummy-argument]>
+[0090]       num_soilp, filter_soilp, num_pcropp, filter_pcropp, doalb, &                <Warning: Unused dummy argument 'num_pcropp' at (1) [-Wunused-dummy-argument]>
+[0093]       c14_carbonflux_vars, c14_carbonstate_vars, dgvs_vars, &                     <Warning: Unused dummy argument 'dgvs_vars' at (1) [-Wunused-dummy-argument]>
+[0095]       waterstate_vars, waterflux_vars, frictionvel_vars, canopystate_vars,&       <Warning: Unused dummy argument 'canopystate_vars' at (1) [-Wunused-dummy-argument]>
+[0095]       waterstate_vars, waterflux_vars, frictionvel_vars, canopystate_vars,&       <Warning: Unused dummy argument 'frictionvel_vars' at (1) [-Wunused-dummy-argument]>
+[0105]    use spmdMod              , only: masterproc                                    <Warning: Unused module variable 'masterproc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0474]       atm2lnd_vars, waterstate_vars, waterflux_vars,                           &  <Warning: Unused dummy argument 'waterflux_vars' at (1) [-Wunused-dummy-argument]>

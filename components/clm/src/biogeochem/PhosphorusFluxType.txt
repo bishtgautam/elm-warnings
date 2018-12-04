@@ -1,0 +1,9 @@
+[0731]    use clm_varpar     , only : nlevsno, nlevgrnd, crop_prog               <Warning: Unused module variable 'nlevgrnd' which has been explicitly imported at (1) [-Wunused-variable]>
+[0743]    character(10)  :: active                                               <Warning: Unused variable 'active' declared at (1) [-Wunused-variable]>
+[1694]    integer :: fp, fc                                    ! filter indices  <Warning: Unused variable 'fp' declared at (1) [-Wunused-variable]>
+[1768]  subroutine Restart (this,  bounds, ncid, flag )                          <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[1785]    integer :: j,c ! indices                                               <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[1785]    integer :: j,c ! indices                                               <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[2313]    use clm_varctl    , only: use_nitrif_denitrif                          <Warning: Unused module variable 'use_nitrif_denitrif' which has been explicitly imported at (1) [-Wunused-variable]>
+[2330]    real(r8) :: maxdepth    ! depth to integrate soil variables            <Warning: Unused variable 'maxdepth' declared at (1) [-Wunused-variable]>
+[2675]subroutine PSummary_interface(this,bounds,num_soilc, filter_soilc)         <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>

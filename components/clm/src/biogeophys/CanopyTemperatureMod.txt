@@ -1,0 +1,5 @@
+[0050]       atm2lnd_vars, canopystate_vars, soilstate_vars, frictionvel_vars, &                               <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0116]    real(r8) :: fac_fc       ! soil wetness of surface layer relative to field capacity                  <Warning: Unused variable 'fac_fc' declared at (1) [-Wunused-variable]>
+[0120]    real(r8) :: fh2o_eff(bounds%begc:bounds%endc) ! effective surface water fraction (i.e. seen by atm)  <Warning: Unused variable 'fh2o_eff' declared at (1) [-Wunused-variable]>
+[0282]                  hr_road_perv = hr_road_perv + rootr_road_perv(c,j)                                     <Warning: 'hr_road_perv' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0326]            qg_soil(c) = hr*qsatg                                                                        <Warning: 'hr' may be used uninitialized in this function [-Wmaybe-uninitialized]>

@@ -1,0 +1,5 @@
+[0317]    integer :: m                                  ! secondary layer index [idx]  <Warning: Unused variable 'm' declared at (1) [-Wunused-variable]>
+[1432]     integer            :: ier                         ! error status            <Warning: Unused variable 'ier' declared at (1) [-Wunused-variable]>
+[1435]    logical :: readvar      ! determine if variable was read from NetCDF file    <Warning: Unused variable 'readvar' declared at (1) [-Wunused-variable]>
+[1593]     integer            :: varid                       ! netCDF id's             <Warning: Unused variable 'varid' declared at (1) [-Wunused-variable]>
+[1594]     integer            :: ier                         ! error status            <Warning: Unused variable 'ier' declared at (1) [-Wunused-variable]>

@@ -1,0 +1,8 @@
+[0097]    integer                  :: n,i,m                  ! indices  <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0097]    integer                  :: n,i,m                  ! indices  <Warning: Unused variable 'm' declared at (1) [-Wunused-variable]>
+[0451]       ugrid%grid_id_porder(n + ngrid_local) = int_array3(n)      <Warning: 'int_array3.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0457]       deallocate(int_array4)                                     <Warning: 'int_array4.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0497]    PetscInt                  :: offset              !            <Warning: Unused variable 'offset' declared at (1) [-Wunused-variable]>
+[0498]    PetscInt                  :: icell, iedge, count !            <Warning: Unused variable 'count' declared at (1) [-Wunused-variable]>
+[0498]    PetscInt                  :: icell, iedge, count !            <Warning: Unused variable 'iedge' declared at (1) [-Wunused-variable]>
+[0499]    PetscInt                  :: nsize                            <Warning: Unused variable 'nsize' declared at (1) [-Wunused-variable]>

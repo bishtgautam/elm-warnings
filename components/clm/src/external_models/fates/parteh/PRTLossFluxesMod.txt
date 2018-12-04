@@ -1,0 +1,4 @@
+[0211]                sp_target = prt%variables(i_cvar)%val(i_pos) * target_stoich                       <Warning: 'i_cvar' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0211]                sp_target = prt%variables(i_cvar)%val(i_pos) * target_stoich                       <Warning: 'target_stoich' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0444]     real(r8)            :: retrans             ! retranslocated fraction                          <note: 'retrans' was declared here>
+[0490]             turnover_mass = (1.0_r8 - retrans) * mass_fraction * prt%variables(i_var)%val(i_pos)  <Warning: 'retrans' may be used uninitialized in this function [-Wmaybe-uninitialized]>

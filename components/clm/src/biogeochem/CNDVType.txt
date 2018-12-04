@@ -1,0 +1,13 @@
+[0185]  subroutine InitHistory(this, bounds)                                       <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0217]    use spmdMod    , only : masterproc                                       <Warning: Unused module variable 'masterproc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0230]    integer           :: j,c,p		! indices                                    <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0230]    integer           :: j,c,p		! indices                                    <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0230]    integer           :: j,c,p		! indices                                    <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0231]    logical           :: readvar	! determine if variable is on initial file  <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0232]    logical           :: do_io		! whether to do i/o for the given variable   <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0233]    integer           :: nump_global	! total number of patches, globally     <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0236]    integer           :: itemp		! temporary                                  <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0236]    integer           :: itemp		! temporary                                  <Warning: Unused variable 'itemp' declared at (1) [-Wunused-variable]>
+[0237]    integer , pointer :: iptemp(:)	! pointer to memory to be allocated       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0337]  subroutine InitAccBuffer (this, bounds)                                    <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0337]  subroutine InitAccBuffer (this, bounds)                                    <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>

@@ -1,0 +1,24 @@
+[0116]    class(emi_data), pointer :: data                                                            <Warning: Unused variable 'data' declared at (1) [-Wunused-variable]>
+[0191]    class(emi_data), pointer :: data                                                            <Warning: Unused variable 'data' declared at (1) [-Wunused-variable]>
+[0349]  subroutine EM_PTM_Init(this, l2e_init_list, e2l_init_list, iam, bounds_clump)                 <Warning: Unused dummy argument 'e2l_init_list' at (1) [-Wunused-dummy-argument]>
+[0423]    use filterMod                 , only : filter                                               <Warning: Unused module variable 'filter' which has been explicitly imported at (1) [-Wunused-variable]>
+[0472]    integer           :: c,g,fc,j,l               ! do loop indices                             <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>
+[0472]    integer           :: c,g,fc,j,l               ! do loop indices                             <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0472]    integer           :: c,g,fc,j,l               ! do loop indices                             <note: 'l' was declared here>
+[0487]    integer           :: ieqn                                                                   <Warning: Unused variable 'ieqn' declared at (1) [-Wunused-variable]>
+[0488]    integer           :: ieqn_1                                                                 <Warning: Unused variable 'ieqn_1' declared at (1) [-Wunused-variable]>
+[0489]    integer           :: ieqn_2                                                                 <Warning: Unused variable 'ieqn_2' declared at (1) [-Wunused-variable]>
+[0490]    integer           :: icond                                                                  <Warning: Unused variable 'icond' declared at (1) [-Wunused-variable]>
+[0491]    integer           :: nvars_for_coupling                                                     <Warning: Unused variable 'nvars_for_coupling' declared at (1) [-Wunused-variable]>
+[0492]    integer, pointer  :: var_ids_for_coupling(:)                                                <Warning: Unused variable 'var_ids_for_coupling' declared at (1) [-Wunused-variable]>
+[0493]    integer, pointer  :: goveqn_ids_for_coupling(:)                                             <Warning: Unused variable 'goveqn_ids_for_coupling' declared at (1) [-Wunused-variable]>
+[0667]          if ((col_active(c) == 1) .and. (lun_lakpoi(l) == 0) .and. (lun_urbpoi(l) == 0)) then  <Warning: 'l' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0907]    integer  , pointer :: col_active(:)                                                         <Warning: Unused variable 'col_active' declared at (1) [-Wunused-variable]>
+[0908]    integer  , pointer :: col_landunit(:)                                                       <Warning: Unused variable 'col_landunit' declared at (1) [-Wunused-variable]>
+[0909]    integer  , pointer :: lun_lakpoi(:)                                                         <Warning: Unused variable 'lun_lakpoi' declared at (1) [-Wunused-variable]>
+[0910]    integer  , pointer :: lun_urbpoi(:)                                                         <Warning: Unused variable 'lun_urbpoi' declared at (1) [-Wunused-variable]>
+[1086]    use mpp_varpar                , only : nlevgrnd, nlevsno                                    <Warning: Unused module variable 'nlevsno' which has been explicitly imported at (1) [-Wunused-variable]>
+[1095]    integer           :: c,g,fc,j,l               ! do loop indices                             <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>
+[1095]    integer           :: c,g,fc,j,l               ! do loop indices                             <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[1177]  subroutine EM_PTM_Solve(this, em_stage, dt, nstep, clump_rank, l2e_list, &                    <Warning: Unused dummy argument 'clump_rank' at (1) [-Wunused-dummy-argument]>
+[1308]    integer  , pointer                   :: col_type(:)                                         <Warning: Unused variable 'col_type' declared at (1) [-Wunused-variable]>

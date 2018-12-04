@@ -1,0 +1,5 @@
+[0310]       dgravityterm_dden_up = upweight*dist_gravity*FMWH2O       <Warning: 'upweight' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0327]       dq_dP_dn = Dq*(dukvr_dP_dn*dphi + ukvr*dphi_dP_dn)*area;  <Warning: 'dq' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0616]       dgravityterm_dden_up = upweight*dist_gravity*FMWH2O       <Warning: 'upweight' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0633]       dq_dT_dn = Dq*(dukvr_dT_dn*dphi + ukvr*dphi_dT_dn)*area;  <Warning: 'dq' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0699]    PetscReal :: area                                            <Warning: Unused variable 'area' declared at (1) [-Wunused-variable]>

@@ -1,0 +1,29 @@
+[0061]    PetscInt :: ii, jj, kk                                  <Warning: Unused variable 'ii' declared at (1) [-Wunused-variable]>
+[0061]    PetscInt :: ii, jj, kk                                  <Warning: Unused variable 'jj' declared at (1) [-Wunused-variable]>
+[0061]    PetscInt :: ii, jj, kk                                  <Warning: Unused variable 'kk' declared at (1) [-Wunused-variable]>
+[0062]    PetscInt :: count                                       <Warning: Unused variable 'count' declared at (1) [-Wunused-variable]>
+[0122]    PetscInt                        :: ii, jj, kk           <Warning: Unused variable 'ii' declared at (1) [-Wunused-variable]>
+[0122]    PetscInt                        :: ii, jj, kk           <Warning: Unused variable 'jj' declared at (1) [-Wunused-variable]>
+[0122]    PetscInt                        :: ii, jj, kk           <Warning: Unused variable 'kk' declared at (1) [-Wunused-variable]>
+[0163]    PetscInt                        :: ii, jj, kk           <Warning: Unused variable 'ii' declared at (1) [-Wunused-variable]>
+[0163]    PetscInt                        :: ii, jj, kk           <Warning: Unused variable 'jj' declared at (1) [-Wunused-variable]>
+[0163]    PetscInt                        :: ii, jj, kk           <Warning: Unused variable 'kk' declared at (1) [-Wunused-variable]>
+[0212]             dc(count) = dd/2.d0 + dd * (index - 1) + dmin  <Warning: 'index' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0393]    PetscInt                        :: count                <Warning: Unused variable 'count' declared at (1) [-Wunused-variable]>
+[0459]             conn_dist_up(iconn) = 0.5d0*dist               <Warning: 'dist' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0461]             conn_area(iconn)    = area                     <Warning: 'area' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0486]    PetscInt  , pointer     :: tmp_3d   (:,:,:)             <Warning: Unused variable 'tmp_3d' declared at (1) [-Wunused-variable]>
+[0516]    PetscInt  , pointer     :: tmp_3d   (:,:,:)             <Warning: Unused variable 'tmp_3d' declared at (1) [-Wunused-variable]>
+[0519]    PetscInt                :: iconn                        <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[0558]    PetscInt  , pointer     :: tmp_3d   (:,:,:)             <Warning: Unused variable 'tmp_3d' declared at (1) [-Wunused-variable]>
+[0561]    PetscInt                :: iconn                        <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[0592]    PetscInt  , pointer     :: tmp_3d   (:,:,:)             <Warning: Unused variable 'tmp_3d' declared at (1) [-Wunused-variable]>
+[0595]    PetscInt                :: iconn                        <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[0626]    PetscInt  , pointer     :: tmp_3d   (:,:,:)             <Warning: Unused variable 'tmp_3d' declared at (1) [-Wunused-variable]>
+[0629]    PetscInt                :: iconn                        <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[0660]    PetscInt  , pointer     :: tmp_3d   (:,:,:)             <Warning: Unused variable 'tmp_3d' declared at (1) [-Wunused-variable]>
+[0663]    PetscInt                :: iconn                        <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[0694]    PetscInt  , pointer     :: tmp_3d   (:,:,:)             <Warning: Unused variable 'tmp_3d' declared at (1) [-Wunused-variable]>
+[0697]    PetscInt                :: iconn                        <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[0728]    PetscInt  , pointer     :: tmp_3d   (:,:,:)             <Warning: Unused variable 'tmp_3d' declared at (1) [-Wunused-variable]>
+[0731]    PetscInt                :: iconn                        <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>

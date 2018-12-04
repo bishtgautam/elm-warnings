@@ -1,0 +1,29 @@
+[0453]   type(fates_restart_variable_type),pointer :: rvar                     <Warning: Unused variable 'rvar' declared at (1) [-Wunused-variable]>
+[0454]   integer                      :: lb1,ub1,lb2,ub2                       <Warning: Unused variable 'lb1' declared at (1) [-Wunused-variable]>
+[0454]   integer                      :: lb1,ub1,lb2,ub2                       <Warning: Unused variable 'lb2' declared at (1) [-Wunused-variable]>
+[0454]   integer                      :: lb1,ub1,lb2,ub2                       <Warning: Unused variable 'ub1' declared at (1) [-Wunused-variable]>
+[0454]   integer                      :: lb1,ub1,lb2,ub2                       <Warning: Unused variable 'ub2' declared at (1) [-Wunused-variable]>
+[1004]    type(fates_restart_variable_type),pointer :: rvar                    <Warning: Unused variable 'rvar' declared at (1) [-Wunused-variable]>
+[1005]    integer :: ub1,lb1,ub2,lb2    ! Bounds for allocating the var        <Warning: Unused variable 'lb1' declared at (1) [-Wunused-variable]>
+[1005]    integer :: ub1,lb1,ub2,lb2    ! Bounds for allocating the var        <Warning: Unused variable 'lb2' declared at (1) [-Wunused-variable]>
+[1005]    integer :: ub1,lb1,ub2,lb2    ! Bounds for allocating the var        <Warning: Unused variable 'ub1' declared at (1) [-Wunused-variable]>
+[1005]    integer :: ub1,lb1,ub2,lb2    ! Bounds for allocating the var        <Warning: Unused variable 'ub2' declared at (1) [-Wunused-variable]>
+[1006]    integer :: ityp                                                      <Warning: Unused variable 'ityp' declared at (1) [-Wunused-variable]>
+[1075]    integer  :: ft               ! functional type index                 <Warning: Unused variable 'ft' declared at (1) [-Wunused-variable]>
+[1076]    integer  :: k,j,i            ! indices to the radiation matrix       <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[1076]    integer  :: k,j,i            ! indices to the radiation matrix       <Warning: Unused variable 'k' declared at (1) [-Wunused-variable]>
+[1081]    type(fates_restart_variable_type) :: rvar                            <Warning: Unused variable 'rvar' declared at (1) [-Wunused-variable]>
+[1428]     use EDPftvarcon,          only : EDPftvarcon_inst                   <Warning: Unused module variable 'edpftvarcon_inst' which has been explicitly imported at (1) [-Wunused-variable]>
+[1460]     integer                           :: ft                             <Warning: Unused variable 'ft' declared at (1) [-Wunused-variable]>
+[1532]                temp_cohort%canopy_layer = 1.0_r8                        <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1635]     integer :: s, i, j, k                                               <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[1635]     integer :: s, i, j, k                                               <Warning: Unused variable 'k' declared at (1) [-Wunused-variable]>
+[1801]                ccohort%canopy_layer = rio_canopy_layer_co(io_idx_co)    <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1929]          sites(s)%status         = rio_cd_status_si(io_idx_si)          <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1930]          sites(s)%dstatus        = rio_dd_status_si(io_idx_si)          <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1932]          sites(s)%leafondate     = rio_leafondate_si(io_idx_si)         <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1933]          sites(s)%leafoffdate    = rio_leafoffdate_si(io_idx_si)        <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1934]          sites(s)%dleafondate    = rio_dleafondate_si(io_idx_si)        <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1935]          sites(s)%dleafoffdate   = rio_dleafoffdate_si(io_idx_si)       <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1966]   subroutine update_3dpatch_radiation(this, nc, nsites, sites, bc_out)  <Warning: Unused dummy argument 'nc' at (1) [-Wunused-dummy-argument]>
+[1966]   subroutine update_3dpatch_radiation(this, nc, nsites, sites, bc_out)  <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>

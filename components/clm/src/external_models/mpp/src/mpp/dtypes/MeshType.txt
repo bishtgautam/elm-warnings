@@ -1,0 +1,9 @@
+[0338]    PetscInt                           :: c,j,l                              !indices  <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0355]    PetscErrorCode                     :: ierr                                         <Warning: Unused variable 'ierr' declared at (1) [-Wunused-variable]>
+[1105]  subroutine MeshDeallocateMemory (this)                                               <Warning: 'meshdeallocatememory' defined but not used [-Wunused-function]>
+[1251]    PetscInt, pointer :: filter(:)                                                     <Warning: Unused variable 'filter' declared at (1) [-Wunused-variable]>
+[1294]    PetscInt                           :: iconn                                        <Warning: Unused variable 'iconn' declared at (1) [-Wunused-variable]>
+[1295]    PetscReal                          :: dist_x                                       <Warning: Unused variable 'dist_x' declared at (1) [-Wunused-variable]>
+[1296]    PetscReal                          :: dist_y                                       <Warning: Unused variable 'dist_y' declared at (1) [-Wunused-variable]>
+[1297]    PetscReal                          :: dist_z                                       <Warning: Unused variable 'dist_z' declared at (1) [-Wunused-variable]>
+[1298]    PetscReal                          :: dist                                         <Warning: Unused variable 'dist' declared at (1) [-Wunused-variable]>

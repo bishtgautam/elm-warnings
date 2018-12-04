@@ -1,0 +1,52 @@
+[0106]  subroutine VSFMSOEResidual(this, snes, X, F, ierr)                                         <Warning: Unused dummy argument 'snes' at (1) [-Wunused-dummy-argument]>
+[0136]    PetscViewer                     :: viewer                                                <Warning: Unused variable 'viewer' declared at (1) [-Wunused-variable]>
+[0137]    character(len=256)              :: string                                                <Warning: Unused variable 'string' declared at (1) [-Wunused-variable]>
+[0232]  subroutine VSFMJacobian(this, snes, X, A, B, ierr)                                         <Warning: Unused dummy argument 'snes' at (1) [-Wunused-dummy-argument]>
+[0256]    PetscInt                        :: icell                                                 <Warning: Unused variable 'icell' declared at (1) [-Wunused-variable]>
+[0265]    PetscViewer                     :: viewer                                                <Warning: Unused variable 'viewer' declared at (1) [-Wunused-variable]>
+[0266]    character(len=256)              :: string                                                <Warning: Unused variable 'string' declared at (1) [-Wunused-variable]>
+[0511]    nauxvar = size(avars)                                                                    <Warning: 'avars.dim[0].ubound' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0511]    nauxvar = size(avars)                                                                    <Warning: 'avars.dim[0].lbound' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0522]       if (avars(iauxvar + iauxvar_off)%is_active) then                                      <Warning: 'avars.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0522]       if (avars(iauxvar + iauxvar_off)%is_active) then                                      <Warning: 'avars.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0523]          call avars(iauxvar + iauxvar_off)%SetValue(var_type, var_p(iauxvar))               <Warning: 'avars.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0727]    PetscInt                                   :: iauxvar_off                                <Warning: 'iauxvar_off' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0759]       if (auxvars(iauxvar + iauxvar_off)%is_active) then                                    <Warning: 'auxvars.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0759]       if (auxvars(iauxvar + iauxvar_off)%is_active) then                                    <Warning: 'auxvars.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0760]          call auxvars(iauxvar + iauxvar_off)%SetValue(var_type, data_1d(iauxvar))           <Warning: 'auxvars.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0768]       soe_auxvar_id, data_1d)                                                               <Warning: Unused dummy argument 'soe_auxvar_id' at (1) [-Wunused-dummy-argument]>
+[0814]    do iauxvar = iauxvar_beg, iauxvar_end                                                    <Warning: 'iauxvar_end' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0814]    do iauxvar = iauxvar_beg, iauxvar_end                                                    <Warning: 'iauxvar_beg' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0815]       call auxvars(iauxvar)%SetValue(var_type, data_1d(iauxvar))                            <Warning: 'auxvars.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0815]       call auxvars(iauxvar)%SetValue(var_type, data_1d(iauxvar))                            <Warning: 'auxvars.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0815]       call auxvars(iauxvar)%SetValue(var_type, data_1d(iauxvar))                            <Warning: 'auxvars.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0842]    PetscInt                                   :: nsize                                      <Warning: Unused variable 'nsize' declared at (1) [-Wunused-variable]>
+[0846]    PetscInt                                   :: iauxvar_off                                <Warning: 'iauxvar_off' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0881]       call auxvars(iauxvar + iauxvar_off)%GetValue(var_type, var_value)                     <Warning: 'auxvars.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0881]       call auxvars(iauxvar + iauxvar_off)%GetValue(var_type, var_value)                     <Warning: 'auxvars.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0881]       call auxvars(iauxvar + iauxvar_off)%GetValue(var_type, var_value)                     <Warning: 'auxvars.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0948]    PetscInt                        :: iauxvar                                               <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[1004]    PetscErrorCode                  :: ierr                                                  <Warning: Unused variable 'ierr' declared at (1) [-Wunused-variable]>
+[1299]                    idx = cur_conn_set_2%conn(iauxvar)%GetIDDn()                             <Warning: 'cur_conn_set_2' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1360]  subroutine VSFMSOEUpdateBCConnections(cur_goveq_1, cur_goveq_2, mpp_id)                    <Warning: Unused dummy argument 'mpp_id' at (1) [-Wunused-dummy-argument]>
+[1406]    PetscReal                                           :: dist, dist_up, dist_dn            <Warning: Unused variable 'dist_dn' declared at (1) [-Wunused-variable]>
+[1406]    PetscReal                                           :: dist, dist_up, dist_dn            <Warning: Unused variable 'dist_up' declared at (1) [-Wunused-variable]>
+[1407]    PetscReal                                           :: area_1, area_2                    <Warning: Unused variable 'area_1' declared at (1) [-Wunused-variable]>
+[1407]    PetscReal                                           :: area_1, area_2                    <Warning: Unused variable 'area_2' declared at (1) [-Wunused-variable]>
+[1411]    PetscReal, dimension(3) :: vec3Swap                                                      <Warning: Unused variable 'vec3swap' declared at (1) [-Wunused-variable]>
+[1412]    PetscReal :: valSwap                                                                     <Warning: Unused variable 'valswap' declared at (1) [-Wunused-variable]>
+[1413]    type(saturation_params_type) :: satParamsSwap                                            <Warning: Unused variable 'satparamsswap' declared at (1) [-Wunused-variable]>
+[1490]             if (cur_conn_set_1%num_connections /= &                                         <Warning: 'cur_conn_set_2' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1532]                id_dn_1 = cur_conn_set_1%conn(iauxvar)%GetIDDn()                             <Warning: 'cur_conn_set_1' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1573]                call RichODEPressureAuxVarCopy(tmp_aux_var_bc_1, aux_vars_bc_1(sum_conn_1))  <Warning: 'aux_vars_bc_1.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1573]                call RichODEPressureAuxVarCopy(tmp_aux_var_bc_1, aux_vars_bc_1(sum_conn_1))  <Warning: 'aux_vars_bc_1.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1573]                call RichODEPressureAuxVarCopy(tmp_aux_var_bc_1, aux_vars_bc_1(sum_conn_1))  <Warning: 'aux_vars_bc_1.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1574]                call RichODEPressureAuxVarCopy(tmp_aux_var_bc_2, aux_vars_bc_2(sum_conn_2))  <Warning: 'aux_vars_bc_2.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1574]                call RichODEPressureAuxVarCopy(tmp_aux_var_bc_2, aux_vars_bc_2(sum_conn_2))  <Warning: 'aux_vars_bc_2.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1574]                call RichODEPressureAuxVarCopy(tmp_aux_var_bc_2, aux_vars_bc_2(sum_conn_2))  <Warning: 'aux_vars_bc_2.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1579]                if (aux_vars_conn_bc_1(sum_conn_1)%flux_type /= &                            <Warning: 'aux_vars_conn_bc_2.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1579]                if (aux_vars_conn_bc_1(sum_conn_1)%flux_type /= &                            <Warning: 'aux_vars_conn_bc_2.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1579]                if (aux_vars_conn_bc_1(sum_conn_1)%flux_type /= &                            <Warning: 'aux_vars_conn_bc_1.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1579]                if (aux_vars_conn_bc_1(sum_conn_1)%flux_type /= &                            <Warning: 'aux_vars_conn_bc_1.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1589]                if (aux_vars_conn_bc_1(sum_conn_1)%conductance_type /= &                     <Warning: 'aux_vars_conn_bc_2.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1589]                if (aux_vars_conn_bc_1(sum_conn_1)%conductance_type /= &                     <Warning: 'aux_vars_conn_bc_1.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>

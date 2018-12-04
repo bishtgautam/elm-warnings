@@ -1,0 +1,5 @@
+[0211]       sites(s)%leafondate   = leafon   <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0212]       sites(s)%leafoffdate  = leafoff  <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0221]       sites(s)%status = stat           <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0223]       sites(s)%dstatus= dstat          <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0343]	   sitep => sites(s)                   <Warning: Nonconforming tab character at (1) [-Wtabs]>

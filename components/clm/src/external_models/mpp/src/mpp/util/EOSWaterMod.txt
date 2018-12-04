@@ -1,0 +1,9 @@
+[0210]    PetscInt             :: i                                                       <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0215]    PetscReal            :: beta,beta2x,beta4,theta,utheta,theta2x,theta18,theta20  <Warning: Unused variable 'utheta' declared at (1) [-Wunused-variable]>
+[0218]    PetscReal            :: tempreal                                                <Warning: Unused variable 'tempreal' declared at (1) [-Wunused-variable]>
+[0219]    PetscReal            :: vr,ypt,yptt,zpt,zpp,vrpt,vrpp,cnv                       <Warning: Unused variable 'yptt' declared at (1) [-Wunused-variable]>
+[0568]  subroutine Viscosity(p, t_K, vis, dvis_dp, dvis_dT)                               <Warning: Unused dummy argument 'p' at (1) [-Wunused-dummy-argument]>
+[0568]  subroutine Viscosity(p, t_K, vis, dvis_dp, dvis_dT)                               <Warning: Unused dummy argument 't_k' at (1) [-Wunused-dummy-argument]>
+[0650]    PetscReal              :: T_C                                                   <Warning: Unused variable 't_c' declared at (1) [-Wunused-variable]>
+[0651]    PetscBool              :: cal_deriv                                             <Warning: Unused variable 'cal_deriv' declared at (1) [-Wunused-variable]>
+[0652]    PetscErrorCode         :: ierr                                                  <Warning: Unused variable 'ierr' declared at (1) [-Wunused-variable]>

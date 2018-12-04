@@ -1,0 +1,6 @@
+[0072]       name_val       =  'Soil hydraulic conductivity'              <Warning: CHARACTER expression will be truncated in assignment (24/27) at (1) [-Wcharacter-truncation]>
+[0085]       name_val       =  'Clapp and Hornberger parameter'           <Warning: CHARACTER expression will be truncated in assignment (24/30) at (1) [-Wcharacter-truncation]>
+[0137]       name_val       =  'Thermal conductivity minearls'            <Warning: CHARACTER expression will be truncated in assignment (24/29) at (1) [-Wcharacter-truncation]>
+[0150]       name_val       =  'Thermal conductivity dry soils'           <Warning: CHARACTER expression will be truncated in assignment (24/30) at (1) [-Wcharacter-truncation]>
+[0215]       name_val       =  'Volumetric soil water at field capacity'  <Warning: CHARACTER expression will be truncated in assignment (24/39) at (1) [-Wcharacter-truncation]>
+[0228]       name_val       =  'Fraction of roots in each soil layer'     <Warning: CHARACTER expression will be truncated in assignment (24/36) at (1) [-Wcharacter-truncation]>

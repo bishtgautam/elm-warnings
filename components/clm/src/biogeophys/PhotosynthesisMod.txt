@@ -1,0 +1,78 @@
+[0075]    use pftvarcon      , only : nbrdlf_dcd_tmp_shrub, nsoybean, nsoybeanirrig, npcropmin             <Warning: Unused module variable 'nbrdlf_dcd_tmp_shrub' which has been explicitly imported at (1) [-Wunused-variable]>
+[0075]    use pftvarcon      , only : nbrdlf_dcd_tmp_shrub, nsoybean, nsoybeanirrig, npcropmin             <Warning: Unused module variable 'npcropmin' which has been explicitly imported at (1) [-Wunused-variable]>
+[0075]    use pftvarcon      , only : nbrdlf_dcd_tmp_shrub, nsoybean, nsoybeanirrig, npcropmin             <Warning: Unused module variable 'nsoybean' which has been explicitly imported at (1) [-Wunused-variable]>
+[0075]    use pftvarcon      , only : nbrdlf_dcd_tmp_shrub, nsoybean, nsoybeanirrig, npcropmin             <Warning: Unused module variable 'nsoybeanirrig' which has been explicitly imported at (1) [-Wunused-variable]>
+[0180]    real(r8) :: ai                ! intermediate co-limited photosynthesis (umol CO2/m**2/s)         <Warning: Unused variable 'ai' declared at (1) [-Wunused-variable]>
+[0205]    real(r8) , pointer :: lmr_z       (:,:)                                                          <Warning: 'lmr_z.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0208]    real(r8) , pointer :: ci_z        (:,:)                                                          <Warning: 'ci_z.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0209]    real(r8) , pointer :: alphapsnsun (:)                                                            <Warning: Unused variable 'alphapsnsun' declared at (1) [-Wunused-variable]>
+[0210]    real(r8) , pointer :: alphapsnsha (:)                                                            <Warning: Unused variable 'alphapsnsha' declared at (1) [-Wunused-variable]>
+[0597]               nscaler = vcmaxcint(p)                                                                <Warning: 'vcmaxcint.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0597]               nscaler = vcmaxcint(p)                                                                <Warning: 'vcmaxcint.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0597]               nscaler = vcmaxcint(p)                                                                <Warning: 'vcmaxcint.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0607]               lmr_z(p,iv) = lmr25 * ft(t_veg(p), lmrha) * fth(t_veg(p), lmrhd, lmrse, lmrc)         <Warning: 'lmr_z.dim[1].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0607]               lmr_z(p,iv) = lmr25 * ft(t_veg(p), lmrha) * fth(t_veg(p), lmrhd, lmrse, lmrc)         <Warning: 'lmr_z.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0621]                  alphapsn(p) = 1._r8                                                                <Warning: 'alphapsn.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0621]                  alphapsn(p) = 1._r8                                                                <Warning: 'alphapsn.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0621]                  alphapsn(p) = 1._r8                                                                <Warning: 'alphapsn.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0682]            if (par_z(p,iv) <= 0._r8) then           ! night time                                    <Warning: 'par_z.dim[1].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0682]            if (par_z(p,iv) <= 0._r8) then           ! night time                                    <Warning: 'par_z.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0682]            if (par_z(p,iv) <= 0._r8) then           ! night time                                    <Warning: 'par_z.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0682]            if (par_z(p,iv) <= 0._r8) then           ! night time                                    <Warning: 'par_z.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0716]                  ci_z(p,iv) = 0.7_r8 * cair(p)                                                      <Warning: 'ci_z.dim[1].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0716]                  ci_z(p,iv) = 0.7_r8 * cair(p)                                                      <Warning: 'ci_z.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0716]                  ci_z(p,iv) = 0.7_r8 * cair(p)                                                      <Warning: 'ci_z.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0749]               rs_z(p,iv) = min(1._r8/gs, rsmax0)                                                    <Warning: 'rs_z.dim[1].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0749]               rs_z(p,iv) = min(1._r8/gs, rsmax0)                                                    <Warning: 'rs_z.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0749]               rs_z(p,iv) = min(1._r8/gs, rsmax0)                                                    <Warning: 'rs_z.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0809]            psncan = psncan + psn_z(p,iv) * lai_z(p,iv)                                              <Warning: 'psn_z.dim[1].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0809]            psncan = psncan + psn_z(p,iv) * lai_z(p,iv)                                              <Warning: 'psn_z.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0809]            psncan = psncan + psn_z(p,iv) * lai_z(p,iv)                                              <Warning: 'psn_z.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0809]            psncan = psncan + psn_z(p,iv) * lai_z(p,iv)                                              <Warning: 'psn_z.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0809]            psncan = psncan + psn_z(p,iv) * lai_z(p,iv)                                              <Warning: 'lai_z.dim[1].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0809]            psncan = psncan + psn_z(p,iv) * lai_z(p,iv)                                              <Warning: 'lai_z.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0809]            psncan = psncan + psn_z(p,iv) * lai_z(p,iv)                                              <Warning: 'lai_z.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0809]            psncan = psncan + psn_z(p,iv) * lai_z(p,iv)                                              <Warning: 'lai_z.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0813]            lmrcan = lmrcan + lmr_z(p,iv) * lai_z(p,iv)                                              <Warning: 'lmr_z.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0814]            gscan = gscan + lai_z(p,iv) / (rb(p)+rs_z(p,iv))                                         <Warning: 'rs_z.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0818]            psn(p) = psncan / laican                                                                 <Warning: 'psn.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0818]            psn(p) = psncan / laican                                                                 <Warning: 'psn.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0819]            psn_wc(p) = psncan_wc / laican                                                           <Warning: 'psn_wc.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0819]            psn_wc(p) = psncan_wc / laican                                                           <Warning: 'psn_wc.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0825]            psn(p) =  0._r8                                                                          <Warning: 'psn.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0826]            psn_wc(p) =  0._r8                                                                       <Warning: 'psn_wc.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0827]            psn_wj(p) =  0._r8                                                                       <Warning: 'psn_wj.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0827]            psn_wj(p) =  0._r8                                                                       <Warning: 'psn_wj.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0827]            psn_wj(p) =  0._r8                                                                       <Warning: 'psn_wj.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0828]            psn_wp(p) =  0._r8                                                                       <Warning: 'psn_wp.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0828]            psn_wp(p) =  0._r8                                                                       <Warning: 'psn_wp.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0828]            psn_wp(p) =  0._r8                                                                       <Warning: 'psn_wp.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0829]            lmr(p) = 0._r8                                                                           <Warning: 'lmr.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0829]            lmr(p) = 0._r8                                                                           <Warning: 'lmr.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0829]            lmr(p) = 0._r8                                                                           <Warning: 'lmr.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0830]            rs(p) = 0._r8                                                                            <Warning: 'rs.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0830]            rs(p) = 0._r8                                                                            <Warning: 'rs.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0830]            rs(p) = 0._r8                                                                            <Warning: 'rs.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0840]       atm2lnd_vars, cnstate_vars, canopystate_vars, photosyns_vars)                                 <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0856]    integer :: f,fp,p,l,t,g               ! indices                                                  <Warning: Unused variable 'fp' declared at (1) [-Wunused-variable]>
+[0856]    integer :: f,fp,p,l,t,g               ! indices                                                  <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0931]       atm2lnd_vars, canopystate_vars, cnstate_vars, solarabs_vars, surfalb_vars, photosyns_vars, &  <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0931]       atm2lnd_vars, canopystate_vars, cnstate_vars, solarabs_vars, surfalb_vars, photosyns_vars, &  <Warning: Unused dummy argument 'canopystate_vars' at (1) [-Wunused-dummy-argument]>
+[0989]            if (par_z(p,iv) <= 0._r8) then           ! night time                                    <Warning: 'par_z.dim[1].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0989]            if (par_z(p,iv) <= 0._r8) then           ! night time                                    <Warning: 'par_z.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0989]            if (par_z(p,iv) <= 0._r8) then           ! night time                                    <Warning: 'par_z.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0989]            if (par_z(p,iv) <= 0._r8) then           ! night time                                    <Warning: 'par_z.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0990]               alphapsn(p) = 1._r8                                                                   <Warning: 'alphapsn.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0990]               alphapsn(p) = 1._r8                                                                   <Warning: 'alphapsn.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0997]                    ((1._r8 - c3psn(veg_pp%itype(p))) * 4.4_r8))/1000._r8)                           <Warning: 'alphapsn.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1041]    real(r8) :: a, b                                                                                 <Warning: Unused variable 'a' declared at (1) [-Wunused-variable]>
+[1041]    real(r8) :: a, b                                                                                 <Warning: Unused variable 'b' declared at (1) [-Wunused-variable]>
+[1042]    real(r8) :: fa, fb                                                                               <Warning: Unused variable 'fa' declared at (1) [-Wunused-variable]>
+[1042]    real(r8) :: fa, fb                                                                               <Warning: Unused variable 'fb' declared at (1) [-Wunused-variable]>
+[1155]    real(r8)  :: a,b,c,d,e,fa,fb,fc,p,q,r,s,tol1,xm                                                  <note: 'e' was declared here>
+[1205]          if(2._r8*p < min(3._r8*xm*q-abs(tol1*q),abs(e*q))) then                                    <Warning: 'e' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1238]  function ft(tl, ha) result(ans)                                                                    <Warning: 'ft' defined but not used [-Wunused-function]>
+[1263]  function fth(tl,hd,se,scaleFactor) result(ans)                                                     <Warning: 'fth' defined but not used [-Wunused-function]>
+[1289]  function fth25(hd,se)result(ans)                                                                   <Warning: 'fth25' defined but not used [-Wunused-function]>
+[1314]  subroutine ci_func(ci, fval, p, iv, c, t, gb_mol, je, cair, oair, lmr_z, par_z,&                   <Warning: Unused dummy argument 'c' at (1) [-Wunused-dummy-argument]>
+[1315]       rh_can, gs_mol, atm2lnd_vars, photosyns_vars)                                                 <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>

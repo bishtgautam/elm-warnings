@@ -1,0 +1,7 @@
+[0119]    character(len=32)  :: subname = 'CNPhenolParamsType'                            <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0869]       soilstate_vars, atm2lnd_vars, temperature_vars, cnstate_vars        , &      <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[1471]      jday    = get_curr_calday()                                                   <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1869]    integer           :: p,g,n,i                     ! indices                      <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[1946]    integer  c,g                        ! indices                                   <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[2355]    integer :: p, c         ! indices                                               <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[2934]            cnstate_vars, carbonflux_vars, nitrogenflux_vars, phosphorusflux_vars)  <Warning: Unused dummy argument 'cnstate_vars' at (1) [-Wunused-dummy-argument]>

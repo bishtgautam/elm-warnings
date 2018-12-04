@@ -1,0 +1,4 @@
+[0052]    integer :: begp, endp  <Warning: Unused variable 'begp' declared at (1) [-Wunused-variable]>
+[0052]    integer :: begp, endp  <Warning: Unused variable 'endp' declared at (1) [-Wunused-variable]>
+[0054]    integer :: begg, endg  <Warning: Unused variable 'begg' declared at (1) [-Wunused-variable]>
+[0054]    integer :: begg, endg  <Warning: Unused variable 'endg' declared at (1) [-Wunused-variable]>

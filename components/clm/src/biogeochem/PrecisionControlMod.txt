@@ -1,0 +1,6 @@
+[0060]    real(r8):: cc,cn,cp    ! truncation terms for column-level corrections  <Warning: Unused variable 'cp' declared at (1) [-Wunused-variable]>
+[0068]    real(r8):: cc_eca                                                       <Warning: Unused variable 'cc_eca' declared at (1) [-Wunused-variable]>
+[0224]                  pc13 = pc13 + c13cs%leafc_patch(p)                        <Warning: 'pc13' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0228]                  pc14 = pc14 + c14cs%leafc_patch(p)                        <Warning: 'pc14' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0708]                        cc13 = cc13 + c13cs%decomp_cpools_vr_col(c,j,k)     <Warning: 'cc13' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0712]                        cc14 = cc14 + c14cs%decomp_cpools_vr_col(c,j,k)     <Warning: 'cc14' may be used uninitialized in this function [-Wmaybe-uninitialized]>

@@ -1,0 +1,23 @@
+[0088]    integer            :: i                          ! index                   <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0245]          canopystate_vars%tlai_patch(p) = sdat_lai%avs(1)%rAttr(ip,ig)        <Warning: 'ip' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0430]    it(1) = t + 0.5_r8                                                         <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[0476]    integer :: g,k,l,m,n,p                ! indices                            <Warning: Unused variable 'm' declared at (1) [-Wunused-variable]>
+[0476]    integer :: g,k,l,m,n,p                ! indices                            <Warning: Unused variable 'n' declared at (1) [-Wunused-variable]>
+[0478]    integer :: dimid,varid                ! input netCDF id's                  <Warning: Unused variable 'dimid' declared at (1) [-Wunused-variable]>
+[0478]    integer :: dimid,varid                ! input netCDF id's                  <Warning: Unused variable 'varid' declared at (1) [-Wunused-variable]>
+[0479]    integer :: ntim                       ! number of input data time samples  <Warning: Unused variable 'ntim' declared at (1) [-Wunused-variable]>
+[0480]    integer :: nlon_i                     ! number of input data longitudes    <Warning: Unused variable 'nlon_i' declared at (1) [-Wunused-variable]>
+[0481]    integer :: nlat_i                     ! number of input data latitudes     <Warning: Unused variable 'nlat_i' declared at (1) [-Wunused-variable]>
+[0482]    integer :: npft_i                     ! number of input data pft types     <Warning: Unused variable 'npft_i' declared at (1) [-Wunused-variable]>
+[0562]    use spmdMod          , only : masterproc, mpicom, MPI_REAL8, MPI_INTEGER   <Warning: Unused module variable 'mpicom' which has been explicitly imported at (1) [-Wunused-variable]>
+[0576]    integer :: g,n,k,l,m,p,ni,nj,ns       ! indices                            <Warning: Unused variable 'm' declared at (1) [-Wunused-variable]>
+[0576]    integer :: g,n,k,l,m,p,ni,nj,ns       ! indices                            <Warning: Unused variable 'n' declared at (1) [-Wunused-variable]>
+[0576]    integer :: g,n,k,l,m,p,ni,nj,ns       ! indices                            <Warning: Unused variable 'ni' declared at (1) [-Wunused-variable]>
+[0576]    integer :: g,n,k,l,m,p,ni,nj,ns       ! indices                            <Warning: Unused variable 'nj' declared at (1) [-Wunused-variable]>
+[0576]    integer :: g,n,k,l,m,p,ni,nj,ns       ! indices                            <Warning: Unused variable 'ns' declared at (1) [-Wunused-variable]>
+[0577]    integer :: dimid,varid                ! input netCDF id's                  <Warning: Unused variable 'dimid' declared at (1) [-Wunused-variable]>
+[0577]    integer :: dimid,varid                ! input netCDF id's                  <Warning: Unused variable 'varid' declared at (1) [-Wunused-variable]>
+[0578]    integer :: ntim                       ! number of input data time samples  <Warning: Unused variable 'ntim' declared at (1) [-Wunused-variable]>
+[0579]    integer :: nlon_i                     ! number of input data longitudes    <Warning: Unused variable 'nlon_i' declared at (1) [-Wunused-variable]>
+[0580]    integer :: nlat_i                     ! number of input data latitudes     <Warning: Unused variable 'nlat_i' declared at (1) [-Wunused-variable]>
+[0581]    integer :: npft_i                     ! number of input data pft types     <Warning: Unused variable 'npft_i' declared at (1) [-Wunused-variable]>

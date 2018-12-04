@@ -1,0 +1,2 @@
+[0073]  subroutine EMID_Dim_GetDimValue(this, bounds_clump, dim_name, dim_value)  <Warning: Unused dummy argument 'this' at (1) [-Wunused-dummy-argument]>
+[0154]    class(emi_data_dimension_type), pointer :: new_dim                      <Warning: Unused variable 'new_dim' declared at (1) [-Wunused-variable]>

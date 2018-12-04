@@ -1,0 +1,16 @@
+[0077]    character(len=32)  :: subname = 'CNDecompParamsType'                                                                            <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0094]                canopystate_vars, soilstate_vars,               &                                                                   <Warning: Unused dummy argument 'canopystate_vars' at (1) [-Wunused-dummy-argument]>
+[0141]    integer :: c,j,k,l,m                                                                               !indices                     <Warning: Unused variable 'm' declared at (1) [-Wunused-variable]>
+[0149]    real(r8):: dnp                                                                                     !denitrification proportion  <Warning: Unused variable 'dnp' declared at (1) [-Wunused-variable]>
+[0155]    real(r8):: phr_vr(bounds%begc:bounds%endc,1:nlevdecomp)                                            !potential HR (gC/m3/s)      <Warning: Unused variable 'phr_vr' declared at (1) [-Wunused-variable]>
+[0512]             	  if (pmnf_decomp_cascade(c,j,k) <= 0._r8) then                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0541]          	   if (pmnf_decomp_cascade(c,j,k) > 0._r8) then                                                                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0610]       photosyns_vars, canopystate_vars, soilstate_vars, temperature_vars,               &                                          <Warning: Unused dummy argument 'photosyns_vars' at (1) [-Wunused-dummy-argument]>
+[0610]       photosyns_vars, canopystate_vars, soilstate_vars, temperature_vars,               &                                          <Warning: Unused dummy argument 'soilstate_vars' at (1) [-Wunused-dummy-argument]>
+[0610]       photosyns_vars, canopystate_vars, soilstate_vars, temperature_vars,               &                                          <Warning: Unused dummy argument 'temperature_vars' at (1) [-Wunused-dummy-argument]>
+[0611]       waterstate_vars, cnstate_vars, ch4_vars,                                          &                                          <Warning: Unused dummy argument 'ch4_vars' at (1) [-Wunused-dummy-argument]>
+[0611]       waterstate_vars, cnstate_vars, ch4_vars,                                          &                                          <Warning: Unused dummy argument 'waterstate_vars' at (1) [-Wunused-dummy-argument]>
+[0613]       nitrogenstate_vars, nitrogenflux_vars, crop_vars, atm2lnd_vars,                   &                                          <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0714]	    smin_nh4_to_plant_vr_loc(:,:) = 0._r8                                                                                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0715]	    smin_no3_to_plant_vr_loc(:,:) = 0._r8                                                                                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0868]  subroutine CNvariables_nan4pf (bounds, num_soilc, filter_soilc, num_soilp, filter_soilp, &                                        <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>

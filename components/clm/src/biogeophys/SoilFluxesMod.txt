@@ -1,0 +1,18 @@
+[0008]  use shr_kind_mod	, only : r8 => shr_kind_r8                                                                 <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0009]  use shr_log_mod	, only : errMsg => shr_log_errMsg                                                           <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0010]  use decompMod		, only : bounds_type                                                                         <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0011]  use abortutils	, only : endrun                                                                              <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0012]  use perf_mod		, only : t_startf, t_stopf                                                                    <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0013]  use clm_varctl	, only : iulog                                                                               <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0014]  use clm_varpar	, only : nlevsno, nlevgrnd, nlevurb, max_patch_per_col                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0015]  use atm2lndType	, only : atm2lnd_type                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0023]  use LandunitType	   , only : lun_pp                                                                         <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0024]  use ColumnType	      , only : col_pp                                                                        <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0038]  subroutine SoilFluxes (bounds, num_urbanl, filter_urbanl, &                                                 <Warning: Unused dummy argument 'filter_urbanl' at (1) [-Wunused-dummy-argument]>
+[0038]  subroutine SoilFluxes (bounds, num_urbanl, filter_urbanl, &                                                 <Warning: Unused dummy argument 'num_urbanl' at (1) [-Wunused-dummy-argument]>
+[0040]       atm2lnd_vars, solarabs_vars, temperature_vars, canopystate_vars, &                                     <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0048]    use clm_varcon       , only : hvap, cpair, grav, vkc, tfrz, sb                                            <Warning: Unused module variable 'cpair' which has been explicitly imported at (1) [-Wunused-variable]>
+[0048]    use clm_varcon       , only : hvap, cpair, grav, vkc, tfrz, sb                                            <Warning: Unused module variable 'grav' which has been explicitly imported at (1) [-Wunused-variable]>
+[0048]    use clm_varcon       , only : hvap, cpair, grav, vkc, tfrz, sb                                            <Warning: Unused module variable 'vkc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0077]    real(r8) :: evaprat(bounds%begp:bounds%endp)                   ! ratio of qflx_evap_soi/topsoil_evap_tot  <Warning: Unused variable 'evaprat' declared at (1) [-Wunused-variable]>
+[0083]    real(r8) :: fsno_eff                                                                                      <Warning: Unused variable 'fsno_eff' declared at (1) [-Wunused-variable]>

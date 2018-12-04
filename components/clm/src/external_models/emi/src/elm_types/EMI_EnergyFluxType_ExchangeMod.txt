@@ -1,0 +1,2 @@
+[0038]    use clm_varpar             , only : nlevsoi, nlevgrnd, nlevsno  <Warning: Unused module variable 'nlevgrnd' which has been explicitly imported at (1) [-Wunused-variable]>
+[0038]    use clm_varpar             , only : nlevsoi, nlevgrnd, nlevsno  <Warning: Unused module variable 'nlevsoi' which has been explicitly imported at (1) [-Wunused-variable]>

@@ -1,0 +1,8 @@
+[0030]  subroutine NStateUpdate3(num_soilc, filter_soilc, num_soilp, filter_soilp, &  <Warning: Unused dummy argument 'filter_soilc' at (1) [-Wunused-dummy-argument]>
+[0030]  subroutine NStateUpdate3(num_soilc, filter_soilc, num_soilp, filter_soilp, &  <Warning: Unused dummy argument 'num_soilc' at (1) [-Wunused-dummy-argument]>
+[0039]    use tracer_varcon, only : is_active_betr_bgc                                <Warning: Unused module variable 'is_active_betr_bgc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0049]    integer :: c,p,j,l,k        ! indices                                       <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0049]    integer :: c,p,j,l,k        ! indices                                       <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0049]    integer :: c,p,j,l,k        ! indices                                       <Warning: Unused variable 'k' declared at (1) [-Wunused-variable]>
+[0049]    integer :: c,p,j,l,k        ! indices                                       <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0050]    integer :: fp,fc      ! lake filter indices                                 <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>

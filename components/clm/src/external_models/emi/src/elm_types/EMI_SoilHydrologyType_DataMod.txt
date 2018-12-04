@@ -1,0 +1,1 @@
+[0081]       name_val       =  'Fractional impermeability'  <Warning: CHARACTER expression will be truncated in assignment (24/25) at (1) [-Wcharacter-truncation]>

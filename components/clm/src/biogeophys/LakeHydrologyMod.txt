@@ -1,0 +1,6 @@
+[0073]    use clm_varctl      , only : iulog                                                                               <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0099]    integer  :: p,fp,g,t,l,c,j,fc,jtop                          ! indices                                            <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0104]    real(r8) :: fracsnow(bounds%begp:bounds%endp)               ! frac of precipitation that is snow                 <Warning: Unused variable 'fracsnow' declared at (1) [-Wunused-variable]>
+[0105]    real(r8) :: fracrain(bounds%begp:bounds%endp)               ! frac of precipitation that is rain                 <Warning: Unused variable 'fracrain' declared at (1) [-Wunused-variable]>
+[0114]    real(r8) :: snowmass                                        ! liquid+ice snow mass in a layer [kg/m2]            <Warning: Unused variable 'snowmass' declared at (1) [-Wunused-variable]>
+[0115]    real(r8) :: snowcap_scl_fct                                 ! temporary factor used to correct for snow capping  <Warning: Unused variable 'snowcap_scl_fct' declared at (1) [-Wunused-variable]>

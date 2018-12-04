@@ -1,0 +1,5 @@
+[0117]    integer  :: threshold_sizeclass                                                        <Warning: Unused variable 'threshold_sizeclass' declared at (1) [-Wunused-variable]>
+[1245]  subroutine create_patch(currentSite, new_patch, age, areap,cwd_ag_local,cwd_bg_local, &  <Warning: Unused dummy argument 'currentsite' at (1) [-Wunused-dummy-argument]>
+[1961]    real(r8) :: delta_dbh   ! Size of DBH bin                                              <Warning: Unused variable 'delta_dbh' declared at (1) [-Wunused-variable]>
+[1962]    integer  :: p    ! Counter for PFT                                                     <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[2001]  function countPatches( nsites, sites ) result ( totNumPatches )                          <Warning: 'countpatches' defined but not used [-Wunused-function]>

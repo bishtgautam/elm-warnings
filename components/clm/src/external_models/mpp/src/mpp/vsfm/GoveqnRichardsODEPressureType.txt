@@ -1,0 +1,32 @@
+[0314]       if (.not.associated(cur_cond)) exit                                       <Warning: 'cur_cond' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0347]    PetscInt                                 :: ncells_cond                      <Warning: Unused variable 'ncells_cond' declared at (1) [-Wunused-variable]>
+[0348]    PetscInt                                 :: icond                            <Warning: Unused variable 'icond' declared at (1) [-Wunused-variable]>
+[0375]       if (.not.associated(cur_cond)) exit                                       <Warning: 'cur_cond' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0386]  subroutine RichardsODEComputeResidual(this, X, F, ierr)                        <Warning: Unused dummy argument 'x' at (1) [-Wunused-dummy-argument]>
+[0423]  subroutine RichardsODEComputeJacobian(this, X, A, B, ierr)                     <Warning: Unused dummy argument 'x' at (1) [-Wunused-dummy-argument]>
+[0454]  subroutine RichardsODEComputeOffDiagJacobian(this, X_1, X_2, A, B, &           <Warning: Unused dummy argument 'x_1' at (1) [-Wunused-dummy-argument]>
+[0454]  subroutine RichardsODEComputeOffDiagJacobian(this, X_1, X_2, A, B, &           <Warning: Unused dummy argument 'x_2' at (1) [-Wunused-dummy-argument]>
+[0761]    PetscInt                                                         :: iauxvar  <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0768]    PetscInt                                                         :: num_bc   <Warning: Unused variable 'num_bc' declared at (1) [-Wunused-variable]>
+[0769]    PetscInt                                                         :: icond    <Warning: Unused variable 'icond' declared at (1) [-Wunused-variable]>
+[0945]    PetscInt                                                         :: iauxvar  <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0952]    PetscInt                                                         :: num_bc   <Warning: Unused variable 'num_bc' declared at (1) [-Wunused-variable]>
+[0953]    PetscInt                                                         :: icond    <Warning: Unused variable 'icond' declared at (1) [-Wunused-variable]>
+[1013]    type (rich_ode_pres_auxvar_type), pointer       :: ge_avars(:)               <Warning: Unused variable 'ge_avars' declared at (1) [-Wunused-variable]>
+[1414]    PetscReal                                :: temperature                      <Warning: Unused variable 'temperature' declared at (1) [-Wunused-variable]>
+[2139]    PetscInt                                 :: cell_id_dn                       <Warning: Unused variable 'cell_id_dn' declared at (1) [-Wunused-variable]>
+[2140]    PetscInt                                 :: cell_id_up                       <Warning: Unused variable 'cell_id_up' declared at (1) [-Wunused-variable]>
+[2295]    PetscInt                                 :: cell_id_dn                       <Warning: Unused variable 'cell_id_dn' declared at (1) [-Wunused-variable]>
+[2296]    PetscInt                                 :: cell_id_up                       <Warning: Unused variable 'cell_id_up' declared at (1) [-Wunused-variable]>
+[2382]       rank_of_other_goveq, B, ierr)                                             <Warning: Unused dummy argument 'rank_of_other_goveq' at (1) [-Wunused-dummy-argument]>
+[2417]    PetscInt                                 :: ieqn                             <Warning: Unused variable 'ieqn' declared at (1) [-Wunused-variable]>
+[2426]    PetscBool                                :: cur_cond_used                    <Warning: Unused variable 'cur_cond_used' declared at (1) [-Wunused-variable]>
+[2428]    PetscInt                                 :: ivar                             <Warning: Unused variable 'ivar' declared at (1) [-Wunused-variable]>
+[2429]    type(condition_type),pointer             :: cur_cond                         <Warning: Unused variable 'cur_cond' declared at (1) [-Wunused-variable]>
+[2553]    PetscInt                                 :: cell_id                          <Warning: Unused variable 'cell_id' declared at (1) [-Wunused-variable]>
+[2565]    PetscViewer :: viewer                                                        <Warning: Unused variable 'viewer' declared at (1) [-Wunused-variable]>
+[2566]    character(len=256) :: string                                                 <Warning: Unused variable 'string' declared at (1) [-Wunused-variable]>
+[2567]    character(len=256) :: rank_string                                            <Warning: Unused variable 'rank_string' declared at (1) [-Wunused-variable]>
+[2569]    PetscReal      , pointer       :: real_ptr(:)                   ! temporary  <Warning: Unused variable 'real_ptr' declared at (1) [-Wunused-variable]>
+[3140]    PetscInt                                                        :: ii        <Warning: Unused variable 'ii' declared at (1) [-Wunused-variable]>
+[3253]    PetscInt                                                        :: ii        <Warning: Unused variable 'ii' declared at (1) [-Wunused-variable]>

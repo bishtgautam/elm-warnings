@@ -1,0 +1,20 @@
+[0052]    use clm_varpar       , only : nlevgrnd, nlevsoi, nlevurb                                   <Warning: Unused module variable 'nlevsoi' which has been explicitly imported at (1) [-Wunused-variable]>
+[0069]    integer :: c, p, f, j, fc                  ! indices                                       <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>
+[0069]    integer :: c, p, f, j, fc                  ! indices                                       <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[0070]    real(r8):: h2osoi_vol                                                                      <Warning: Unused variable 'h2osoi_vol' declared at (1) [-Wunused-variable]>
+[0095]	 do f = 1, num_hydrologyc                                                                     <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0097]      	    wa(c) = 0._r8                ! Made 0 for variable soil thickness                   <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0098]	 end do                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0192]     integer  :: indexp,indexc,indexl,indext,indexg     ! index of first found in search loop  <Warning: Unused variable 'indexl' declared at (1) [-Wunused-variable]>
+[0658]                  forc_solai(indext,1) + forc_solai(indext,2)                                  <Warning: 'indext' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0702]       num_hydrologyc, filter_hydrologyc, &                                                    <Warning: Unused dummy argument 'filter_hydrologyc' at (1) [-Wunused-dummy-argument]>
+[0702]       num_hydrologyc, filter_hydrologyc, &                                                    <Warning: Unused dummy argument 'num_hydrologyc' at (1) [-Wunused-dummy-argument]>
+[0710]    use clm_varpar    , only : nlevgrnd, nlevsoi, nlevurb                                      <Warning: Unused module variable 'nlevsoi' which has been explicitly imported at (1) [-Wunused-variable]>
+[0726]    integer  :: c, p, f, j, fc,g                  ! indices                                    <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>
+[0726]    integer  :: c, p, f, j, fc,g                  ! indices                                    <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[0727]    real(r8) :: h2osoi_vol                                                                     <Warning: Unused variable 'h2osoi_vol' declared at (1) [-Wunused-variable]>
+[0841]   subroutine GridBalanceCheck( bounds, num_do_smb_c, filter_do_smb_c, &                       <Warning: Unused dummy argument 'filter_do_smb_c' at (1) [-Wunused-dummy-argument]>
+[0841]   subroutine GridBalanceCheck( bounds, num_do_smb_c, filter_do_smb_c, &                       <Warning: Unused dummy argument 'num_do_smb_c' at (1) [-Wunused-dummy-argument]>
+[0852]     use clm_varctl        , only : create_glacier_mec_landunit                                <Warning: Unused module variable 'create_glacier_mec_landunit' which has been explicitly imported at (1) [-Wunused-variable]>
+[0872]     integer  :: p,c,l,g,fc                             ! indices                              <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>
+[0872]     integer  :: p,c,l,g,fc                             ! indices                              <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>

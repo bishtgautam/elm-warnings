@@ -1,0 +1,21 @@
+[0111]    integer            :: i, imeg                                                                                  <Warning: Unused variable 'imeg' declared at (1) [-Wunused-variable]>
+[0182]    integer :: imeg, ii                                                                                            <Warning: Unused variable 'ii' declared at (1) [-Wunused-variable]>
+[0371]       atm2lnd_vars, canopystate_vars, photosyns_vars, temperature_vars, &                                         <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0440]    character(len=16)                  :: mech_name                                                                <Warning: Unused variable 'mech_name' declared at (1) [-Wunused-variable]>
+[0710]  function get_gamma_P(par_sun_in, par24_sun_in, par240_sun_in, par_sha_in, par24_sha_in, par240_sha_in, &         <Warning: Unused dummy argument 'par24_sha_in' at (1) [-Wunused-dummy-argument]>
+[0788]    use clm_varcon   , only : denice                                                                               <Warning: Unused module variable 'denice' which has been explicitly imported at (1) [-Wunused-variable]>
+[0789]    use clm_varpar   , only : nlevsoi                                                                              <Warning: Unused module variable 'nlevsoi' which has been explicitly imported at (1) [-Wunused-variable]>
+[0964]    real(r8) :: fnew, fgro, fmat, fold  ! fractions of leaves at different phenological stages                     <note: 'fold' was declared here>
+[0964]    real(r8) :: fnew, fgro, fmat, fold  ! fractions of leaves at different phenological stages                     <note: 'fnew' was declared here>
+[0964]    real(r8) :: fnew, fgro, fmat, fold  ! fractions of leaves at different phenological stages                     <note: 'fmat' was declared here>
+[0987]          get_gamma_A = fnew*Anew(nclass_in) + fgro*Agro(nclass_in) + fmat*Amat(nclass_in) + fold*Aold(nclass_in)  <Warning: 'fold' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0987]          get_gamma_A = fnew*Anew(nclass_in) + fgro*Agro(nclass_in) + fmat*Amat(nclass_in) + fold*Aold(nclass_in)  <Warning: 'fnew' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0987]          get_gamma_A = fnew*Anew(nclass_in) + fgro*Agro(nclass_in) + fmat*Amat(nclass_in) + fold*Aold(nclass_in)  <Warning: 'fmat' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1023]    real(r8)            :: IEmin            ! empirical coeff for CO2                                              <note: 'iemin' was declared here>
+[1024]    real(r8)            :: IEmax            ! empirical coeff for CO2                                              <note: 'iemax' was declared here>
+[1025]    real(r8)            :: ECi50            ! empirical coeff for CO2                                              <note: 'eci50' was declared here>
+[1026]    real(r8)            :: Cislope          ! empirical coeff for CO2                                              <note: 'cislope' was declared here>
+[1079]       get_gamma_C = IEmin + ( (IEmax-IEmin)/(1._r8+(ci/ECi50)**Cislope) )                                         <Warning: 'iemin' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1079]       get_gamma_C = IEmin + ( (IEmax-IEmin)/(1._r8+(ci/ECi50)**Cislope) )                                         <Warning: 'iemax' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1079]       get_gamma_C = IEmin + ( (IEmax-IEmin)/(1._r8+(ci/ECi50)**Cislope) )                                         <Warning: 'eci50' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1079]       get_gamma_C = IEmin + ( (IEmax-IEmin)/(1._r8+(ci/ECi50)**Cislope) )                                         <Warning: 'cislope' may be used uninitialized in this function [-Wmaybe-uninitialized]>

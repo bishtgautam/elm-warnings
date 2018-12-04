@@ -1,0 +1,5 @@
+[0049]       num_urbanc, filter_urbanc                                      , &             <Warning: Unused dummy argument 'filter_urbanc' at (1) [-Wunused-dummy-argument]>
+[0049]       num_urbanc, filter_urbanc                                      , &             <Warning: Unused dummy argument 'num_urbanc' at (1) [-Wunused-dummy-argument]>
+[0051]       atm2lnd_vars, waterstate_vars, temperature_vars, urbanparams_vars, &           <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0059]    use clm_varcon          , only : spval, sb, tfrz                                  <Warning: Unused module variable 'sb' which has been explicitly imported at (1) [-Wunused-variable]>
+[0084]    integer  :: local_secp1                ! seconds into current date in local time  <Warning: Unused variable 'local_secp1' declared at (1) [-Wunused-variable]>

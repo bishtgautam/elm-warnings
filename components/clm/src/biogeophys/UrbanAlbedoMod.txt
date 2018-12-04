@@ -1,0 +1,5 @@
+[0058]    use clm_varcon    , only : sb                                                      <Warning: Unused module variable 'sb' which has been explicitly imported at (1) [-Wunused-variable]>
+[0443]       num_urbanc, filter_urbanc, coszen, ind , &                                      <Warning: Unused dummy argument 'ind' at (1) [-Wunused-dummy-argument]>
+[0881]    integer  :: pass                                                                   <Warning: Unused variable 'pass' declared at (1) [-Wunused-variable]>
+[0883]    real(r8) :: sabs_road                        ! temporary for absorption over road  <Warning: Unused variable 'sabs_road' declared at (1) [-Wunused-variable]>
+[0884]    real(r8) :: sref_road                        ! temporary for reflected over road   <Warning: Unused variable 'sref_road' declared at (1) [-Wunused-variable]>

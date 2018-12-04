@@ -1,0 +1,4 @@
+[0091]    integer :: i,j,n                ! loop indices                <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0091]    integer :: i,j,n                ! loop indices                <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0091]    integer :: i,j,n                ! loop indices                <Warning: Unused variable 'n' declared at (1) [-Wunused-variable]>
+[0094]    character(len=32) :: subname = 'CH4conrd'  ! subroutine name  <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>

@@ -1,0 +1,8 @@
+[0268]    integer                             :: iauxvar                            <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0360]    integer                                                       :: iauxvar  <Warning: Unused variable 'iauxvar' declared at (1) [-Wunused-variable]>
+[0543]    use mpp_varpar, only                 : nlevsno                            <Warning: Unused module variable 'nlevsno' which has been explicitly imported at (1) [-Wunused-variable]>
+[0649]    conn_set => top_hflux_cond%conn_set                                       <Warning: 'top_hflux_cond' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0658]    conn_set => soil_temp_cond%conn_set                                       <Warning: 'soil_temp_cond' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0981]    subroutine ThermKSPTempSnowComputeOperatorsDiag(this, A, B, ierr)         <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[1168]  subroutine ThermKSPTempSnowComputeOperatorsOffDiag(this, A, B, &            <Warning: Unused dummy argument 'a' at (1) [-Wunused-dummy-argument]>
+[1169]       itype_of_other_goveq, rank_of_other_goveq, ierr)                       <Warning: Unused dummy argument 'itype_of_other_goveq' at (1) [-Wunused-dummy-argument]>

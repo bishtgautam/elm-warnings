@@ -1,0 +1,7 @@
+[0174]    integer             :: c,g,i,j,l,lev                                                             <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0174]    integer             :: c,g,i,j,l,lev                                                             <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0174]    integer             :: c,g,i,j,l,lev                                                             <Warning: Unused variable 'lev' declared at (1) [-Wunused-variable]>
+[0178]    real(r8)            :: depthratio             ! ratio of lake depth to standard deep lake depth  <Warning: Unused variable 'depthratio' declared at (1) [-Wunused-variable]>
+[0251]  subroutine Restart(this, bounds, ncid, flag)                                                       <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[0267]    integer :: j,c ! indices                                                                         <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[0267]    integer :: j,c ! indices                                                                         <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>

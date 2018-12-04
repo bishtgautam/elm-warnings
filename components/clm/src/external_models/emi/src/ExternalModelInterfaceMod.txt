@@ -1,0 +1,7 @@
+[0470]               iam, bounds_clump)                    <Warning: 'e2l_init_list._data.dim[0].stride' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0470]               iam, bounds_clump)                    <Warning: 'e2l_init_list._data.offset' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0470]               iam, bounds_clump)                    <Warning: 'e2l_init_list._vptr' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0470]               iam, bounds_clump)                    <Warning: 'e2l_init_list._data.data' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0540]    integer                                 :: ndim  <Warning: Unused variable 'ndim' declared at (1) [-Wunused-variable]>
+[0541]    integer                                 :: nc    <Warning: Unused variable 'nc' declared at (1) [-Wunused-variable]>
+[0684]       iem = (index_em-1)*nclumps + 1                <Warning: 'index_em' may be used uninitialized in this function [-Wmaybe-uninitialized]>

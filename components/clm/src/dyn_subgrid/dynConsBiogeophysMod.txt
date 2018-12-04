@@ -1,0 +1,3 @@
+[0054]       waterstate_vars, waterflux_vars, temperature_vars, energyflux_vars)  <Warning: Unused dummy argument 'energyflux_vars' at (1) [-Wunused-dummy-argument]>
+[0054]       waterstate_vars, waterflux_vars, temperature_vars, energyflux_vars)  <Warning: Unused dummy argument 'waterflux_vars' at (1) [-Wunused-dummy-argument]>
+[0078]    integer :: g   ! grid cell index                                        <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>

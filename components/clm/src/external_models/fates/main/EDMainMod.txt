@@ -1,0 +1,4 @@
+[0264]    real(r8) :: cohort_biomass_store  ! remembers the biomass in the cohort for balance checking  <Warning: Unused variable 'cohort_biomass_store' declared at (1) [-Wunused-variable]>
+[0469]    integer :: g             ! Counter for sites                                                  <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0680]	  currentCohort%dhdt      = 0.0_r8                                                               <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0681]	  currentCohort%ddbhdt    = 0.0_r8                                                               <Warning: Nonconforming tab character at (1) [-Wtabs]>

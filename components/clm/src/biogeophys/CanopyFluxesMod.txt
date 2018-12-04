@@ -1,0 +1,14 @@
+[0104]    use clm_varcon         , only : sb, cpair, hvap, vkc, grav, denice                             <Warning: Unused module variable 'c14ratio' which has been explicitly imported at (1) [-Wunused-variable]>
+[0251]    real(r8) :: s_node                               ! vol_liq/eff_porosity                        <Warning: Unused variable 's_node' declared at (1) [-Wunused-variable]>
+[0252]    real(r8) :: smp_node                             ! matrix potential                            <Warning: Unused variable 'smp_node' declared at (1) [-Wunused-variable]>
+[0253]    real(r8) :: smp_node_lf                          ! F. Li and S. Levis                          <Warning: Unused variable 'smp_node_lf' declared at (1) [-Wunused-variable]>
+[0254]    real(r8) :: vol_liq                              ! partial volume of liquid water in layer     <Warning: Unused variable 'vol_liq' declared at (1) [-Wunused-variable]>
+[0265]    integer  :: l                                    ! landunit index                              <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0269]    integer  :: fn_noveg                             ! number of values in bare ground pft filter  <Warning: Unused variable 'fn_noveg' declared at (1) [-Wunused-variable]>
+[0270]    integer  :: filterp_noveg(bounds%endp-bounds%begp+1) ! bare ground pft filter                  <Warning: Unused variable 'filterp_noveg' declared at (1) [-Wunused-variable]>
+[0290]    real(r8) :: rootsum(bounds%begp:bounds%endp)                                                   <Warning: Unused variable 'rootsum' declared at (1) [-Wunused-variable]>
+[0315]    integer  :: ft                                       ! plant functional type index             <Warning: Unused variable 'ft' declared at (1) [-Wunused-variable]>
+[0316]    real(r8) :: temprootr                                                                          <Warning: Unused variable 'temprootr' declared at (1) [-Wunused-variable]>
+[0317]    real(r8) :: dt_veg_temp(bounds%begp:bounds%endp)                                               <Warning: Unused variable 'dt_veg_temp' declared at (1) [-Wunused-variable]>
+[0318]    integer  :: iv                                                                                 <Warning: Unused variable 'iv' declared at (1) [-Wunused-variable]>
+[0446]      irrig_nsteps_per_day = ((irrig_length + (dtime - 1))/dtime)  ! round up                      <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>

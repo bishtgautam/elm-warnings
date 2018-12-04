@@ -1,0 +1,1 @@
+[0174]      real(r8) :: error_tolerance = 1.e-6_r8  <Warning: Unused variable 'error_tolerance' declared at (1) [-Wunused-variable]>

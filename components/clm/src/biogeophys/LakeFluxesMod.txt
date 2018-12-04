@@ -1,0 +1,11 @@
+[0037]  subroutine LakeFluxes(bounds, num_lakec, filter_lakec, num_lakep, filter_lakep, &                                    <Warning: Unused dummy argument 'filter_lakec' at (1) [-Wunused-dummy-argument]>
+[0037]  subroutine LakeFluxes(bounds, num_lakec, filter_lakec, num_lakep, filter_lakep, &                                    <Warning: Unused dummy argument 'num_lakec' at (1) [-Wunused-dummy-argument]>
+[0038]       atm2lnd_vars, solarabs_vars, frictionvel_vars, temperature_vars, &                                              <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0048]    use clm_varpar          , only : nlevlak                                                                           <Warning: Unused module variable 'nlevlak' which has been explicitly imported at (1) [-Wunused-variable]>
+[0049]    use clm_varcon          , only : hvap, hsub, hfus, cpair, cpliq, tkwat, tkice, tkair                               <Warning: Unused module variable 'cpliq' which has been explicitly imported at (1) [-Wunused-variable]>
+[0049]    use clm_varcon          , only : hvap, hsub, hfus, cpair, cpliq, tkwat, tkice, tkair                               <Warning: Unused module variable 'denh2o' which has been explicitly imported at (1) [-Wunused-variable]>
+[0049]    use clm_varcon          , only : hvap, hsub, hfus, cpair, cpliq, tkwat, tkice, tkair                               <Warning: Unused module variable 'hfus' which has been explicitly imported at (1) [-Wunused-variable]>
+[0049]    use clm_varcon          , only : hvap, hsub, hfus, cpair, cpliq, tkwat, tkice, tkair                               <Warning: Unused module variable 'tkwat' which has been explicitly imported at (1) [-Wunused-variable]>
+[0080]    integer  :: i,fc,fp,g,t,c,p                    ! do loop or array index                                            <Warning: Unused variable 'fc' declared at (1) [-Wunused-variable]>
+[0080]    integer  :: i,fc,fp,g,t,c,p                    ! do loop or array index                                            <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0130]    real(r8) :: betaprime(bounds%begc:bounds%endc) ! Effective beta: sabg_lyr(p,jtop) for snow layers, beta otherwise  <Warning: Unused variable 'betaprime' declared at (1) [-Wunused-variable]>

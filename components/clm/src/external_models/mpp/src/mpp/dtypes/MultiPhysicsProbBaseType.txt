@@ -1,0 +1,8 @@
+[0790]    class(goveqn_base_type)      , pointer :: cur_goveq_2  <Warning: Unused variable 'cur_goveq_2' declared at (1) [-Wunused-variable]>
+[0791]    type(condition_type)         , pointer :: cur_cond_1   <Warning: Unused variable 'cur_cond_1' declared at (1) [-Wunused-variable]>
+[0792]    type(condition_type)         , pointer :: cur_cond_2   <Warning: Unused variable 'cur_cond_2' declared at (1) [-Wunused-variable]>
+[0795]    PetscInt                               :: ieqn         <Warning: Unused variable 'ieqn' declared at (1) [-Wunused-variable]>
+[0797]    PetscInt                               :: bc_idx_1     <Warning: Unused variable 'bc_idx_1' declared at (1) [-Wunused-variable]>
+[0798]    PetscInt                               :: bc_idx_2     <Warning: Unused variable 'bc_idx_2' declared at (1) [-Wunused-variable]>
+[0799]    PetscInt                               :: bc_offset_1  <Warning: Unused variable 'bc_offset_1' declared at (1) [-Wunused-variable]>
+[0800]    PetscBool                              :: bc_found     <Warning: Unused variable 'bc_found' declared at (1) [-Wunused-variable]>

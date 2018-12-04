@@ -1,0 +1,9 @@
+[0052]     real(r8) :: ndays_on     	 ! number of days to complete leaf onset             <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0053]     real(r8) :: ndays_off	 ! number of days to complete leaf offset                <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0061]     real(r8) :: lwtop   	 ! live wood turnover proportion (annual fraction)        <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0112]    character(len=32)  :: subname = 'CNPhenolParamsType'                            <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[1422]      jday    = get_curr_calday()                                                   <Warning: Possible change of value in conversion from REAL(8) to INTEGER(4) at (1) [-Wconversion]>
+[1818]    integer           :: p,g,n,i                     ! indices                      <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[1895]    integer  c,g                        ! indices                                   <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[2304]    integer :: p, c         ! indices                                               <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[2905]            cnstate_vars, carbonflux_vars, nitrogenflux_vars, phosphorusflux_vars)  <Warning: Unused dummy argument 'cnstate_vars' at (1) [-Wunused-dummy-argument]>

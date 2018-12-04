@@ -1,0 +1,9 @@
+[0169]        num_urbanc   , filter_urbanc,  &                                                      <Warning: Unused dummy argument 'filter_urbanc' at (1) [-Wunused-dummy-argument]>
+[0169]        num_urbanc   , filter_urbanc,  &                                                      <Warning: Unused dummy argument 'num_urbanc' at (1) [-Wunused-dummy-argument]>
+[0170]        num_urbanp   , filter_urbanp,  &                                                      <Warning: Unused dummy argument 'filter_urbanp' at (1) [-Wunused-dummy-argument]>
+[0170]        num_urbanp   , filter_urbanp,  &                                                      <Warning: Unused dummy argument 'num_urbanp' at (1) [-Wunused-dummy-argument]>
+[0230]    integer  :: ic                         ! 0=unit incoming direct; 1=unit incoming diffuse  <Warning: Unused variable 'ic' declared at (1) [-Wunused-variable]>
+[0929]    endif	                                                                                    <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0958]        coszen, albsnd, albsni, &                                                             <Warning: Unused dummy argument 'albsnd' at (1) [-Wunused-dummy-argument]>
+[0958]        coszen, albsnd, albsni, &                                                             <Warning: Unused dummy argument 'albsni' at (1) [-Wunused-dummy-argument]>
+[1106]     use clm_varctl, only : iulog                                                             <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>

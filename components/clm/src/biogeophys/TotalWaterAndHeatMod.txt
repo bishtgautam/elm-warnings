@@ -1,0 +1,4 @@
+[0193]    real(r8) :: liqcan                               ! canopy liquid water (mm H2O)  <Warning: Unused variable 'liqcan' declared at (1) [-Wunused-variable]>
+[0798]    real(r8) :: heat_liquid ! [J/m^2]                                                <Warning: Unused variable 'heat_liquid' declared at (1) [-Wunused-variable]>
+[0799]    real(r8) :: latent_heat_liquid ! [J/m^2]                                         <Warning: Unused variable 'latent_heat_liquid' declared at (1) [-Wunused-variable]>
+[0800]    real(r8) :: cv ! heat capacity [J/(m^2 K)]                                       <Warning: Unused variable 'cv' declared at (1) [-Wunused-variable]>

@@ -1,0 +1,10 @@
+[0125]       atm2lnd_vars, canopystate_vars, waterstate_vars, frictionvel_vars, &                                  <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[0133]    use seq_drydep_mod , only : seq_drydep_setHCoeff, mapping, drat, foxd                                    <Warning: Unused module variable 'ri' which has been explicitly imported at (1) [-Wunused-variable]>
+[0160]    integer  :: length                                                                                       <Warning: Unused variable 'length' declared at (1) [-Wunused-variable]>
+[0163]    integer  :: i                                                                                            <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0165]    integer  :: nstep        !current step                                                                   <Warning: Unused variable 'nstep' declared at (1) [-Wunused-variable]>
+[0166]    integer  :: indexp                                                                                       <Warning: Unused variable 'indexp' declared at (1) [-Wunused-variable]>
+[0442]                        rgsx(ispec) = fact_h2/(dv_soil_h2*1.e-4_r8)                                          <Warning: 'fact_h2' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0473]                  dv_pan =  c0_pan(wesveg) * (1._r8 - exp( -k_pan(wesveg)*(dewm*rs*drat(ispec))*1.e-2_r8 ))  <Warning: 'rs' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0525]                                (1.e-7_r8*heff(ispec))+(foxd(ispec)/rlux_o3))                                <Warning: 'rlux_o3' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0539]                        rlux(ispec) = cts + rlux(ispec)                                                      <Warning: 'cts' may be used uninitialized in this function [-Wmaybe-uninitialized]>

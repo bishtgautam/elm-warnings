@@ -1,0 +1,20 @@
+[0420]     real(r8), pointer :: plant_to_litter_cflux		  (:) ! for the purpose of mass balance check                    <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0421]     real(r8), pointer :: plant_to_cwd_cflux		  (:) ! for the purpose of mass balance check                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0422]     real(r8), pointer :: allocation_leaf 		  (:) ! check allocation to leaf for dynamic allocation scheme        <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0423]     real(r8), pointer :: allocation_stem 		  (:) ! check allocation to stem for dynamic allocation scheme        <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0424]     real(r8), pointer :: allocation_froot 		  (:) ! check allocation to fine root for dynamic allocation scheme  <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0851]     allocate(this%plant_to_litter_cflux (begc:endc)) ;	this%plant_to_litter_cflux (:) = nan                      <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0852]     allocate(this%plant_to_cwd_cflux    (begc:endc)) ;	this%plant_to_cwd_cflux	   (:) = nan                      <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0892]    character(10)     :: active                                                                                   <Warning: Unused variable 'active' declared at (1) [-Wunused-variable]>
+[4066]  subroutine Restart ( this, bounds, ncid, flag )                                                                 <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[4074]    use clm_varcon       , only : c13ratio, c14ratio                                                              <Warning: Unused module variable 'c13ratio' which has been explicitly imported at (1) [-Wunused-variable]>
+[4074]    use clm_varcon       , only : c13ratio, c14ratio                                                              <Warning: Unused module variable 'c14ratio' which has been explicitly imported at (1) [-Wunused-variable]>
+[4089]    integer :: j,c ! indices                                                                                      <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[4089]    integer :: j,c ! indices                                                                                      <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[4721]    use clm_varctl       , only : iulog, use_cndv                                                                 <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[4743]    real(r8) :: maxdepth        ! depth to integrate soil variables                                               <Warning: Unused variable 'maxdepth' declared at (1) [-Wunused-variable]>
+[5456]subroutine CSummary_interface(this, bounds, num_soilc, filter_soilc)                                              <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[5465]   use clm_varpar , only: nlevdecomp_full,ndecomp_pools,ndecomp_cascade_transitions                               <Warning: Unused module variable 'ndecomp_cascade_transitions' which has been explicitly imported at (1) [-Wunused-variable]>
+[5682]  subroutine summary_cflux_for_ch4( this, bounds, num_soilp, filter_soilp, num_soilc, filter_soilc )              <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[5687]    use clm_varpar       , only : nlevdecomp, ndecomp_pools, ndecomp_cascade_transitions                          <Warning: Unused module variable 'ndecomp_pools' which has been explicitly imported at (1) [-Wunused-variable]>
+[5695]    integer  :: c,p,j,k,l       ! indices                                                                         <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>

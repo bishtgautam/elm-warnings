@@ -1,0 +1,28 @@
+[0307]    use clm_varctl     , only : create_glacier_mec_landunit, use_cn, use_lch4                     <Warning: Unused module variable 'hist_wrtch4diag' which has been explicitly imported at (1) [-Wunused-variable]>
+[0307]    use clm_varctl     , only : create_glacier_mec_landunit, use_cn, use_lch4                     <Warning: Unused module variable 'use_lch4' which has been explicitly imported at (1) [-Wunused-variable]>
+[0309]    use clm_varpar     , only : nlevsno, crop_prog                                                <Warning: Unused module variable 'crop_prog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0320]    character(10)     :: active                                                                   <Warning: Unused variable 'active' declared at (1) [-Wunused-variable]>
+[0321]    real(r8), pointer :: data2dptr(:,:), data1dptr(:) ! temp. pointers for slicing larger arrays  <Warning: Unused variable 'data1dptr' declared at (1) [-Wunused-variable]>
+[0576]    use clm_varpar      , only : nlevsoi, nlevgrnd, nlevsno, nlevlak, nlevurb                     <Warning: Unused module variable 'nlevlak' which has been explicitly imported at (1) [-Wunused-variable]>
+[0580]    use clm_varcon      , only : denice, denh2o, spval, sb, bdsno                                 <Warning: Unused module variable 'sb' which has been explicitly imported at (1) [-Wunused-variable]>
+[0582]    use clm_varctl      , only : fsurdat, iulog                                                   <Warning: Unused module variable 'fsurdat' which has been explicitly imported at (1) [-Wunused-variable]>
+[0582]    use clm_varctl      , only : fsurdat, iulog                                                   <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0583]    use spmdMod         , only : masterproc                                                       <Warning: Unused module variable 'masterproc' which has been explicitly imported at (1) [-Wunused-variable]>
+[0597]    integer            :: p,c,j,l,g,lev,nlevs,nlevbed                                             <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0597]    integer            :: p,c,j,l,g,lev,nlevs,nlevbed                                             <Warning: Unused variable 'lev' declared at (1) [-Wunused-variable]>
+[0597]    integer            :: p,c,j,l,g,lev,nlevs,nlevbed                                             <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[0598]    real(r8)           :: maxslope, slopemax, minslope                                            <Warning: Unused variable 'maxslope' declared at (1) [-Wunused-variable]>
+[0598]    real(r8)           :: maxslope, slopemax, minslope                                            <Warning: Unused variable 'minslope' declared at (1) [-Wunused-variable]>
+[0598]    real(r8)           :: maxslope, slopemax, minslope                                            <Warning: Unused variable 'slopemax' declared at (1) [-Wunused-variable]>
+[0599]    real(r8)           :: d, fd, dfdd, slope0,slopebeta                                           <Warning: Unused variable 'd' declared at (1) [-Wunused-variable]>
+[0599]    real(r8)           :: d, fd, dfdd, slope0,slopebeta                                           <Warning: Unused variable 'dfdd' declared at (1) [-Wunused-variable]>
+[0599]    real(r8)           :: d, fd, dfdd, slope0,slopebeta                                           <Warning: Unused variable 'fd' declared at (1) [-Wunused-variable]>
+[0599]    real(r8)           :: d, fd, dfdd, slope0,slopebeta                                           <Warning: Unused variable 'slope0' declared at (1) [-Wunused-variable]>
+[0599]    real(r8)           :: d, fd, dfdd, slope0,slopebeta                                           <Warning: Unused variable 'slopebeta' declared at (1) [-Wunused-variable]>
+[0600]    real(r8) ,pointer  :: std (:)                                                                 <Warning: Unused variable 'std' declared at (1) [-Wunused-variable]>
+[0601]    logical            :: readvar                                                                 <Warning: Unused variable 'readvar' declared at (1) [-Wunused-variable]>
+[0602]    type(file_desc_t)  :: ncid                                                                    <Warning: Unused variable 'ncid' declared at (1) [-Wunused-variable]>
+[0603]    character(len=256) :: locfn                                                                   <Warning: Unused variable 'locfn' declared at (1) [-Wunused-variable]>
+[0714]	    nlevbed = nlev2bed(c)                                                                        <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0722]		     if (use_fates_planthydro) then                                                             <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0765]            do j = 1, nlevs                                                                       <Warning: 'nlevs' may be used uninitialized in this function [-Wmaybe-uninitialized]>

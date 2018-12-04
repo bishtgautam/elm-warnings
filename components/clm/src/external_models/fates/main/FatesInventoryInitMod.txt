@@ -1,0 +1,6 @@
+[0093]      type(ed_site_type), pointer                  :: currentSite                                          <Warning: Unused variable 'currentsite' declared at (1) [-Wunused-variable]>
+[0617]   subroutine set_inventory_edpatch_type1(newpatch,pss_file_unit,ipa,ios,patch_name)                       <Warning: Unused dummy argument 'ipa' at (1) [-Wunused-dummy-argument]>
+[0645]      use SFParamsMod , only : SF_val_CWD_frac                                                             <Warning: Unused module variable 'sf_val_cwd_frac' which has been explicitly imported at (1) [-Wunused-variable]>
+[0669]      integer                                     :: ipft       ! index for counting PFTs                  <Warning: Unused variable 'ipft' declared at (1) [-Wunused-variable]>
+[0670]      real(r8)                                    :: pftfrac    ! the inverse of the total number of PFTs  <Warning: Unused variable 'pftfrac' declared at (1) [-Wunused-variable]>
+[0786]      real(r8)                                    :: site_spread   ! initial guess of site spread          <Warning: Unused variable 'site_spread' declared at (1) [-Wunused-variable]>

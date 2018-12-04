@@ -1,0 +1,2 @@
+[0066]    character(len= 32)     :: subname='dynpft_init'! subroutine name  <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0251]    character(len=32) :: subname='dynpft_interp' ! subroutine name    <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>

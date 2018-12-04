@@ -1,0 +1,32 @@
+[0299]    use clm_varpar , only : ndecomp_cascade_transitions, ndecomp_pools                         <Warning: Unused module variable 'ndecomp_cascade_transitions' which has been explicitly imported at (1) [-Wunused-variable]>
+[0299]    use clm_varpar , only : ndecomp_cascade_transitions, ndecomp_pools                         <Warning: Unused module variable 'nlevdecomp' which has been explicitly imported at (1) [-Wunused-variable]>
+[0299]    use clm_varpar , only : ndecomp_cascade_transitions, ndecomp_pools                         <Warning: Unused module variable 'nlevgrnd' which has been explicitly imported at (1) [-Wunused-variable]>
+[0301]    use clm_varctl , only : use_c13, use_c14                                                   <Warning: Unused module variable 'use_c13' which has been explicitly imported at (1) [-Wunused-variable]>
+[0301]    use clm_varctl , only : use_c13, use_c14                                                   <Warning: Unused module variable 'use_c14' which has been explicitly imported at (1) [-Wunused-variable]>
+[0310]    integer           :: k,l,ii,jj                                                             <Warning: Unused variable 'ii' declared at (1) [-Wunused-variable]>
+[0310]    integer           :: k,l,ii,jj                                                             <Warning: Unused variable 'jj' declared at (1) [-Wunused-variable]>
+[0310]    integer           :: k,l,ii,jj                                                             <Warning: Unused variable 'k' declared at (1) [-Wunused-variable]>
+[0311]    character(10)     :: active                                                                <Warning: Unused variable 'active' declared at (1) [-Wunused-variable]>
+[1424]    use clm_varcon       , only : c13ratio, c14ratio                                           <Warning: Unused module variable 'c13ratio' which has been explicitly imported at (1) [-Wunused-variable]>
+[1442]    integer  :: i,j,k,l,c                                                                      <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[1443]    real(r8) :: vwc,psi             ! for calculating soilpsi                                  <Warning: Unused variable 'psi' declared at (1) [-Wunused-variable]>
+[1443]    real(r8) :: vwc,psi             ! for calculating soilpsi                                  <Warning: Unused variable 'vwc' declared at (1) [-Wunused-variable]>
+[1461]    integer  :: decomp_cascade_state, restart_file_decomp_cascade_state                        <Warning: Unused variable 'decomp_cascade_state' declared at (1) [-Wunused-variable]>
+[1461]    integer  :: decomp_cascade_state, restart_file_decomp_cascade_state                        <Warning: Unused variable 'restart_file_decomp_cascade_state' declared at (1) [-Wunused-variable]>
+[2614]          if (c12_carbonstate_vars%prod10c_col(i) /= spval .and. &                             <Warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[2832]		    if ( exit_spinup ) then                                                                  <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2833]		       m = decomp_cascade_con%spinup_factor(k)                                               <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2836]		       m = 1. / decomp_cascade_con%spinup_factor(k)                                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2837]		       if (decomp_cascade_con%spinup_factor(k) > 1) m = m * cnstate_vars%scalaravg_col(c,j)  <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2838]		    end if                                                                                   <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2839]                    this%decomp_cpools_vr_col(c,j,k) = this%decomp_cpools_vr_col(c,j,k) * m    <Warning: 'm' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[2849]              this%deadstemc_patch(i)  = this%deadstemc_patch(i) * m_veg                       <Warning: 'm_veg' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[2875]    integer :: fi,i,j,k,l     ! loop index                                                     <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[2997]    use clm_varctl       , only: iulog                                                         <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[3011]    real(r8) :: nfixlags, dtime ! temp variables for making lagged npp                         <Warning: Unused variable 'dtime' declared at (1) [-Wunused-variable]>
+[3011]    real(r8) :: nfixlags, dtime ! temp variables for making lagged npp                         <Warning: Unused variable 'nfixlags' declared at (1) [-Wunused-variable]>
+[3012]    integer  :: c,p,j,k,l       ! indices                                                      <Warning: Unused variable 'k' declared at (1) [-Wunused-variable]>
+[3306]       prior_weights,                       &                                                  <Warning: Unused dummy argument 'prior_weights' at (1) [-Wunused-dummy-argument]>
+[3316]       crop_product_cflux                   &                                                  <Warning: Unused dummy argument 'crop_product_cflux' at (1) [-Wunused-dummy-argument]>
+[3348]    integer                     :: l, c, p                                                     <Warning: Unused variable 'c' declared at (1) [-Wunused-variable]>
+[3348]    integer                     :: l, c, p                                                     <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>

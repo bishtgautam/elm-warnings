@@ -1,0 +1,4 @@
+[0090]    integer  :: fp, p, c, l                                                        <Warning: Unused variable 'fp' declared at (1) [-Wunused-variable]>
+[0164]             pool_seed_patch(p) = my_pool_seed                                     <Warning: 'my_pool_seed' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0224]  function SpeciesTypeMultiplier(species, pft_type, component) result(multiplier)  <note: 'multiplier' was declared here>
+[0298]  end function SpeciesTypeMultiplier                                               <Warning: 'multiplier' may be used uninitialized in this function [-Wmaybe-uninitialized]>

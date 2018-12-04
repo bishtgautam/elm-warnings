@@ -1,0 +1,4 @@
+[0056]    integer :: cur_year              ! year (0, ...) for nstep+1              <Warning: Unused variable 'cur_year' declared at (1) [-Wunused-variable]>
+[0057]    integer :: mon                   ! month (1, ..., 12) for nstep+1         <Warning: Unused variable 'mon' declared at (1) [-Wunused-variable]>
+[0058]    integer :: day                   ! day of month (1, ..., 31) for nstep+1  <Warning: Unused variable 'day' declared at (1) [-Wunused-variable]>
+[0059]    integer :: sec                   ! seconds into current date for nstep+1  <Warning: Unused variable 'sec' declared at (1) [-Wunused-variable]>

@@ -1,0 +1,2 @@
+[0048]    use clm_varctl       , only : iulog                                           <Warning: Unused module variable 'iulog' which has been explicitly imported at (1) [-Wunused-variable]>
+[0059]    integer  :: alt_ind                         ! index of base of activel layer  <Warning: Unused variable 'alt_ind' declared at (1) [-Wunused-variable]>

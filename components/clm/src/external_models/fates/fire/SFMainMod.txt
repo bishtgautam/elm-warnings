@@ -1,0 +1,8 @@
+[0145]       yipsolon = (SF_val_fdi_a* temp_in_C)/(SF_val_fdi_b+ temp_in_C)+log(rh/100.0_r8)                     <Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]>
+[0146]       dewpoint = (SF_val_fdi_b*yipsolon)/(SF_val_fdi_a-yipsolon) !Standard met. formula                   <Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]>
+[0147]       d_NI = ( temp_in_C-dewpoint)* temp_in_C !follows Nesterov 1968.  Equation 5. Thonicke et al. 2010.  <Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]>
+[0734]    integer g, p                                                                                           <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0734]    integer g, p                                                                                           <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[0762]          db = currentPatch%ROS_back  * currentPatch%FD !m                                                 <Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]>
+[0763]          df = currentPatch%ROS_front * currentPatch%FD !m                                                 <Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]>
+[0791]             patch_area_in_m2 = gridarea *currentPatch%area/area                                           <Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]>

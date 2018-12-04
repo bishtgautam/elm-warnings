@@ -1,0 +1,2 @@
+[0088]  function initial_template_col_dispatcher(bounds, c_new, cactive_prior) result(c_template)  <note: 'c_template' was declared here>
+[0303]    temperature_vars%t_soisno_col(c_new,:) = temperature_vars%t_soisno_col(c_template,:)     <Warning: 'c_template' may be used uninitialized in this function [-Wmaybe-uninitialized]>

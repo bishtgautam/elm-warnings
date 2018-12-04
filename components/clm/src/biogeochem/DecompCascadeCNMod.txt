@@ -1,0 +1,17 @@
+[0104]    character(len=32)  :: subname = 'DecompCNParamsType'                                       <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0515]      decomp_pool_name_restart         (i_atm) = 'atmosphere'                                  <Warning: CHARACTER expression will be truncated in assignment (8/10) at (1) [-Wcharacter-truncation]>
+[0516]      decomp_pool_name_history         (i_atm) = 'atmosphere'                                  <Warning: CHARACTER expression will be truncated in assignment (8/10) at (1) [-Wcharacter-truncation]>
+[0645]     real(r8):: rate_scalar                  ! combined rate scalar for decomp                 <Warning: Unused variable 'rate_scalar' declared at (1) [-Wunused-variable]>
+[0654]     real(r8):: ck_l1                        ! corrected decomposition rate constant litter 1  <Warning: Unused variable 'ck_l1' declared at (1) [-Wunused-variable]>
+[0655]     real(r8):: ck_l2                        ! corrected decomposition rate constant litter 2  <Warning: Unused variable 'ck_l2' declared at (1) [-Wunused-variable]>
+[0656]     real(r8):: ck_l3                        ! corrected decomposition rate constant litter 3  <Warning: Unused variable 'ck_l3' declared at (1) [-Wunused-variable]>
+[0657]     real(r8):: ck_s1                        ! corrected decomposition rate constant SOM 1     <Warning: Unused variable 'ck_s1' declared at (1) [-Wunused-variable]>
+[0658]     real(r8):: ck_s2                        ! corrected decomposition rate constant SOM 2     <Warning: Unused variable 'ck_s2' declared at (1) [-Wunused-variable]>
+[0659]     real(r8):: ck_s3                        ! corrected decomposition rate constant SOM 3     <Warning: Unused variable 'ck_s3' declared at (1) [-Wunused-variable]>
+[0660]     real(r8):: ck_s4                        ! corrected decomposition rate constant SOM 4     <Warning: Unused variable 'ck_s4' declared at (1) [-Wunused-variable]>
+[0661]     real(r8):: ck_frag                      ! corrected fragmentation rate constant CWD       <Warning: Unused variable 'ck_frag' declared at (1) [-Wunused-variable]>
+[0662]     real(r8):: cwdc_loss                    ! fragmentation rate for CWD carbon (gC/m2/s)     <Warning: Unused variable 'cwdc_loss' declared at (1) [-Wunused-variable]>
+[0663]     real(r8):: cwdn_loss                    ! fragmentation rate for CWD nitrogen (gN/m2/s)   <Warning: Unused variable 'cwdn_loss' declared at (1) [-Wunused-variable]>
+[0671]     integer :: c, fc, j, k, l                                                                 <Warning: Unused variable 'k' declared at (1) [-Wunused-variable]>
+[0671]     integer :: c, fc, j, k, l                                                                 <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0986]                depth_scalar(c,j) = exp(-zsoi(j)/decomp_depth_efolding)                        <Warning: 'decomp_depth_efolding' may be used uninitialized in this function [-Wmaybe-uninitialized]>

@@ -1,0 +1,131 @@
+[0046]    use clm_varcon      , only : denice, denh2o, wimp, pondmx_urban                                                   <Warning: Unused module variable 'denh2o' which has been explicitly imported at (1) [-Wunused-variable]>
+[0046]    use clm_varcon      , only : denice, denh2o, wimp, pondmx_urban                                                   <Warning: Unused module variable 'wimp' which has been explicitly imported at (1) [-Wunused-variable]>
+[0049]    use clm_varpar      , only : nlevsoi, nlevgrnd, maxpatch_pft                                                      <Warning: Unused module variable 'maxpatch_pft' which has been explicitly imported at (1) [-Wunused-variable]>
+[0049]    use clm_varpar      , only : nlevsoi, nlevgrnd, maxpatch_pft                                                      <Warning: Unused module variable 'nlayert' which has been explicitly imported at (1) [-Wunused-variable]>
+[0052]    use clm_varctl      , only : use_var_soil_thick                                                                   <Warning: Unused module variable 'use_var_soil_thick' which has been explicitly imported at (1) [-Wunused-variable]>
+[0068]    integer  :: c,j,fc,g,l,i                               !indices                                                   <Warning: Unused variable 'g' declared at (1) [-Wunused-variable]>
+[0068]    integer  :: c,j,fc,g,l,i                               !indices                                                   <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0068]    integer  :: c,j,fc,g,l,i                               !indices                                                   <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0074]    real(r8) :: s1                                         !variable to calculate qinmax                              <Warning: Unused variable 's1' declared at (1) [-Wunused-variable]>
+[0075]    real(r8) :: su                                         !variable to calculate qinmax                              <Warning: Unused variable 'su' declared at (1) [-Wunused-variable]>
+[0076]    real(r8) :: v                                          !variable to calculate qinmax                              <Warning: Unused variable 'v' declared at (1) [-Wunused-variable]>
+[0077]    real(r8) :: qinmax                                     !maximum infiltration capacity (mm/s)                      <Warning: Unused variable 'qinmax' declared at (1) [-Wunused-variable]>
+[0083]    character(len=32) :: subname = 'SurfaceRunoff'         !subroutine name                                           <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0129]       	 nlevbed = nlev2bed(c)                                                                                        <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0253]        energyflux_vars, soilhydrology_vars, soilstate_vars, temperature_vars, &                                      <Warning: Unused dummy argument 'energyflux_vars' at (1) [-Wunused-dummy-argument]>
+[0261]     use clm_varpar       , only : nlayer, nlayert                                                                    <Warning: Unused module variable 'nlayert' which has been explicitly imported at (1) [-Wunused-variable]>
+[0261]     use clm_varpar       , only : nlayer, nlayert                                                                    <Warning: Unused module variable 'nlevsoi' which has been explicitly imported at (1) [-Wunused-variable]>
+[0263]     use clm_varcon       , only : denh2o, denice, roverg, wimp, pc, mu, tfrz                                         <Warning: Unused module variable 'denh2o' which has been explicitly imported at (1) [-Wunused-variable]>
+[0263]     use clm_varcon       , only : denh2o, denice, roverg, wimp, pc, mu, tfrz                                         <Warning: Unused module variable 'roverg' which has been explicitly imported at (1) [-Wunused-variable]>
+[0263]     use clm_varcon       , only : denh2o, denice, roverg, wimp, pc, mu, tfrz                                         <Warning: Unused module variable 'wimp' which has been explicitly imported at (1) [-Wunused-variable]>
+[0282]     integer  :: c,j,l,fc                                   ! indices                                                 <Warning: Unused variable 'l' declared at (1) [-Wunused-variable]>
+[0285]     real(r8) :: s1,su,v                                    ! variable to calculate qinmax                            <Warning: Unused variable 's1' declared at (1) [-Wunused-variable]>
+[0285]     real(r8) :: s1,su,v                                    ! variable to calculate qinmax                            <Warning: Unused variable 'su' declared at (1) [-Wunused-variable]>
+[0285]     real(r8) :: s1,su,v                                    ! variable to calculate qinmax                            <Warning: Unused variable 'v' declared at (1) [-Wunused-variable]>
+[0288]     real(r8) :: alpha_evap(bounds%begc:bounds%endc)        ! fraction of total evap from h2osfc                      <Warning: Unused variable 'alpha_evap' declared at (1) [-Wunused-variable]>
+[0297]     real(r8) :: fac                                        ! soil wetness of surface layer                           <Warning: Unused variable 'fac' declared at (1) [-Wunused-variable]>
+[0298]     real(r8) :: psit                                       ! negative potential of soil                              <Warning: Unused variable 'psit' declared at (1) [-Wunused-variable]>
+[0299]     real(r8) :: hr                                         ! relative humidity                                       <Warning: Unused variable 'hr' declared at (1) [-Wunused-variable]>
+[0300]     real(r8) :: wx                                         ! partial volume of ice and water of surface layer        <Warning: Unused variable 'wx' declared at (1) [-Wunused-variable]>
+[0301]     real(r8) :: z_avg                                                                                                <Warning: Unused variable 'z_avg' declared at (1) [-Wunused-variable]>
+[0302]     real(r8) :: rho_avg                                                                                              <Warning: Unused variable 'rho_avg' declared at (1) [-Wunused-variable]>
+[0303]     real(r8) :: fmelt                                                                                                <Warning: Unused variable 'fmelt' declared at (1) [-Wunused-variable]>
+[0304]     real(r8) :: f_sno                                                                                                <Warning: Unused variable 'f_sno' declared at (1) [-Wunused-variable]>
+[0305]     real(r8) :: imped                                                                                                <Warning: Unused variable 'imped' declared at (1) [-Wunused-variable]>
+[0306]     real(r8) :: d                                                                                                    <Warning: Unused variable 'd' declared at (1) [-Wunused-variable]>
+[0307]     real(r8) :: h2osoi_vol                                                                                           <Warning: Unused variable 'h2osoi_vol' declared at (1) [-Wunused-variable]>
+[0371]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0459]                qflx_h2osfc_surf(c) = k_wet * frac_infclust * (h2osfc(c) - h2osfc_thresh(c))                          <Warning: 'frac_infclust' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0541]     use clm_varcon       , only : pondmx, tfrz, watmin,denice,denh2o                                                 <Warning: Unused module variable 'pondmx' which has been explicitly imported at (1) [-Wunused-variable]>
+[0541]     use clm_varcon       , only : pondmx, tfrz, watmin,denice,denh2o                                                 <Warning: Unused module variable 'watmin' which has been explicitly imported at (1) [-Wunused-variable]>
+[0542]     use clm_varpar       , only : nlevsoi, nlevgrnd                                                                  <Warning: Unused module variable 'nlevsoi' which has been explicitly imported at (1) [-Wunused-variable]>
+[0544]     use clm_varctl       , only : use_vsfm, use_var_soil_thick                                                       <Warning: Unused module variable 'use_var_soil_thick' which has been explicitly imported at (1) [-Wunused-variable]>
+[0560]     integer  :: c,j,fc,i                                ! indices                                                    <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[0563]     real(r8) :: xs(bounds%begc:bounds%endc)             ! water needed to bring soil moisture to watmin (mm)         <Warning: Unused variable 'xs' declared at (1) [-Wunused-variable]>
+[0566]     real(r8) :: rsub_bot(bounds%begc:bounds%endc)       ! subsurface runoff - bottom drainage (mm/s)                 <Warning: Unused variable 'rsub_bot' declared at (1) [-Wunused-variable]>
+[0567]     real(r8) :: rsub_top(bounds%begc:bounds%endc)       ! subsurface runoff - topographic control (mm/s)             <Warning: Unused variable 'rsub_top' declared at (1) [-Wunused-variable]>
+[0568]     real(r8) :: fff(bounds%begc:bounds%endc)            ! decay factor (m-1)                                         <Warning: Unused variable 'fff' declared at (1) [-Wunused-variable]>
+[0569]     real(r8) :: xsi(bounds%begc:bounds%endc)            ! excess soil water above saturation at layer i (mm)         <Warning: Unused variable 'xsi' declared at (1) [-Wunused-variable]>
+[0571]     real(r8) :: wh                                      ! smpfz(jwt)-z(jwt) (mm)                                     <Warning: Unused variable 'wh' declared at (1) [-Wunused-variable]>
+[0572]     real(r8) :: ws                                      ! summation of pore space of layers below water table (mm)   <Warning: Unused variable 'ws' declared at (1) [-Wunused-variable]>
+[0573]     real(r8) :: s_node                                  ! soil wetness (-)                                           <Warning: Unused variable 's_node' declared at (1) [-Wunused-variable]>
+[0574]     real(r8) :: dzsum                                   ! summation of dzmm of layers below water table (mm)         <Warning: Unused variable 'dzsum' declared at (1) [-Wunused-variable]>
+[0575]     real(r8) :: icefracsum                              ! summation of icefrac*dzmm of layers below water table (-)  <Warning: Unused variable 'icefracsum' declared at (1) [-Wunused-variable]>
+[0576]     real(r8) :: fracice_rsub(bounds%begc:bounds%endc)   ! fractional impermeability of soil layers (-)               <Warning: Unused variable 'fracice_rsub' declared at (1) [-Wunused-variable]>
+[0577]     real(r8) :: ka                                      ! hydraulic conductivity of the aquifer (mm/s)               <Warning: Unused variable 'ka' declared at (1) [-Wunused-variable]>
+[0578]     real(r8) :: dza                                     ! fff*(zwt-z(jwt)) (-)                                       <Warning: Unused variable 'dza' declared at (1) [-Wunused-variable]>
+[0579]     real(r8) :: available_h2osoi_liq                    ! available soil liquid water in a layer                     <Warning: Unused variable 'available_h2osoi_liq' declared at (1) [-Wunused-variable]>
+[0580]     real(r8) :: imped                                                                                                <Warning: Unused variable 'imped' declared at (1) [-Wunused-variable]>
+[0581]     real(r8) :: rsub_top_tot                                                                                         <Warning: Unused variable 'rsub_top_tot' declared at (1) [-Wunused-variable]>
+[0582]     real(r8) :: rsub_top_layer                                                                                       <Warning: Unused variable 'rsub_top_layer' declared at (1) [-Wunused-variable]>
+[0585]     real(r8) :: theta_unsat                                                                                          <Warning: Unused variable 'theta_unsat' declared at (1) [-Wunused-variable]>
+[0586]     real(r8) :: f_unsat                                                                                              <Warning: Unused variable 'f_unsat' declared at (1) [-Wunused-variable]>
+[0594]     real(r8) :: q_perch                                                                                              <Warning: Unused variable 'q_perch' declared at (1) [-Wunused-variable]>
+[0595]     real(r8) :: q_perch_max                                                                                          <Warning: Unused variable 'q_perch_max' declared at (1) [-Wunused-variable]>
+[0596]     real(r8) :: dflag=0._r8                                                                                          <Warning: Unused variable 'dflag' declared at (1) [-Wunused-variable]>
+[0644]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0664]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0683]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0692]	     if (.not. (zengdecker_2009_with_var_soil_thick)) then                                                           <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0757]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0873]     use clm_varpar       , only : nlevsoi, nlevgrnd, nlayer, nlayert                                                 <Warning: Unused module variable 'nlayert' which has been explicitly imported at (1) [-Wunused-variable]>
+[0877]     use clm_varctl       , only : use_vsfm, use_var_soil_thick                                                       <Warning: Unused module variable 'use_var_soil_thick' which has been explicitly imported at (1) [-Wunused-variable]>
+[0894]     character(len=32) :: subname = 'Drainage'           ! subroutine name                                            <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0905]     real(r8) :: xsia(bounds%begc:bounds%endc)           ! available pore space at layer i (mm)                       <Warning: Unused variable 'xsia' declared at (1) [-Wunused-variable]>
+[0907]     real(r8) :: smpfz(1:nlevsoi)                        ! matric potential of layer right above water table (mm)     <Warning: Unused variable 'smpfz' declared at (1) [-Wunused-variable]>
+[0910]     real(r8) :: wh                                      ! smpfz(jwt)-z(jwt) (mm)                                     <Warning: Unused variable 'wh' declared at (1) [-Wunused-variable]>
+[0911]     real(r8) :: wh_zwt                                  ! water head at the water table depth (mm)                   <Warning: Unused variable 'wh_zwt' declared at (1) [-Wunused-variable]>
+[0912]     real(r8) :: ws                                      ! summation of pore space of layers below water table (mm)   <Warning: Unused variable 'ws' declared at (1) [-Wunused-variable]>
+[0913]     real(r8) :: s_node                                  ! soil wetness (-)                                           <Warning: Unused variable 's_node' declared at (1) [-Wunused-variable]>
+[0917]     real(r8) :: ka                                      ! hydraulic conductivity of the aquifer (mm/s)               <Warning: Unused variable 'ka' declared at (1) [-Wunused-variable]>
+[0918]     real(r8) :: dza                                     ! fff*(zwt-z(jwt)) (-)                                       <Warning: Unused variable 'dza' declared at (1) [-Wunused-variable]>
+[0925]     real(r8) :: qcharge_tot                                                                                          <Warning: Unused variable 'qcharge_tot' declared at (1) [-Wunused-variable]>
+[0926]     real(r8) :: qcharge_layer                                                                                        <Warning: Unused variable 'qcharge_layer' declared at (1) [-Wunused-variable]>
+[0927]     real(r8) :: theta_unsat                                                                                          <Warning: Unused variable 'theta_unsat' declared at (1) [-Wunused-variable]>
+[0928]     real(r8) :: f_unsat                                                                                              <Warning: Unused variable 'f_unsat' declared at (1) [-Wunused-variable]>
+[1005]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1031]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1041]	        end if                                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1052]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1248]                   rsub_tmp = rsub_tmp + (rsub_top_max * (1.0_r8 - Ds(c)/Wsvic(c)) *frac**c_param(c))/dtime           <Warning: 'rsub_top_max' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1250]                rsub_top(c) = imped * rsub_tmp                                                                        <Warning: 'imped' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1254]	        if (jwt(c) == nlevbed .and. zengdecker_2009_with_var_soil_thick) then                                        <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1258]		end if                                                                                                              <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1270]	        if (zengdecker_2009_with_var_soil_thick) then                                                                <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1271]         	   if (-1._r8 * smp_l(c,nlevbed) < 0.5_r8 * dzmm(c,nlevbed)) then                                           <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1272]           	      zwt(c) = z(c,nlevbed) - (smp_l(c,nlevbed) / 1000._r8)                                               <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1273]		   end if                                                                                                           <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1288]	           if (rsub_top_tot < 0.) then                                                                               <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1289]	              rsub_top(c) = rsub_top(c) + rsub_top_tot / dtime                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1385]      	  nlevbed = nlev2bed(c)                                                                                        <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1433]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1434]       	  do j = 1, nlevbed-1                                                                                         <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1452]       	  nlevbed = nlev2bed(c)                                                                                       <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1453]       	  j = nlevbed                                                                                                 <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[1518]     use clm_varpar       , only : nlevsoi, nlevgrnd, nlayer, nlayert                                                 <Warning: Unused module variable 'nlayert' which has been explicitly imported at (1) [-Wunused-variable]>
+[1519]     use clm_varcon       , only : pondmx, tfrz, watmin,rpi, secspday, nlvic                                          <Warning: Unused module variable 'nlvic' which has been explicitly imported at (1) [-Wunused-variable]>
+[1519]     use clm_varcon       , only : pondmx, tfrz, watmin,rpi, secspday, nlvic                                          <Warning: Unused module variable 'pondmx' which has been explicitly imported at (1) [-Wunused-variable]>
+[1522]     use clm_varctl       , only : use_vsfm                                                                           <Warning: Unused module variable 'use_vsfm' which has been explicitly imported at (1) [-Wunused-variable]>
+[1538]     character(len=32) :: subname = 'Drainage'           ! subroutine name                                            <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[1539]     integer  :: c,j,fc,i                                ! indices                                                    <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[1541]     real(r8) :: xs(bounds%begc:bounds%endc)             ! water needed to bring soil moisture to watmin (mm)         <Warning: Unused variable 'xs' declared at (1) [-Wunused-variable]>
+[1547]     real(r8) :: xsi(bounds%begc:bounds%endc)            ! excess soil water above saturation at layer i (mm)         <Warning: Unused variable 'xsi' declared at (1) [-Wunused-variable]>
+[1548]     real(r8) :: xsia(bounds%begc:bounds%endc)           ! available pore space at layer i (mm)                       <Warning: Unused variable 'xsia' declared at (1) [-Wunused-variable]>
+[1549]     real(r8) :: xs1(bounds%begc:bounds%endc)            ! excess soil water above saturation at layer 1 (mm)         <Warning: Unused variable 'xs1' declared at (1) [-Wunused-variable]>
+[1550]     real(r8) :: smpfz(1:nlevgrnd)                        ! matric potential of layer right above water table (mm)    <Warning: Unused variable 'smpfz' declared at (1) [-Wunused-variable]>
+[1553]     real(r8) :: wh                                      ! smpfz(jwt)-z(jwt) (mm)                                     <Warning: Unused variable 'wh' declared at (1) [-Wunused-variable]>
+[1554]     real(r8) :: wh_zwt                                  ! water head at the water table depth (mm)                   <Warning: Unused variable 'wh_zwt' declared at (1) [-Wunused-variable]>
+[1555]     real(r8) :: ws                                      ! summation of pore space of layers below water table (mm)   <Warning: Unused variable 'ws' declared at (1) [-Wunused-variable]>
+[1556]     real(r8) :: s_node                                  ! soil wetness (-)                                           <Warning: Unused variable 's_node' declared at (1) [-Wunused-variable]>
+[1560]     real(r8) :: ka                                      ! hydraulic conductivity of the aquifer (mm/s)               <Warning: Unused variable 'ka' declared at (1) [-Wunused-variable]>
+[1561]     real(r8) :: dza                                     ! fff*(zwt-z(jwt)) (-)                                       <Warning: Unused variable 'dza' declared at (1) [-Wunused-variable]>
+[1562]     real(r8) :: available_h2osoi_liq                    ! available soil liquid water in a layer                     <Warning: Unused variable 'available_h2osoi_liq' declared at (1) [-Wunused-variable]>
+[1568]     real(r8) :: qcharge_tot                                                                                          <Warning: Unused variable 'qcharge_tot' declared at (1) [-Wunused-variable]>
+[1569]     real(r8) :: qcharge_layer                                                                                        <Warning: Unused variable 'qcharge_layer' declared at (1) [-Wunused-variable]>
+[1570]     real(r8) :: theta_unsat                                                                                          <Warning: Unused variable 'theta_unsat' declared at (1) [-Wunused-variable]>
+[1571]     real(r8) :: f_unsat                                                                                              <Warning: Unused variable 'f_unsat' declared at (1) [-Wunused-variable]>
+[1572]     real(r8) :: s_y                                                                                                  <Warning: Unused variable 's_y' declared at (1) [-Wunused-variable]>
+[1586]     real(r8) :: wtsub_vic                ! summation of hk*dzmm for layers in the third VIC layer                    <Warning: Unused variable 'wtsub_vic' declared at (1) [-Wunused-variable]>
+[1885]                   rsub_tmp = rsub_tmp + (rsub_top_max * (1.0_r8 - Ds(c)/Wsvic(c)) *frac**c_param(c))/dtime           <Warning: 'rsub_top_max' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1887]                rsub_top(c) = imped * rsub_tmp                                                                        <Warning: 'imped' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[1926]  subroutine CLMVICMap(bounds, numf, filter, &                                                                        <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>

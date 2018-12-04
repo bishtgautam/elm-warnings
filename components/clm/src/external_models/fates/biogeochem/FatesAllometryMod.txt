@@ -1,0 +1,16 @@
+[0199]     real(r8) :: height            ! diagnosed height [m]                           <Warning: Unused variable 'height' declared at (1) [-Wunused-variable]>
+[0552]  real(r8) function tree_lai( leaf_c, pft, c_area, nplant, cl, canopy_lai)          <Warning: '__result_tree_lai' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[0572]    real(r8) :: vai_per_lai        ! ratio of vegetation area index (ie. sai+lai)   <Warning: Unused variable 'vai_per_lai' declared at (1) [-Wunused-variable]>
+[0839]    real(r8) :: slascaler                                                           <Warning: Unused variable 'slascaler' declared at (1) [-Wunused-variable]>
+[0971]  subroutine bfrmax_const(d,blmax,dblmaxdd,ipft,bfrmax,dbfrmaxdd)                   <Warning: Unused dummy argument 'd' at (1) [-Wunused-dummy-argument]>
+[0998]  subroutine bbgw_const(d,bagw,dbagwdd,ipft,bbgw,dbbgwdd)                           <Warning: Unused dummy argument 'd' at (1) [-Wunused-dummy-argument]>
+[1025]  subroutine bsap_ltarg_slatop(d,h,dhdd,bleaf,dbleafdd,ipft, &                      <Warning: Unused dummy argument 'd' at (1) [-Wunused-dummy-argument]>
+[1136]  subroutine bstore_blcushion(d,bl,dbldd,cushion,ipft,bstore,dbstoredd)             <Warning: Unused dummy argument 'd' at (1) [-Wunused-dummy-argument]>
+[1136]  subroutine bstore_blcushion(d,bl,dbldd,cushion,ipft,bstore,dbstoredd)             <Warning: Unused dummy argument 'ipft' at (1) [-Wunused-dummy-argument]>
+[1165]  subroutine d2blmax_salda(d,p1,p2,p3,rho,dbh_maxh,c2b,blmax,dblmaxdd)              <Warning: Unused dummy argument 'c2b' at (1) [-Wunused-dummy-argument]>
+[1612]       wood_density,c2b,allom_agb_frac,bagw,dbagwdd)                                <Warning: Unused dummy argument 'c2b' at (1) [-Wunused-dummy-argument]>
+[1683]    real(r8) :: p1e, eroot, dbh1,dhpdd                                              <Warning: Unused variable 'dbh1' declared at (1) [-Wunused-variable]>
+[1968]       call endrun(msg=errMsg(sourcefile, __LINE__))                                <Warning: 'root_profile_type' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[2009]  subroutine exponential_1p_root_profile(root_fraction, ft, zi)                     <Warning: Unused dummy argument 'ft' at (1) [-Wunused-dummy-argument]>
+[2021]    real(r8) :: depth      ! Depth to middle of layer [m]                           <Warning: Unused variable 'depth' declared at (1) [-Wunused-variable]>
+[2200]  subroutine cspline(x1,x2,y1,y2,dydx1,dydx2,x,y,dydx)                              <Warning: 'cspline' defined but not used [-Wunused-function]>

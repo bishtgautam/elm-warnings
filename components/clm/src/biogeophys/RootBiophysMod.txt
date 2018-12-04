@@ -1,0 +1,5 @@
+[0117]	  nlevbed = njbed(c)                                  <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0118]	  totrootfr = 0._r8                                   <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0124]	     if(lev <= nlevbed) then                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[0125]                totrootfr = totrootfr + rootfr(p,lev)  <Warning: Possible change of value in conversion from REAL(8) to REAL(4) at (1) [-Wconversion]>
+[0126]	     end if                                           <Warning: Nonconforming tab character at (1) [-Wtabs]>

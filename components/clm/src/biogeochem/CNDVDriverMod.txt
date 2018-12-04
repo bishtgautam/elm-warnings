@@ -1,0 +1,4 @@
+[0219]      str = get_filename(fsurdat)                                               <Warning: CHARACTER expression will be truncated in assignment (256/512) at (1) [-Wcharacter-truncation]>
+[0223]      if (finidat /= ' ') str = get_filename(finidat)                           <Warning: CHARACTER expression will be truncated in assignment (256/512) at (1) [-Wcharacter-truncation]>
+[0226]      str = get_filename(paramfile)                                             <Warning: CHARACTER expression will be truncated in assignment (256/512) at (1) [-Wcharacter-truncation]>
+[0440]  subroutine BuildNatVegFilter(bounds, num_natvegp, filter_natvegp, dgvs_vars)  <Warning: 'buildnatvegfilter' defined but not used [-Wunused-function]>

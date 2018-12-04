@@ -1,0 +1,23 @@
+[0677]    use clm_varpar      , only : nlevsoi, nlevgrnd, nlevdecomp                                                         <Warning: Unused module variable 'nlevdecomp' which has been explicitly imported at (1) [-Wunused-variable]>
+[0691]    integer               :: j ,g, l,c,p ! indices                                                                     <Warning: Unused variable 'j' declared at (1) [-Wunused-variable]>
+[0691]    integer               :: j ,g, l,c,p ! indices                                                                     <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[0943]  subroutine Restart( this, bounds, ncid, flag )                                                                       <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>
+[1069]    character(len=32)  :: subname = 'CH4ParamsType'                                                                    <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[1335]    character(len=32) :: subname='ch4'                 ! subroutine name                                               <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[1954]    character(len=32) :: subname='ch4_prod' ! subroutine name                                                          <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[2224]       jwt, sat, lake, &                                                                                               <Warning: Unused dummy argument 'lake' at (1) [-Wunused-dummy-argument]>
+[2257]    real(r8):: porewatfrac                    ! fraction of soil pore space that is filled with water                  <Warning: Unused variable 'porewatfrac' declared at (1) [-Wunused-variable]>
+[2263]    real(r8) :: k_m 			      ! Michaelis-Menten oxidation rate constant for CH4 concentration                          <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2417]    real(r8) :: f_oxid                 ! fraction of CH4 oxidized in oxic zone around roots                            <Warning: Unused variable 'f_oxid' declared at (1) [-Wunused-variable]>
+[2508]      porosmin           = CH4ParamsInst%porosmin	                                                                     <Warning: Nonconforming tab character at (1) [-Wtabs]>
+[2639]       atm2lnd_vars, temperature_vars, lakestate_vars, soilstate_vars, waterstate_vars, &                              <Warning: Unused dummy argument 'atm2lnd_vars' at (1) [-Wunused-dummy-argument]>
+[2669]    integer :: fp       ! soil filter pft index                                                                        <Warning: Unused variable 'fp' declared at (1) [-Wunused-variable]>
+[2777]       soilstate_vars, temperature_vars, waterstate_vars, energyflux_vars, ch4_vars)                                   <Warning: Unused dummy argument 'energyflux_vars' at (1) [-Wunused-dummy-argument]>
+[2808]    integer :: c,j,g,p,s,i,ll                                              ! indices                                   <Warning: Unused variable 'i' declared at (1) [-Wunused-variable]>
+[2808]    integer :: c,j,g,p,s,i,ll                                              ! indices                                   <Warning: Unused variable 'll' declared at (1) [-Wunused-variable]>
+[2808]    integer :: c,j,g,p,s,i,ll                                              ! indices                                   <Warning: Unused variable 'p' declared at (1) [-Wunused-variable]>
+[2810]    integer :: fp                                                          ! soil filter pft index                     <Warning: Unused variable 'fp' declared at (1) [-Wunused-variable]>
+[2812]    integer :: iter                                                        ! iteration counter when dtime_ch4 < dtime  <Warning: Unused variable 'iter' declared at (1) [-Wunused-variable]>
+[2877]    character(len=32) :: subname='ch4_tran' ! subroutine name                                                          <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[3344]                  at(c,j) = -0.5_r8 / dzj * dm1_zm1(c,j)                                                               <Warning: 'dzj' may be used uninitialized in this function [-Wmaybe-uninitialized]>
+[3641]  subroutine ch4_annualupdate(bounds, &                                                                                <Warning: Unused dummy argument 'bounds' at (1) [-Wunused-dummy-argument]>

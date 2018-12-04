@@ -1,0 +1,39 @@
+[0047]       num_soilc_with_inactive, filter_soilc_with_inactive, &                                              <Warning: Unused dummy argument 'filter_soilc_with_inactive' at (1) [-Wunused-dummy-argument]>
+[0047]       num_soilc_with_inactive, filter_soilc_with_inactive, &                                              <Warning: Unused dummy argument 'num_soilc_with_inactive' at (1) [-Wunused-dummy-argument]>
+[0064]    use pftvarcon          , only : pconv, pprod10, pprod100                                               <Warning: Unused module variable 'pconv' which has been explicitly imported at (1) [-Wunused-variable]>
+[0064]    use pftvarcon          , only : pconv, pprod10, pprod100                                               <Warning: Unused module variable 'pprod10' which has been explicitly imported at (1) [-Wunused-variable]>
+[0064]    use pftvarcon          , only : pconv, pprod10, pprod100                                               <Warning: Unused module variable 'pprod100' which has been explicitly imported at (1) [-Wunused-variable]>
+[0065]    use clm_varcon         , only : c13ratio, c14ratio                                                     <Warning: Unused module variable 'c13ratio' which has been explicitly imported at (1) [-Wunused-variable]>
+[0065]    use clm_varcon         , only : c13ratio, c14ratio                                                     <Warning: Unused module variable 'c14ratio' which has been explicitly imported at (1) [-Wunused-variable]>
+[0097]    real(r8)                      :: init_h2ocan                   ! initial canopy water mass             <Warning: Unused variable 'init_h2ocan' declared at (1) [-Wunused-variable]>
+[0098]    real(r8)                      :: new_h2ocan                    ! canopy water mass after weight shift  <Warning: Unused variable 'new_h2ocan' declared at (1) [-Wunused-variable]>
+[0118]    real(r8)                      :: t1,t2,wt_new,wt_old                                                   <Warning: Unused variable 't1' declared at (1) [-Wunused-variable]>
+[0118]    real(r8)                      :: t1,t2,wt_new,wt_old                                                   <Warning: Unused variable 't2' declared at (1) [-Wunused-variable]>
+[0118]    real(r8)                      :: t1,t2,wt_new,wt_old                                                   <Warning: Unused variable 'wt_new' declared at (1) [-Wunused-variable]>
+[0118]    real(r8)                      :: t1,t2,wt_new,wt_old                                                   <Warning: Unused variable 'wt_old' declared at (1) [-Wunused-variable]>
+[0119]    real(r8)                      :: init_state, change_state, new_state                                   <Warning: Unused variable 'change_state' declared at (1) [-Wunused-variable]>
+[0119]    real(r8)                      :: init_state, change_state, new_state                                   <Warning: Unused variable 'init_state' declared at (1) [-Wunused-variable]>
+[0119]    real(r8)                      :: init_state, change_state, new_state                                   <Warning: Unused variable 'new_state' declared at (1) [-Wunused-variable]>
+[0120]    real(r8)                      :: tot_leaf, pleaf, pstor, pxfer                                         <Warning: Unused variable 'pleaf' declared at (1) [-Wunused-variable]>
+[0120]    real(r8)                      :: tot_leaf, pleaf, pstor, pxfer                                         <Warning: Unused variable 'pstor' declared at (1) [-Wunused-variable]>
+[0120]    real(r8)                      :: tot_leaf, pleaf, pstor, pxfer                                         <Warning: Unused variable 'pxfer' declared at (1) [-Wunused-variable]>
+[0120]    real(r8)                      :: tot_leaf, pleaf, pstor, pxfer                                         <Warning: Unused variable 'tot_leaf' declared at (1) [-Wunused-variable]>
+[0121]    real(r8)                      :: leafc_seed, leafn_seed                                                <Warning: Unused variable 'leafc_seed' declared at (1) [-Wunused-variable]>
+[0121]    real(r8)                      :: leafc_seed, leafn_seed                                                <Warning: Unused variable 'leafn_seed' declared at (1) [-Wunused-variable]>
+[0122]    real(r8)                      :: deadstemc_seed, deadstemn_seed, npool_seed                            <Warning: Unused variable 'deadstemc_seed' declared at (1) [-Wunused-variable]>
+[0122]    real(r8)                      :: deadstemc_seed, deadstemn_seed, npool_seed                            <Warning: Unused variable 'deadstemn_seed' declared at (1) [-Wunused-variable]>
+[0122]    real(r8)                      :: deadstemc_seed, deadstemn_seed, npool_seed                            <Warning: Unused variable 'npool_seed' declared at (1) [-Wunused-variable]>
+[0123]    real(r8), pointer             :: dwt_ptr0, dwt_ptr1, dwt_ptr2, dwt_ptr3, ptr                           <Warning: Unused variable 'dwt_ptr0' declared at (1) [-Wunused-variable]>
+[0123]    real(r8), pointer             :: dwt_ptr0, dwt_ptr1, dwt_ptr2, dwt_ptr3, ptr                           <Warning: Unused variable 'dwt_ptr1' declared at (1) [-Wunused-variable]>
+[0123]    real(r8), pointer             :: dwt_ptr0, dwt_ptr1, dwt_ptr2, dwt_ptr3, ptr                           <Warning: Unused variable 'dwt_ptr2' declared at (1) [-Wunused-variable]>
+[0123]    real(r8), pointer             :: dwt_ptr0, dwt_ptr1, dwt_ptr2, dwt_ptr3, ptr                           <Warning: Unused variable 'dwt_ptr3' declared at (1) [-Wunused-variable]>
+[0123]    real(r8), pointer             :: dwt_ptr0, dwt_ptr1, dwt_ptr2, dwt_ptr3, ptr                           <Warning: Unused variable 'ptr' declared at (1) [-Wunused-variable]>
+[0124]    character(len=32)             :: subname='dyn_cbal'            ! subroutine name                       <Warning: Unused variable 'subname' declared at (1) [-Wunused-variable]>
+[0137]    real(r8)                      :: leafp_seed                                                            <Warning: Unused variable 'leafp_seed' declared at (1) [-Wunused-variable]>
+[0138]    real(r8)                      :: deadstemp_seed, ppool_seed                                            <Warning: Unused variable 'deadstemp_seed' declared at (1) [-Wunused-variable]>
+[0138]    real(r8)                      :: deadstemp_seed, ppool_seed                                            <Warning: Unused variable 'ppool_seed' declared at (1) [-Wunused-variable]>
+[0150]    real(r8)                      :: leafc13_seed, deadstemc13_seed                                        <Warning: Unused variable 'deadstemc13_seed' declared at (1) [-Wunused-variable]>
+[0150]    real(r8)                      :: leafc13_seed, deadstemc13_seed                                        <Warning: Unused variable 'leafc13_seed' declared at (1) [-Wunused-variable]>
+[0161]    real(r8)                      :: leafc14_seed, deadstemc14_seed                                        <Warning: Unused variable 'deadstemc14_seed' declared at (1) [-Wunused-variable]>
+[0161]    real(r8)                      :: leafc14_seed, deadstemc14_seed                                        <Warning: Unused variable 'leafc14_seed' declared at (1) [-Wunused-variable]>
+[1129]   use clm_varctl              , only : use_lch4                                                           <Warning: Unused module variable 'use_lch4' which has been explicitly imported at (1) [-Wunused-variable]>
